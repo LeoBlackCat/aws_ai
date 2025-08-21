@@ -1,0 +1,17 @@
+{
+  "name": "AI Assessment Trainer",
+  "short_name": "AI Tutor",
+  "description": "Practice and improve with voice-powered AI assessment",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
