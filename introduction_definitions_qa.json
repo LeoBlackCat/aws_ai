@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "source": "data/introduction.md - AI/ML Fundamentals Course",
+    "generated_by": "GPT-5 analysis for definition extraction",
+    "date": "2025-08-20",
+    "total_questions": 35,
+    "focus": "Exact definitions from markdown using same wording",
+    "categories": [
+      "AI/ML Definitions",
+      "Data Types",
+      "Neural Networks", 
+      "Generative AI",
+      "Foundation Models",
+      "AWS Services"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "AI/ML Definitions",
+      "difficulty": "beginner",
+      "question": "What is artificial intelligence (AI)?",
+      "answer0": "AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI, among others.",
+      "answer": "AI refers to computer systems that can perform tasks requiring human-like intelligence, such as learning, reasoning, problem-solving, and decision making. It serves as an umbrella term that includes various approaches like machine learning, deep learning, and generative AI",
+      "keywords": ["artificial intelligence", "intelligent systems", "human intelligence", "umbrella term"],
+      "source_location": "Line 25",
+      "examples": ["Siri", "Google Search", "Netflix recommendations", "Tesla Autopilot", "Google Maps navigation", "Amazon product recommendations", "Facebook photo tagging", "Spotify music suggestions", "Google Translate", "Chess programs like Deep Blue"]
+    },
+    {
+      "id": 2,
+      "category": "AI/ML Definitions",
+      "difficulty": "beginner", 
+      "question": "What is machine learning (ML)?",
+      "answer0": "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks.",
+      "answer": "ML is a type of AI for understanding and building methods that make it possible for machines to learn.",
+      "keywords": ["machine learning", "methods", "machines learn", "data", "performance"],
+      "source_location": "Line 29",
+      "examples": ["Email spam filters", "Credit card fraud detection", "Amazon purchase recommendations", "YouTube video suggestions"]
+    },
+    {
+      "id": 3,
+      "category": "AI/ML Definitions",
+      "difficulty": "beginner",
+      "question": "What is deep learning (DL)?",
+      "answer0": "Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds.",
+      "answer": "Deep learning uses the concept of neurons and synapses similar to how our brain is wired.",
+      "keywords": ["deep learning", "neurons", "synapses", "brain"],
+      "source_location": "Line 33",
+      "examples": ["Face recognition in photos", "Voice assistants like Siri", "Medical image analysis", "Autonomous vehicle vision systems"]
+    },
+    {
+      "id": 4,
+      "category": "AI/ML Definitions",
+      "difficulty": "intermediate",
+      "question": "What is generative AI?",
+      "answer": "Generative AI is a subset of deep learning. It creates new data (like text, images, or code) based on patterns learned from training data.",
+      "answer0": "Generative AI is a subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning. Generative AI systems are capable of generating new data based on the patterns and structures learned from training data.",
+      "keywords": ["generative AI", "subset", "deep learning", "adapt models", "generating new data"],
+      "source_location": "Line 37-39",
+      "examples": ["ChatGPT for text generation", "DALL-E for image creation", "GitHub Copilot for code", "Midjourney for artwork", "Claude AI assistant"]
+    },
+    {
+      "id": 5,
+      "category": "Data Types",
+      "difficulty": "beginner",
+      "question": "What is labeled data?",
+      "answer": "Labeled data is a dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification. These labels are typically provided by human experts or obtained through a reliable process.",
+      "keywords": ["labeled data", "dataset", "label", "target variable", "human experts"],
+      "source_location": "Line 53"
+    },
+    {
+      "id": 6,
+      "category": "Data Types",
+      "difficulty": "beginner",
+      "question": "What is unlabeled data?",
+      "answer": "Unlabeled data is a dataset where the instances or examples do not have any associated labels or target variables. The data consists only of input features, without any corresponding output or classification.",
+      "keywords": ["unlabeled data", "no labels", "input features", "no output"],
+      "source_location": "Line 59"
+    },
+    {
+      "id": 7,
+      "category": "Data Types", 
+      "difficulty": "intermediate",
+      "question": "What is structured data?",
+      "answer": "Structured data refers to data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns. This type of data is suitable for traditional machine learning algorithms that require well-defined features and labels.",
+      "keywords": ["structured data", "organized", "predefined manner", "tables", "databases"],
+      "source_location": "Line 67"
+    },
+    {
+      "id": 8,
+      "category": "Data Types",
+      "difficulty": "intermediate", 
+      "question": "What is unstructured data?",
+      "answer": "Unstructured data is data that lacks a predefined structure or format, such as text, images, audio, and video. This type of data requires more advanced machine learning techniques to extract meaningful patterns and insights.",
+      "keywords": ["unstructured data", "lacks predefined structure", "text", "images", "audio"],
+      "source_location": "Line 75"
+    },
+    {
+      "id": 9,
+      "category": "AI/ML Definitions",
+      "difficulty": "intermediate",
+      "question": "What is supervised learning?",
+      "answer": "In supervised learning, the algorithms are trained on labeled data. The goal is to learn a mapping function that can predict the output for new, unseen input data.",
+      "keywords": ["supervised learning", "labeled data", "mapping function", "predict output"],
+      "source_location": "Line 85"
+    },
+    {
+      "id": 10,
+      "category": "AI/ML Definitions",
+      "difficulty": "intermediate",
+      "question": "What is unsupervised learning?",
+      "answer": "Unsupervised learning refers to algorithms that learn from unlabeled data. The goal is to discover inherent patterns, structures, or relationships within the input data.",
+      "keywords": ["unsupervised learning", "unlabeled data", "discover patterns", "relationships"],
+      "source_location": "Line 87"
+    },
+    {
+      "id": 11,
+      "category": "AI/ML Definitions", 
+      "difficulty": "intermediate",
+      "question": "What is reinforcement learning?",
+      "answer": "In reinforcement learning, the machine is given only a performance score as guidance and semi-supervised learning, where only a portion of training data is labeled. Feedback is provided in the form of rewards or penalties for its actions, and the machine learns from this feedback to improve its decision-making over time.",
+      "keywords": ["reinforcement learning", "performance score", "rewards", "penalties", "decision-making"],
+      "source_location": "Line 89"
+    },
+    {
+      "id": 12,
+      "category": "AI/ML Definitions",
+      "difficulty": "beginner",
+      "question": "What is inferencing?",
+      "answer": "After the model has been trained, it is time to begin the process of using the information that a model has learned to make predictions or decisions. This is called inferencing.",
+      "keywords": ["inferencing", "model trained", "predictions", "decisions"],
+      "source_location": "Line 93"
+    },
+    {
+      "id": 13,
+      "category": "AI/ML Definitions",
+      "difficulty": "intermediate",
+      "question": "What is batch inferencing?",
+      "answer": "Batch inferencing is when the computer takes a large amount of data, such as images or text, and analyzes it all at once to provide a set of results. This type of inferencing is often used for tasks like data analysis, where the speed of the decision-making process is not as crucial as the accuracy of the results.",
+      "keywords": ["batch inferencing", "large amount of data", "all at once", "accuracy"],
+      "source_location": "Line 99"
+    },
+    {
+      "id": 14,
+      "category": "AI/ML Definitions",
+      "difficulty": "intermediate", 
+      "question": "What is real-time inferencing?",
+      "answer": "Real-time inferencing is when the computer has to make decisions quickly, in response to new information as it comes in. This is important for applications where immediate decision-making is critical, such as in chatbots or self-driving cars. The computer has to process the incoming data and make a decision almost instantaneously, without taking the time to analyze a large dataset.",
+      "keywords": ["real-time inferencing", "decisions quickly", "immediate", "instantaneously"],
+      "source_location": "Line 103"
+    },
+    {
+      "id": 15,
+      "category": "Neural Networks",
+      "difficulty": "intermediate",
+      "question": "What are neural networks?",
+      "answer": "At the core of deep learning are neural networks. Just like our brains have neurons that are connected to each other, neural networks have lots of tiny units called nodes that are connected together. These nodes are organized into layers. The layers include an input layer, one or more hidden layers, and an output layer.",
+      "keywords": ["neural networks", "nodes", "connected", "layers", "input layer"],
+      "source_location": "Line 113"
+    },
+    {
+      "id": 16,
+      "category": "Neural Networks",
+      "difficulty": "intermediate",
+      "question": "What is computer vision?",
+      "answer": "Computer vision is a field of artificial intelligence that makes it possible for computers to interpret and understand digital images and videos. Deep learning has revolutionized computer vision by providing powerful techniques for tasks such as image classification, object detection, and image segmentation.",
+      "keywords": ["computer vision", "interpret", "digital images", "videos", "image classification"],
+      "source_location": "Line 123"
+    },
+    {
+      "id": 17,
+      "category": "Neural Networks",
+      "difficulty": "intermediate",
+      "question": "What is natural language processing (NLP)?",
+      "answer": "Natural language processing (NLP) is a branch of artificial intelligence that deals with the interaction between computers and human languages. Deep learning has made significant strides in NLP, making possible tasks such as text classification, sentiment analysis, machine translation, and language generation.",
+      "keywords": ["NLP", "interaction", "computers", "human languages", "text classification"],
+      "source_location": "Line 127"
+    },
+    {
+      "id": 18,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What are foundation models (FMs)?",
+      "answer": "Generative AI is powered by models that are pretrained on internet-scale data, and these models are called foundation models (FMs). With FMs, instead of gathering labeled data for each model and training multiple models as in traditional ML, you can adapt a single FM to perform multiple tasks.",
+      "keywords": ["foundation models", "pretrained", "internet-scale data", "single FM", "multiple tasks"],
+      "source_location": "Line 137"
+    },
+    {
+      "id": 19,
+      "category": "Generative AI",
+      "difficulty": "advanced",
+      "question": "What is self-supervised learning?",
+      "answer": "Although traditional ML models rely on supervised, unsupervised, or reinforcement learning patterns, FMs are typically pre-trained through self-supervised learning. With self-supervised learning, labeled examples are not required. Self-supervised learning makes use of the structure within the data to autogenerate labels.",
+      "keywords": ["self-supervised learning", "labeled examples not required", "structure", "autogenerate labels"],
+      "source_location": "Line 149"
+    },
+    {
+      "id": 20,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What are large language models (LLMs)?",
+      "answer": "Large language models (LLMs) can be based on a variety of architectures, but the most common architecture in today's state-of-the-art models is the transformer architecture. Transformer-based LLMs are powerful models that can understand and generate human-like text. They are trained on vast amounts of text data from the internet, books, and other sources, and learn patterns and relationships between words and phrases.",
+      "keywords": ["large language models", "transformer architecture", "human-like text", "vast amounts"],
+      "source_location": "Line 184"
+    },
+    {
+      "id": 21,
+      "category": "Generative AI",
+      "difficulty": "beginner",
+      "question": "What are tokens?",
+      "answer": "Tokens are the basic units of text that the model processes. Tokens can be words, phrases, or individual characters like a period. Tokens also provide standardization of input data, which makes it easier for the model to process.",
+      "keywords": ["tokens", "basic units", "words", "phrases", "standardization"],
+      "source_location": "Line 189"
+    },
+    {
+      "id": 22,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What are embeddings?",
+      "answer": "Embeddings are numerical representations of tokens, where each token is assigned a vector (a list of numbers) that captures its meaning and relationships with other tokens. These vectors are learned during the training process and allow the model to understand the context and nuances of language.",
+      "keywords": ["embeddings", "numerical representations", "vector", "meaning", "relationships"],
+      "source_location": "Line 196"
+    },
+    {
+      "id": 23,
+      "category": "Generative AI",
+      "difficulty": "advanced",
+      "question": "How do diffusion models work?",
+      "answer": "Diffusion is a deep learning architecture system that starts with pure noise or random data. The models gradually add more and more meaningful information to this noise until they end up with a clear and coherent output, like an image or a piece of text. Diffusion models learn through a two-step process of forward diffusion and reverse diffusion.",
+      "keywords": ["diffusion models", "pure noise", "meaningful information", "forward diffusion", "reverse diffusion"],
+      "source_location": "Line 205"
+    },
+    {
+      "id": 24,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What is forward diffusion?",
+      "answer": "Using forward diffusion, the system gradually introduces a small amount of noise to an input image until only the noise is left over.",
+      "keywords": ["forward diffusion", "gradually introduces", "noise", "input image"],
+      "source_location": "Line 208"
+    },
+    {
+      "id": 25,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What is reverse diffusion?",
+      "answer": "In the subsequent reverse diffusion step, the noisy image is gradually introduced to denoising until a new image is generated.",
+      "keywords": ["reverse diffusion", "noisy image", "denoising", "new image generated"],
+      "source_location": "Line 212"
+    },
+    {
+      "id": 26,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What are multimodal models?",
+      "answer": "Instead of just relying on a single type of input or output, like text or images, multimodal models can process and generate multiple modes of data simultaneously. For example, a multimodal model could take in an image and some text as input, and then generate a new image and a caption describing it as output.",
+      "keywords": ["multimodal models", "multiple modes", "simultaneously", "image", "text"],
+      "source_location": "Line 218"
+    },
+    {
+      "id": 27,
+      "category": "Generative AI",
+      "difficulty": "advanced",
+      "question": "What are generative adversarial networks (GANs)?",
+      "answer": "GANs are a type of generative model that involves two neural networks competing against each other in a zero-sum game framework. The two networks are generator and discriminator.",
+      "keywords": ["GANs", "two neural networks", "competing", "zero-sum game", "generator", "discriminator"],
+      "source_location": "Line 227"
+    },
+    {
+      "id": 28,
+      "category": "Generative AI",
+      "difficulty": "advanced",
+      "question": "What are variational autoencoders (VAEs)?",
+      "answer": "VAEs are a type of generative model that combines ideas from autoencoders (a type of neural network) and variational inference (a technique from Bayesian statistics). In a VAE, the model consists of two parts: Encoder and Decoder.",
+      "keywords": ["VAEs", "autoencoders", "variational inference", "Bayesian statistics", "encoder", "decoder"],
+      "source_location": "Line 237"
+    },
+    {
+      "id": 29,
+      "category": "Foundation Models",
+      "difficulty": "intermediate",
+      "question": "What is prompt engineering?",
+      "answer": "Prompts act as instructions for foundation models. Prompt engineering focuses on developing, designing, and optimizing prompts to enhance the output of FMs for your needs. It gives you a way to guide the model's behavior to the outcomes that you want to achieve.",
+      "keywords": ["prompt engineering", "instructions", "developing", "optimizing", "guide behavior"],
+      "source_location": "Line 249"
+    },
+    {
+      "id": 30,
+      "category": "Foundation Models",
+      "difficulty": "advanced",
+      "question": "What is fine-tuning?",
+      "answer": "Although FMs are pre-trained through self-supervised learning and have inherent capability of understanding information, fine-tuning the FM base model can improve performance. Fine-tuning is a supervised learning process that involves taking a pre-trained model and adding specific, smaller datasets. Adding these narrower datasets modifies the weights of the data to better align with the task.",
+      "keywords": ["fine-tuning", "supervised learning", "pre-trained model", "smaller datasets", "modifies weights"],
+      "source_location": "Line 263"
+    },
+    {
+      "id": 31,
+      "category": "Foundation Models",
+      "difficulty": "advanced",
+      "question": "What is retrieval-augmented generation (RAG)?",
+      "answer": "Retrieval-augmented generation (RAG) is a technique that supplies domain-relevant data as context to produce responses based on that data. This technique is similar to fine-tuning. However, rather than having to fine-tune an FM with a small set of labeled examples, RAG retrieves a small set of relevant documents and uses that to provide context to answer the user prompt. RAG will not change the weights of the foundation model, whereas fine-tuning will change model weights.",
+      "keywords": ["RAG", "domain-relevant data", "context", "relevant documents", "not change weights"],
+      "source_location": "Line 273"
+    },
+    {
+      "id": 32,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "What is Amazon SageMaker?",
+      "answer": "With SageMaker, you can build, train, and deploy ML models for any use case with fully managed infrastructure, tools, and workflows. SageMaker removes the heavy lifting from each step of the ML process to make it easier to develop high-quality models. SageMaker provides all the components used for ML in a single toolset, so models get to production faster with much less effort and at lower cost.",
+      "keywords": ["SageMaker", "build train deploy", "fully managed", "single toolset", "lower cost"],
+      "source_location": "Line 355"
+    },
+    {
+      "id": 33,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "What is Amazon Bedrock?",
+      "answer": "Amazon Bedrock is a fully managed service that makes FMs from Amazon and leading AI startups available through an API. With the Amazon Bedrock serverless experience, you can quickly get started, experiment with FMs, privately customize them with your own data, and seamlessly integrate and deploy FMs into your AWS applications.",
+      "keywords": ["Amazon Bedrock", "fully managed", "FMs", "API", "serverless", "customize"],
+      "source_location": "Line 418"
+    },
+    {
+      "id": 34,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "What is Amazon Q?",
+      "answer": "Amazon Q can help you get fast, relevant answers to pressing questions, solve problems, generate content, and take actions using the data and expertise found in your company's information repositories, code, and enterprise systems. When you chat with Amazon Q, it provides immediate, relevant information and advice to help streamline tasks, speed decision-making, and help spark creativity and innovation.",
+      "keywords": ["Amazon Q", "fast relevant answers", "company data", "streamline tasks", "creativity"],
+      "source_location": "Line 421"
+    },
+    {
+      "id": 35,
+      "category": "AWS Services", 
+      "difficulty": "intermediate",
+      "question": "What is Amazon Q Developer?",
+      "answer": "Designed to improve developer productivity, Amazon Q Developer provides ML–powered code recommendations to accelerate development of C#, Java, JavaScript, Python, and TypeScript applications. The service integrates with multiple integrated development environments (IDEs) and helps developers write code faster by generating entire functions and logical blocks of code—often consisting of more than 10–15 lines of code.",
+      "keywords": ["Amazon Q Developer", "developer productivity", "code recommendations", "multiple IDEs", "entire functions"],
+      "source_location": "Line 424"
+    }
+  ]
+}

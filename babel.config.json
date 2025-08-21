@@ -1,0 +1,45 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "not dead", "> 0.5%"]
+        },
+        "modules": false,
+        "useBuiltIns": "usage",
+        "corejs": 3
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "targets": {
+              "node": "current"
+            }
+          }
+        ],
+        [
+          "@babel/preset-react",
+          {
+            "runtime": "automatic"
+          }
+        ]
+      ]
+    }
+  }
+}

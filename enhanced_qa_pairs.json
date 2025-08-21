@@ -1,0 +1,424 @@
+{
+  "metadata": {
+    "source": "AI/ML Fundamentals Course Content",
+    "generated_by": "GPT-5 nano analysis",
+    "date": "2025-08-20",
+    "total_questions": 45,
+    "categories": [
+      "AI Fundamentals",
+      "Machine Learning Techniques", 
+      "Generative AI",
+      "Foundation Models",
+      "AWS Services",
+      "Responsible AI",
+      "Real-world Applications"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "AI Fundamentals",
+      "difficulty": "beginner",
+      "question": "What is the key difference between artificial intelligence (AI) and machine learning (ML)?",
+      "answer": "AI is a broad field encompassing the development of intelligent systems capable of performing tasks requiring human intelligence like perception, reasoning, and decision-making. ML is a subset of AI that focuses on methods that enable machines to learn from data to improve performance on specific tasks without being explicitly programmed.",
+      "keywords": ["artificial intelligence", "machine learning", "subset", "data", "learning"],
+      "learning_objective": "Understanding the hierarchical relationship between AI and ML"
+    },
+    {
+      "id": 2,
+      "category": "AI Fundamentals", 
+      "difficulty": "intermediate",
+      "question": "Explain the relationship between AI, machine learning, deep learning, and generative AI.",
+      "answer": "AI is the umbrella term for intelligent systems. Machine learning is a subset of AI that learns from data. Deep learning is a subset of ML that uses neural networks with multiple layers, inspired by brain structure. Generative AI is a subset of deep learning that can create new content by adapting existing models without retraining.",
+      "keywords": ["hierarchy", "neural networks", "content generation", "deep learning"],
+      "learning_objective": "Understanding the complete AI technology stack"
+    },
+    {
+      "id": 3,
+      "category": "Machine Learning Techniques",
+      "difficulty": "intermediate", 
+      "question": "What are the three main types of machine learning and how do they differ in their approach to data?",
+      "answer": "Supervised learning uses labeled data to learn mapping functions for prediction. Unsupervised learning works with unlabeled data to discover hidden patterns and structures. Reinforcement learning uses performance scores and feedback in the form of rewards or penalties to improve decision-making over time.",
+      "keywords": ["supervised", "unsupervised", "reinforcement", "labeled data", "patterns"],
+      "learning_objective": "Distinguishing between core ML paradigms"
+    },
+    {
+      "id": 4,
+      "category": "Machine Learning Techniques",
+      "difficulty": "advanced",
+      "question": "Compare classification and regression in supervised learning, providing use cases for each.",
+      "answer": "Classification assigns labels or categories to data instances (fraud detection, image classification, customer retention, diagnostics). Regression predicts continuous numerical values based on input variables (weather forecasting, market forecasting, advertising popularity prediction, population growth prediction).",
+      "keywords": ["classification", "regression", "categorical", "continuous", "prediction"],
+      "learning_objective": "Understanding supervised learning subcategories and applications"
+    },
+    {
+      "id": 5,
+      "category": "Generative AI",
+      "difficulty": "beginner",
+      "question": "What makes generative AI different from traditional AI systems?",
+      "answer": "Traditional AI systems analyze and interpret data to make predictions or classifications for single tasks. Generative AI creates entirely new content (text, images, audio, code) by learning patterns from training data and can perform multiple tasks using the same foundation model.",
+      "keywords": ["content creation", "multiple tasks", "foundation model", "new content"],
+      "learning_objective": "Distinguishing generative AI capabilities from traditional AI"
+    },
+    {
+      "id": 6,
+      "category": "Foundation Models",
+      "difficulty": "intermediate",
+      "question": "What are foundation models and how do they differ from traditional ML models?",
+      "answer": "Foundation models are pretrained on internet-scale data and can be adapted to perform multiple tasks like text generation, summarization, and question answering. Unlike traditional ML where you need separate labeled datasets and models for each task, a single foundation model can be adapted for various applications.",
+      "keywords": ["pretrained", "internet-scale", "multiple tasks", "adaptation"],
+      "learning_objective": "Understanding the versatility and efficiency of foundation models"
+    },
+    {
+      "id": 7,
+      "category": "Foundation Models",
+      "difficulty": "advanced",
+      "question": "Describe the foundation model lifecycle from data selection to deployment.",
+      "answer": "The lifecycle includes: 1) Data selection using unlabeled data at scale, 2) Pre-training through self-supervised learning, 3) Optimization via prompt engineering, RAG, or fine-tuning, 4) Evaluation using appropriate metrics, 5) Deployment to production environment, 6) Feedback and continuous improvement through monitoring and iteration.",
+      "keywords": ["lifecycle", "self-supervised", "optimization", "evaluation", "deployment"],
+      "learning_objective": "Understanding the complete development process for foundation models"
+    },
+    {
+      "id": 8,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "How do tokens and embeddings work in large language models?",
+      "answer": "Tokens are basic units of text (words, phrases, characters) that models process for standardization. Embeddings are numerical vector representations of tokens that capture meaning and relationships. Related tokens like 'cat', 'feline', and 'kitten' have similar embedding vectors, allowing models to understand semantic relationships.",
+      "keywords": ["tokens", "embeddings", "vectors", "semantic relationships", "numerical representation"],
+      "learning_objective": "Understanding how LLMs process and represent language"
+    },
+    {
+      "id": 9,
+      "category": "Generative AI",
+      "difficulty": "advanced",
+      "question": "Explain how diffusion models work through forward and reverse diffusion processes.",
+      "answer": "Forward diffusion gradually adds noise to input images until only noise remains. Reverse diffusion gradually removes noise from the noisy image to generate new, coherent images. This two-step process allows diffusion models to create high-quality images from pure noise by learning the denoising process.",
+      "keywords": ["forward diffusion", "reverse diffusion", "noise", "denoising", "image generation"],
+      "learning_objective": "Understanding the technical process behind diffusion models"
+    },
+    {
+      "id": 10,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What are multimodal models and what advantages do they offer?",
+      "answer": "Multimodal models can process and generate multiple types of data simultaneously (text, images, audio) rather than single modalities. They understand connections between different data types, enabling applications like video captioning, text-to-image generation, and intelligent question answering that combines text and visual information.",
+      "keywords": ["multimodal", "multiple data types", "text-to-image", "video captioning"],
+      "learning_objective": "Understanding the capabilities of multimodal AI systems"
+    },
+    {
+      "id": 11,
+      "category": "Foundation Models",
+      "difficulty": "intermediate",
+      "question": "Compare the three main optimization techniques for foundation models: prompt engineering, fine-tuning, and RAG.",
+      "answer": "Prompt engineering develops optimal instructions to guide model behavior (fastest, lowest cost). Fine-tuning adds specific datasets to modify model weights for better task alignment (moderate cost/complexity). RAG retrieves relevant documents as context without changing model weights (maintains model integrity, good for dynamic information).",
+      "keywords": ["prompt engineering", "fine-tuning", "RAG", "model weights", "optimization"],
+      "learning_objective": "Choosing appropriate optimization strategies for different use cases"
+    },
+    {
+      "id": 12,
+      "category": "AWS Services",
+      "difficulty": "intermediate", 
+      "question": "What is Amazon Bedrock and how does it support generative AI development?",
+      "answer": "Amazon Bedrock is a fully managed service providing access to foundation models from leading AI companies through a unified API. It offers serverless experience for experimenting with FMs, private customization with your data, and seamless integration into applications with built-in security, privacy, and responsible AI capabilities.",
+      "keywords": ["managed service", "foundation models", "unified API", "serverless", "security"],
+      "learning_objective": "Understanding AWS's primary generative AI service offering"
+    },
+    {
+      "id": 13,
+      "category": "AWS Services",
+      "difficulty": "advanced",
+      "question": "How does Amazon SageMaker support the complete machine learning lifecycle?",
+      "answer": "SageMaker provides tools for building, training, and deploying ML models with fully managed infrastructure. It includes data preprocessing, model training, deployment capabilities, and integrated tools like SageMaker Clarify for bias detection, Model Cards for documentation, and Model Monitor for production monitoring.",
+      "keywords": ["ML lifecycle", "managed infrastructure", "bias detection", "model monitoring"],
+      "learning_objective": "Understanding comprehensive ML platform capabilities"
+    },
+    {
+      "id": 14,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "Distinguish between Amazon Comprehend, Amazon Translate, and Amazon Textract in terms of their NLP capabilities.",
+      "answer": "Amazon Comprehend performs natural language processing tasks like sentiment analysis, entity extraction, and language detection. Amazon Translate provides neural machine translation between languages. Amazon Textract extracts text and data from scanned documents, going beyond OCR to identify form fields and table information.",
+      "keywords": ["NLP", "sentiment analysis", "translation", "OCR", "document extraction"],
+      "learning_objective": "Understanding specialized AWS AI services for text processing"
+    },
+    {
+      "id": 15,
+      "category": "Real-world Applications",
+      "difficulty": "intermediate",
+      "question": "How is AI transforming the healthcare industry, and what are specific applications?",
+      "answer": "AI in healthcare enables AWS HealthScribe for automated clinical notes, personalized medicine based on genetic makeup and lifestyle, improved medical imaging for better diagnosis through enhanced X-rays, MRIs, and CT scans, and accelerated drug discovery through molecular structure generation.",
+      "keywords": ["healthcare", "clinical notes", "personalized medicine", "medical imaging", "drug discovery"],
+      "learning_objective": "Recognizing AI's impact on healthcare transformation"
+    },
+    {
+      "id": 16,
+      "category": "Real-world Applications", 
+      "difficulty": "intermediate",
+      "question": "What are the key applications of AI in financial services and their benefits?",
+      "answer": "AI in financial services includes fraud detection mechanisms using synthetic datasets to improve detection systems, portfolio management through market scenario simulation, debt collection with optimized communication strategies, and enhanced security through transaction surveillance and anti-money laundering.",
+      "keywords": ["fraud detection", "portfolio management", "synthetic datasets", "transaction surveillance"],
+      "learning_objective": "Understanding AI applications in financial technology"
+    },
+    {
+      "id": 17,
+      "category": "Machine Learning Techniques",
+      "difficulty": "advanced",
+      "question": "When should you choose unsupervised learning over supervised learning, and what are the main techniques?",
+      "answer": "Choose unsupervised learning when you lack labeled data and want to discover hidden patterns. Main techniques include clustering (grouping similar data for customer segmentation, targeted marketing) and dimensionality reduction (simplifying complex data for visualization, compression, and feature selection while preserving important information).",
+      "keywords": ["unlabeled data", "clustering", "dimensionality reduction", "customer segmentation"],
+      "learning_objective": "Selecting appropriate ML techniques based on data and objectives"
+    },
+    {
+      "id": 18,
+      "category": "Machine Learning Techniques",
+      "difficulty": "advanced", 
+      "question": "Explain reinforcement learning using the AWS DeepRacer example and describe when this approach is most suitable.",
+      "answer": "In AWS DeepRacer, the agent (virtual car) learns to navigate a racetrack (environment) through actions (throttle, steering). It receives rewards for staying on track and completing quickly. RL is suitable when you know the desired outcome but not the path to achieve it, requiring trial-and-error learning in complex environments.",
+      "keywords": ["agent", "environment", "rewards", "trial-and-error", "complex environments"],
+      "learning_objective": "Understanding reinforcement learning through practical examples"
+    },
+    {
+      "id": 19,
+      "category": "Responsible AI",
+      "difficulty": "intermediate",
+      "question": "What are the core dimensions of responsible AI and why are they important?",
+      "answer": "Core dimensions include fairness (preventing discrimination), explainability (understanding decisions), privacy and security (protecting data), transparency (providing system information), robustness (reliable operation), governance (organizational processes), safety (avoiding harm), and controllability (guiding behavior). These ensure AI systems are trustworthy and beneficial.",
+      "keywords": ["fairness", "explainability", "privacy", "transparency", "governance"],
+      "learning_objective": "Understanding comprehensive responsible AI framework"
+    },
+    {
+      "id": 20,
+      "category": "Responsible AI", 
+      "difficulty": "advanced",
+      "question": "Explain the bias-variance tradeoff in machine learning and how to address both underfitting and overfitting.",
+      "answer": "Bias (underfitting) occurs when models miss important features and perform poorly on training data. Variance (overfitting) occurs when models memorize training data but fail on new data. Solutions include cross-validation, increasing data, regularization, simpler models, dimensionality reduction, and early stopping to achieve optimal balance.",
+      "keywords": ["bias-variance", "underfitting", "overfitting", "cross-validation", "regularization"],
+      "learning_objective": "Understanding and addressing fundamental ML model performance issues"
+    },
+    {
+      "id": 21,
+      "category": "Responsible AI",
+      "difficulty": "intermediate",
+      "question": "What are the main challenges of generative AI and how can they be mitigated?",
+      "answer": "Challenges include toxicity (offensive content - mitigate through content curation and guardrails), hallucinations (inaccurate responses - require verification), intellectual property concerns (reproducing training content), and nondeterminism (inconsistent outputs - test for consistency). Each requires specific mitigation strategies.",
+      "keywords": ["toxicity", "hallucinations", "intellectual property", "guardrails", "verification"],
+      "learning_objective": "Identifying and addressing generative AI risks"
+    },
+    {
+      "id": 22,
+      "category": "AWS Services",
+      "difficulty": "advanced",
+      "question": "How does Amazon Bedrock Guardrails help implement responsible AI practices?",
+      "answer": "Bedrock Guardrails provides safeguards by filtering harmful content across hate, insults, sexual, and violence categories with configurable thresholds, blocking undesirable topics through natural language descriptions, and redacting PII to protect privacy. It works across multiple foundation models and can be integrated with Bedrock Agents.",
+      "keywords": ["guardrails", "content filtering", "PII redaction", "configurable thresholds"],
+      "learning_objective": "Understanding AWS tools for responsible AI implementation"
+    },
+    {
+      "id": 23,
+      "category": "Responsible AI",
+      "difficulty": "advanced",
+      "question": "What factors should be considered when selecting a generative AI model for responsible deployment?",
+      "answer": "Consider model types and capabilities, performance requirements (accuracy, reliability), constraints (computational resources, data availability), compliance and ethical implications (fairness, transparency, bias), cost trade-offs between model size and speed, and environmental impact including energy consumption.",
+      "keywords": ["model selection", "performance requirements", "compliance", "environmental impact"],
+      "learning_objective": "Making informed decisions for responsible AI model selection"
+    },
+    {
+      "id": 24,
+      "category": "Real-world Applications",
+      "difficulty": "intermediate",
+      "question": "How does computer vision technology enhance autonomous driving and public safety applications?",
+      "answer": "In autonomous driving, computer vision enables real-time object detection, lane recognition, and traffic sign identification to make driving safer and more reliable. For public safety, it provides facial recognition for identifying persons of interest, monitoring for unlawful entries, and serving as a crime deterrent through rapid identification capabilities.",
+      "keywords": ["computer vision", "object detection", "facial recognition", "safety enhancement"],
+      "learning_objective": "Understanding practical applications of computer vision technology"
+    },
+    {
+      "id": 25,
+      "category": "Real-world Applications",
+      "difficulty": "intermediate", 
+      "question": "What role does intelligent document processing (IDP) play in different industries?",
+      "answer": "In financial services, IDP extracts information from mortgage applications and identifies incomplete loan packages. In legal, it processes contracts, agreements, and court filings to eliminate manual effort. In healthcare, it expedites processing of claims and doctor's notes, improving business operations across all sectors.",
+      "keywords": ["document processing", "automation", "mortgage applications", "legal documents"],
+      "learning_objective": "Understanding IDP applications across industries"
+    },
+    {
+      "id": 26,
+      "category": "Generative AI",
+      "difficulty": "intermediate",
+      "question": "What are the key capabilities that make generative AI valuable for business applications?",
+      "answer": "Key capabilities include adaptability (learning from data for various contexts), responsiveness (real-time content generation), simplicity (automating complex tasks), creativity (generating novel solutions), data efficiency (learning from limited data), personalization (tailored content), and scalability (producing large amounts of content quickly).",
+      "keywords": ["adaptability", "responsiveness", "creativity", "personalization", "scalability"],
+      "learning_objective": "Understanding business value proposition of generative AI"
+    },
+    {
+      "id": 27,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "Compare Amazon Polly, Amazon Transcribe, and Amazon Lex in terms of their speech-related capabilities.",
+      "answer": "Amazon Polly converts text to lifelike speech synthesis with multiple voices and languages. Amazon Transcribe performs automatic speech recognition, converting speech to text with timestamps and real-time capabilities. Amazon Lex builds conversational interfaces using ASR and NLU for voice and text-based chatbots and IVR systems.",
+      "keywords": ["text-to-speech", "speech recognition", "conversational AI", "voice interfaces"],
+      "learning_objective": "Understanding AWS speech and conversation services"
+    },
+    {
+      "id": 28,
+      "category": "Machine Learning Techniques",
+      "difficulty": "intermediate",
+      "question": "What is the difference between batch inferencing and real-time inferencing, and when should each be used?",
+      "answer": "Batch inferencing processes large amounts of data all at once for tasks where speed isn't critical but accuracy is important (data analysis). Real-time inferencing makes quick decisions on incoming data for applications requiring immediate responses (chatbots, self-driving cars). Choice depends on latency requirements and use case.",
+      "keywords": ["batch inferencing", "real-time inferencing", "latency", "data analysis"],
+      "learning_objective": "Choosing appropriate inferencing strategies for different applications"
+    },
+    {
+      "id": 29,
+      "category": "Responsible AI",
+      "difficulty": "advanced",
+      "question": "How can organizations ensure balanced datasets for responsible AI, and what techniques are available?",
+      "answer": "Ensure balanced datasets through inclusive and diverse data collection representing all groups equally. Use data curation including preprocessing (cleaning, normalization), data augmentation (generating instances of underrepresented groups), and regular auditing. SageMaker Data Wrangler provides undersampling, oversampling, and SMOTE techniques.",
+      "keywords": ["balanced datasets", "inclusive data", "data augmentation", "SMOTE", "bias prevention"],
+      "learning_objective": "Implementing fair data practices for responsible AI"
+    },
+    {
+      "id": 30,
+      "category": "Responsible AI",
+      "difficulty": "advanced",
+      "question": "What is the difference between model interpretability and explainability, and when is each important?",
+      "answer": "Interpretability provides access to system internals so humans can understand model outputs based on weights and features (high transparency, limited performance). Explainability uses model-agnostic methods to explain behavior in human terms (works with complex models, maintains performance). Interpretability is needed for regulatory compliance, explainability for general understanding.",
+      "keywords": ["interpretability", "explainability", "transparency", "model-agnostic", "regulatory compliance"],
+      "learning_objective": "Understanding different approaches to AI transparency"
+    },
+    {
+      "id": 31,
+      "category": "AWS Services",
+      "difficulty": "advanced",
+      "question": "How does Amazon SageMaker Clarify support responsible AI development across the ML lifecycle?",
+      "answer": "SageMaker Clarify provides bias detection in datasets and models, feature importance explanations for predictions, model evaluation for accuracy and fairness metrics, and integration with SageMaker Experiments for comprehensive model understanding. It supports tabular, NLP, and computer vision models with aggregated feature importance charts.",
+      "keywords": ["bias detection", "feature importance", "model evaluation", "ML lifecycle"],
+      "learning_objective": "Understanding comprehensive responsible AI tooling"
+    },
+    {
+      "id": 32,
+      "category": "Real-world Applications",
+      "difficulty": "intermediate",
+      "question": "How is AI being applied in manufacturing to improve efficiency and innovation?",
+      "answer": "AI in manufacturing enables predictive maintenance by analyzing historical data to optimize maintenance schedules, process optimization through scenario modeling for cost and time efficiency, product design generation based on parameters and constraints, and material science advancement through new composition discovery with desired properties.",
+      "keywords": ["predictive maintenance", "process optimization", "product design", "material science"],
+      "learning_objective": "Understanding AI transformation in manufacturing"
+    },
+    {
+      "id": 33,
+      "category": "Foundation Models",
+      "difficulty": "intermediate",
+      "question": "What are the advantages of self-supervised learning in foundation model pre-training?",
+      "answer": "Self-supervised learning eliminates the need for labeled examples by using the structure within data to autogenerate labels. This allows training on massive unlabeled datasets from diverse sources, making it much easier and cost-effective to obtain training data compared to supervised approaches that require manual labeling.",
+      "keywords": ["self-supervised", "unlabeled data", "autogenerate labels", "cost-effective"],
+      "learning_objective": "Understanding efficient training approaches for large models"
+    },
+    {
+      "id": 34,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "What business metrics should organizations use to measure generative AI application success?",
+      "answer": "Key metrics include user satisfaction (feedback on AI-generated content), average revenue per user (ARPU) to measure monetization effectiveness, conversion rate (percentage achieving desired actions like purchases), and efficiency metrics (resource utilization, computation time, scalability) to optimize performance and ROI.",
+      "keywords": ["user satisfaction", "ARPU", "conversion rate", "efficiency metrics", "ROI"],
+      "learning_objective": "Measuring business impact of generative AI implementations"
+    },
+    {
+      "id": 35,
+      "category": "Responsible AI",
+      "difficulty": "advanced",
+      "question": "What are the principles of human-centered design for explainable AI?",
+      "answer": "Key principles include designing for amplified decision-making (supporting high-stakes decisions with clarity, simplicity, usability), designing for unbiased decision-making (transparency, fairness, training), and designing for human and AI learning (cognitive apprenticeship, personalization, user-centered design). Focus on human needs and limitations.",
+      "keywords": ["human-centered design", "amplified decision-making", "cognitive apprenticeship", "user-centered"],
+      "learning_objective": "Creating AI systems that effectively support human decision-making"
+    },
+    {
+      "id": 36,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "How do Amazon Q and Amazon Q Developer differ in their AI assistance capabilities?",
+      "answer": "Amazon Q is a generative AI assistant for general work that helps with questions, problem-solving, content generation, and actions using company data and systems. Amazon Q Developer specifically focuses on improving developer productivity with ML-powered code recommendations for multiple programming languages and IDE integration.",
+      "keywords": ["general AI assistant", "developer productivity", "code recommendations", "IDE integration"],
+      "learning_objective": "Understanding specialized AI assistant applications"
+    },
+    {
+      "id": 37,
+      "category": "Machine Learning Techniques",
+      "difficulty": "intermediate",
+      "question": "When is AI and ML an appropriate solution, and when should alternative approaches be considered?",
+      "answer": "AI/ML is appropriate when coding rules is challenging (too many variables, overlaps, fine-tuning needed) and scale is challenging (millions of data points). Use alternatives when you can determine target values using simple rules, computations, or predetermined steps that don't require data-driven learning.",
+      "keywords": ["complex rules", "scale challenges", "simple computations", "predetermined steps"],
+      "learning_objective": "Making informed decisions about when to use AI/ML vs alternatives"
+    },
+    {
+      "id": 38,
+      "category": "AWS Services",
+      "difficulty": "advanced",
+      "question": "What cost considerations should organizations evaluate when implementing AWS AI services?",
+      "answer": "Consider responsiveness and availability costs (higher performance = higher cost), redundancy and regional coverage expenses, performance options (GPU vs CPU costs), token-based pricing models, provisioned throughput requirements, and custom model training costs. Balance cost, performance, and reliability requirements.",
+      "keywords": ["cost optimization", "performance trade-offs", "token-based pricing", "provisioned throughput"],
+      "learning_objective": "Understanding economic factors in AI service deployment"
+    },
+    {
+      "id": 39,
+      "category": "Real-world Applications",
+      "difficulty": "intermediate",
+      "question": "How does natural language processing enhance customer experience across different industries?",
+      "answer": "In insurance, NLP extracts policy information and redacts sensitive data. In telecommunications, it analyzes messages for personalized recommendations and customer engagement. In education, NLP powers Q&A chatbots to address student questions and enhance learning experiences through instant, relevant responses.",
+      "keywords": ["customer experience", "data extraction", "personalized recommendations", "educational chatbots"],
+      "learning_objective": "Understanding NLP applications for customer engagement"
+    },
+    {
+      "id": 40,
+      "category": "Responsible AI",
+      "difficulty": "advanced",
+      "question": "How does reinforcement learning from human feedback (RLHF) improve AI alignment with human values?",
+      "answer": "RLHF incorporates human feedback directly into the reward function, helping models learn behaviors aligned with human goals and preferences. It enhances AI performance by providing complex training parameters, supplies nuanced guidance beyond simple metrics, and increases user satisfaction by ensuring outputs meet human expectations and values.",
+      "keywords": ["human feedback", "reward function", "human alignment", "user satisfaction"],
+      "learning_objective": "Understanding techniques for aligning AI with human preferences"
+    },
+    {
+      "id": 41,
+      "category": "Foundation Models",
+      "difficulty": "advanced",
+      "question": "Compare the different types of generative models: GANs, VAEs, and diffusion models.",
+      "answer": "GANs use two competing networks (generator creates synthetic data, discriminator identifies real vs fake) in adversarial training. VAEs combine encoder (maps input to latent space) and decoder (reconstructs data) with probabilistic latent space for generation. Diffusion models gradually add then remove noise through forward and reverse diffusion processes.",
+      "keywords": ["GANs", "VAEs", "diffusion models", "adversarial training", "latent space"],
+      "learning_objective": "Understanding different approaches to generative modeling"
+    },
+    {
+      "id": 42,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "How does Amazon SageMaker JumpStart accelerate machine learning development?",
+      "answer": "SageMaker JumpStart provides ready-to-deploy solutions for common use cases, offers one-click deployment and fine-tuning of 150+ popular open-source models for NLP, object detection, and image classification, includes customizable solutions with CloudFormation templates and reference architectures to accelerate ML journey.",
+      "keywords": ["ready-to-deploy", "one-click deployment", "open-source models", "reference architectures"],
+      "learning_objective": "Understanding AWS tools for rapid ML prototyping and deployment"
+    },
+    {
+      "id": 43,
+      "category": "Real-world Applications",
+      "difficulty": "intermediate",
+      "question": "What are the key applications of AI in life sciences and their potential impact?",
+      "answer": "AI accelerates drug discovery by generating new molecular structures and reducing development costs, predicts protein folding from amino acid sequences for disease understanding and therapy development, and enables synthetic biology by designing engineered organisms and biological circuits for various applications.",
+      "keywords": ["drug discovery", "protein folding", "synthetic biology", "molecular structures"],
+      "learning_objective": "Understanding AI's transformative impact on life sciences research"
+    },
+    {
+      "id": 44,
+      "category": "Responsible AI",
+      "difficulty": "advanced",
+      "question": "What trade-offs exist between model safety and transparency, and how can they be balanced?",
+      "answer": "Trade-offs include accuracy (complex models more accurate but less interpretable), privacy (privacy-preserving techniques reduce transparency), safety constraints (filtering outputs reduces transparency into reasoning), and security (secured models less open to auditing). Balance through careful risk assessment and appropriate transparency levels for use case.",
+      "keywords": ["safety-transparency trade-offs", "privacy-preserving", "risk assessment", "appropriate transparency"],
+      "learning_objective": "Managing competing requirements in responsible AI design"
+    },
+    {
+      "id": 45,
+      "category": "AWS Services",
+      "difficulty": "intermediate",
+      "question": "How do AWS AI Service Cards support responsible AI practices and decision-making?",
+      "answer": "AWS AI Service Cards provide comprehensive documentation for responsible AI implementation, including intended use cases and limitations, responsible AI design choices, deployment and performance optimization best practices, and guidance for customers, technologists, and researchers to understand key considerations in responsible service design and use.",
+      "keywords": ["AI service cards", "responsible documentation", "use cases", "best practices"],
+      "learning_objective": "Using AWS resources for responsible AI implementation guidance"
+    }
+  ]
+}
