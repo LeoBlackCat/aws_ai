@@ -6,6 +6,7 @@ require('dotenv').config();
 
 module.exports = (env, argv) => {
   const isProduction = argv.mode === 'production';
+  const publicPath = process.env.PUBLIC_URL || '/';
   
   return {
     entry: './src/index.js',
@@ -13,7 +14,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, 'dist'),
       filename: isProduction ? '[name].[contenthash].js' : '[name].js',
       clean: true,
-      publicPath: '/'
+      publicPath: publicPath
     },
     
     module: {

@@ -1,13 +1,15 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { loadAllContent, filterContent, shuffleContent, getRandomSample } from './utils/contentParser';
-import { evaluateAnswer, evaluateExamples, realtimeConversation, isOpenAIAvailable, resetFailureCounter } from './utils/openaiHelper';
+import { evaluateAnswer, evaluateExamples, realtimeConversation, isOpenAIAvailable, resetFailureCounter, initializeOpenAI } from './utils/openaiHelper';
 import { speakText } from './utils/speechUtils';
+import { getApiKey, getSetting } from './utils/settingsManager';
 import QuestionDisplay from './components/QuestionDisplay';
 import AnswerEvaluator from './components/AnswerEvaluator';
 import FeedbackSystem from './components/FeedbackSystem';
 import ProgressTracker from './components/ProgressTracker';
 import APIUsageTracker from './components/APIUsageTracker';
 import LoggingPanel from './components/LoggingPanel';
+import SettingsModal from './components/SettingsModal';
 
 const App = () => {
   // Core app state
@@ -45,6 +47,11 @@ const App = () => {
   // Realtime conversation state
   const [useRealtimeAPI, setUseRealtimeAPI] = useState(false);
   const [realtimeConnected, setRealtimeConnected] = useState(false);
+  
+  // API Key and Settings Management
+  const [hasApiKey, setHasApiKey] = useState(false);
+  const [showSettings, setShowSettings] = useState(false);
+  const [showApiKeyPrompt, setShowApiKeyPrompt] = useState(false);
   
   // Refs
   const sessionStartTime = useRef(Date.now());
@@ -548,9 +555,17 @@ const App = () => {
       // Reset OpenAI failure counter on app start
       resetFailureCounter();
       
-      // Check OpenAI availability
-      if (!isOpenAIAvailable()) {
-        throw new Error('OpenAI API key not configured. Please check your environment variables.');
+      // Try to initialize OpenAI with available API key
+      const apiKey = getApiKey();
+      if (apiKey) {
+        const initialized = initializeOpenAI(apiKey);
+        setHasApiKey(initialized);
+        if (!initialized) {
+          setShowApiKeyPrompt(true);
+        }
+      } else {
+        setHasApiKey(false);
+        setShowApiKeyPrompt(true);
       }
       
       // Load content from markdown files
@@ -591,6 +606,57 @@ const App = () => {
       realtimeConversation.disconnect();
     }
   };
+
+  // Handle API key updates
+  const handleApiKeyUpdate = (newApiKey) => {
+    if (newApiKey && newApiKey.trim()) {
+      const initialized = initializeOpenAI(newApiKey);
+      setHasApiKey(initialized);
+      if (initialized) {
+        setShowApiKeyPrompt(false);
+        setShowSettings(false);
+        resetFailureCounter();
+        console.log('✅ API key updated and OpenAI initialized');
+      }
+    } else {
+      setHasApiKey(false);
+      setShowApiKeyPrompt(true);
+    }
+  };
+
+  // Check if we should show API key prompt
+  const shouldShowApiKeyPrompt = !hasApiKey && (showApiKeyPrompt || !getApiKey());
+
+  // Render API key prompt
+  if (shouldShowApiKeyPrompt) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+        <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
+          <div className="text-blue-600 mb-4">
+            <svg className="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-3c0-.267.11-.52.293-.707L11.586 8.586A2 2 0 0113 8a2 2 0 012 2z"></path>
+            </svg>
+          </div>
+          <h2 className="text-xl font-bold text-gray-800 mb-2">OpenAI API Key Required</h2>
+          <p className="text-gray-600 mb-4">
+            This app needs an OpenAI API key to evaluate your answers. 
+            Your key is stored securely in your browser only.
+          </p>
+          <div className="space-y-3">
+            <button
+              onClick={() => setShowSettings(true)}
+              className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+            >
+              Enter API Key
+            </button>
+            <p className="text-xs text-gray-500 text-center">
+              Get your API key from <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">OpenAI Platform</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // Render loading state
   if (isLoading) {
@@ -680,6 +746,13 @@ const App = () => {
               className="px-4 py-2 rounded-lg font-medium bg-blue-100 text-blue-800 hover:bg-blue-200 transition-colors disabled:opacity-50"
             >
               🔄 Reload Content
+            </button>
+            
+            <button
+              onClick={() => setShowSettings(true)}
+              className="px-4 py-2 rounded-lg font-medium bg-gray-100 text-gray-800 hover:bg-gray-200 transition-colors"
+            >
+              ⚙️ Settings
             </button>
           </div>
         </header>
@@ -832,6 +905,13 @@ const App = () => {
           <LoggingPanel />
         </div>
       </div>
+
+      {/* Settings Modal */}
+      <SettingsModal
+        isOpen={showSettings}
+        onClose={() => setShowSettings(false)}
+        onApiKeyUpdate={handleApiKeyUpdate}
+      />
     </div>
   );
 };

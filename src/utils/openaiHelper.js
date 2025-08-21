@@ -1,22 +1,30 @@
 import OpenAI from 'openai';
+import { getApiKey, isValidApiKey } from './settingsManager';
 
-// OpenAI client with API key from environment
+// OpenAI client with API key from environment or user settings
 let openaiClient = null;
 
-// Initialize OpenAI client
-export const initializeOpenAI = () => {
-  const apiKey = process.env.REACT_APP_OPENAI_API_KEY || process.env.OPENAI_API_KEY;
+// Initialize OpenAI client with API key from settings
+export const initializeOpenAI = (apiKey = null) => {
+  // Use provided key or get from settings/environment
+  const key = apiKey || getApiKey();
   
-  if (!apiKey) {
-    console.error('OpenAI API key not found in environment variables');
+  if (!key) {
+    console.warn('OpenAI API key not found in environment or user settings');
+    return false;
+  }
+  
+  if (!isValidApiKey(key)) {
+    console.error('Invalid OpenAI API key format');
     return false;
   }
   
   openaiClient = new OpenAI({
-    apiKey,
+    apiKey: key,
     dangerouslyAllowBrowser: true
   });
   
+  console.log('✅ OpenAI client initialized successfully');
   return true;
 };
 
@@ -602,7 +610,5 @@ Provide a score (0-100), feedback, and suggestions for improvement.`
 // Create a singleton instance for realtime conversations
 export const realtimeConversation = new RealtimeConversation();
 
-// Initialize OpenAI on module load
-if (typeof window !== 'undefined') {
-  initializeOpenAI();
-}
+// Note: OpenAI client will be initialized when API key becomes available
+// Call initializeOpenAI() manually after API key is set
