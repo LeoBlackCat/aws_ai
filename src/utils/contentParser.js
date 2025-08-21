@@ -249,7 +249,7 @@ export const loadAllContent = async () => {
   
   // First try to load the new definition-based JSON
   try {
-    const definitionContent = await loadJSONContent('/introduction_definitions_qa.json');
+    const definitionContent = await loadJSONContent('./introduction_definitions_qa.json');
     if (definitionContent.length > 0) {
       allContent.push(...definitionContent);
       console.log(`Loaded ${definitionContent.length} definition-based Q&A pairs from JSON`);
@@ -261,9 +261,9 @@ export const loadAllContent = async () => {
   // If no JSON content loaded, fallback to markdown files
   if (allContent.length === 0) {
     const dataFiles = [
-      '/data/introduction.md',
-      '/data/usecases.md', 
-      '/data/responsiblepractices.md'
+      './data/introduction.md',
+      './data/usecases.md', 
+      './data/responsiblepractices.md'
     ];
     
     for (const filePath of dataFiles) {
