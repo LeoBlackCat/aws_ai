@@ -110,7 +110,7 @@ const SettingsModal = ({ isOpen, onClose, onApiKeyUpdate }) => {
           </div>
           {!isKeyValid && (
             <p className="text-red-500 text-sm mt-1">
-              API key must start with 'sk-' and be 48-64 characters long
+              API key must start with 'sk-' and be 48-200 characters long (supports both legacy and project keys)
             </p>
           )}
           <div className="text-xs text-gray-500 mt-2">

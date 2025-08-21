@@ -630,31 +630,40 @@ const App = () => {
   // Render API key prompt
   if (shouldShowApiKeyPrompt) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-        <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
-          <div className="text-blue-600 mb-4">
-            <svg className="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-3c0-.267.11-.52.293-.707L11.586 8.586A2 2 0 0113 8a2 2 0 012 2z"></path>
-            </svg>
-          </div>
-          <h2 className="text-xl font-bold text-gray-800 mb-2">OpenAI API Key Required</h2>
-          <p className="text-gray-600 mb-4">
-            This app needs an OpenAI API key to evaluate your answers. 
-            Your key is stored securely in your browser only.
-          </p>
-          <div className="space-y-3">
-            <button
-              onClick={() => setShowSettings(true)}
-              className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
-            >
-              Enter API Key
-            </button>
-            <p className="text-xs text-gray-500 text-center">
-              Get your API key from <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">OpenAI Platform</a>
+      <>
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+          <div className="bg-white p-8 rounded-lg shadow-lg max-w-md mx-auto">
+            <div className="text-blue-600 mb-4">
+              <svg className="w-12 h-12 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 7a2 2 0 012 2m4 0a6 6 0 01-7.743 5.743L11 17H9v2H7v2H4a1 1 0 01-1-1v-3c0-.267.11-.52.293-.707L11.586 8.586A2 2 0 0113 8a2 2 0 012 2z"></path>
+              </svg>
+            </div>
+            <h2 className="text-xl font-bold text-gray-800 mb-2">OpenAI API Key Required</h2>
+            <p className="text-gray-600 mb-4">
+              This app needs an OpenAI API key to evaluate your answers. 
+              Your key is stored securely in your browser only.
             </p>
+            <div className="space-y-3">
+              <button
+                onClick={() => setShowSettings(true)}
+                className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors"
+              >
+                Enter API Key
+              </button>
+              <p className="text-xs text-gray-500 text-center">
+                Get your API key from <a href="https://platform.openai.com/api-keys" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">OpenAI Platform</a>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
+        
+        {/* Settings Modal - always render so it can open */}
+        <SettingsModal
+          isOpen={showSettings}
+          onClose={() => setShowSettings(false)}
+          onApiKeyUpdate={handleApiKeyUpdate}
+        />
+      </>
     );
   }
 

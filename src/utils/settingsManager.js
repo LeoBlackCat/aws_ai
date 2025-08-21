@@ -112,9 +112,11 @@ export const getApiKey = () => {
 export const isValidApiKey = (key) => {
   if (!key || typeof key !== 'string') return false;
   
-  // OpenAI API keys start with 'sk-' and are typically 48-64 characters
+  // OpenAI API keys start with 'sk-' and can be:
+  // - Legacy keys: 48-64 characters (sk-...)
+  // - Project keys: up to 200 characters (sk-proj-...)
   const trimmedKey = key.trim();
-  return trimmedKey.startsWith('sk-') && trimmedKey.length >= 48 && trimmedKey.length <= 64;
+  return trimmedKey.startsWith('sk-') && trimmedKey.length >= 48 && trimmedKey.length <= 200;
 };
 
 // Export current settings for debugging
