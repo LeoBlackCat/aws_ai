@@ -651,3 +651,673 @@ What are some governance strategies that they might consider? (Select TWO.)
 - Maintain high standards of transparency in the development of their solutions.
 
 Two strategies are to develop clear policies relating to the organization's approach to generative AI, and maintain high standards of transparency in the development of their solutions. The other options relate more to performance monitoring and security, rather than governance.
+
+# Security and Privacy Considerations for AI Systems
+
+## Security considerations
+
+In the context of AI and generative AI, there are a number of security tasks, such as threat detection, vulnerability management, infrastructure protection, prompt injection, and data encryption. Following is a description of each of these tasks.
+
+#### Threat detection
+To detect threats to your AI systems, do the following:
+
+- Identify and monitor for potential security threats, such as malicious actors attempting to exploit vulnerabilities in AI systems or using generative AI for malicious purposes. The following are some examples:
+    - Generating fake content
+    - Manipulating data
+    - Automating attacks
+- You can assist threat detection by developing and deploying AI-powered threat detection systems. You can analyze network traffic, user behavior, and other data sources to detect and respond to potential threats.
+
+For more information, see [Threat Detection](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html#threat-detection) and [Protect Against Adversarial and Malicious Activities](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlsec-11.html)
+
+#### Vulnerability management
+To help manage vulnerability, do the following:
+
+- Identify and address vulnerabilities in AI and generative AI systems, including software bugs, model weaknesses, and potential attack vectors (for example, malware, viruses, and email attachments).
+- Regularly conduct security assessments, penetration testing (attempt to find and exploit vulnerabilities), and code reviews to uncover and address vulnerabilities.
+- Implement robust patch management and update processes to ensure that AI systems are kept up to date and secure.
+
+For more information, see [Vulnerability Management](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html#vulnerability-management).
+
+#### Infrastructure protection
+To ensure that your infrastructure is protected, do the following:
+
+- Secure the underlying infrastructure that supports AI and generative AI systems, such as the following:
+    - Cloud computing platforms
+    - Edge devices
+    - Data stores
+- Implement strong access controls, network segmentation, encryption, and other security measures to protect the infrastructure from unauthorized access and attacks.
+- Ensure that the AI infrastructure is resilient and can withstand failures, attacks, or other disruptions.
+
+For more information, see [Infrastructure Protection](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html#infrastructure-protection).
+
+#### Prompt injection
+You need to mitigate the risk of prompt injection attacks. In these attacks, adversaries attempt to manipulate the input prompts of generative AI models to generate malicious or undesirable content. To reduce the risk, do the following:
+
+- Employ techniques, such as prompt filtering, sanitization, and validation, to ensure that the input prompts are safe and do not contain malicious content.
+- Develop robust models and training procedures that are resistant to prompt injection attacks.
+
+For more information, see [Protect Against Data Poisoning Threats](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlsec-10.html).
+
+#### Data encryption
+To protect the confidentiality and integrity of the data used to train and deploy AI and generative AI models, do the following:
+
+- Implement strong encryption mechanisms to secure both data at rest and data in transit. Data at rest refers to data that is stored on servers, in databases, or on local devices. Data in transit refers to data that is transmitted during communication between different components of the AI system.
+- Ensure that the encryption keys are properly managed and protected from unauthorized access.
+For more information, see [Data Protection](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html#data-protection) and  [Protect Sensitive Data Privacy](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlsec-05.html).
+
+### The OWASP Top 10 for LLMs
+
+The Open Web Application Security Project (OWASP) Top 10 is the industry standard list of the top 10 vulnerabilities that can impact a generative AI LLM system. These vulnerabilities are as follows:
+
+1. **Prompt injection**: Malicious user inputs that can manipulate the behavior of a language model
+
+2. **Insecure output handling**: Failure to properly sanitize or validate model outputs, leading to security vulnerabilities
+
+3. **Training data poisoning**: Introducing malicious data into a model's training set, causing it to learn harmful behaviors
+
+4. **Model denial of service**: Techniques that exploit vulnerabilities in a model's architecture to disrupt its availability
+
+5. **Supply chain vulnerabilities**: Weaknesses in the software, hardware, or services used to build or deploy a model
+
+6. **Sensitive information disclosure**: Leakage of sensitive data through model outputs or other unintended channels
+
+7. **Insecure plugin design**: Flaws in the design or implementation of optional model components that can be exploited
+
+8. **Excessive agency**: Granting a model too much autonomy or capability, leading to unintended and potentially harmful actions
+
+9. **Overreliance**: Over-dependence on a model's capabilities, leading to over-trust and failure to properly audit its outputs
+
+10. **Model theft**: Unauthorized access or copying of a model's parameters or architecture, allowing for its reuse or misuse
+
+[OWASP Top 10 for LLMs](https://owasp.org/www-project-top-ten/)
+
+## Additional resources
+
+There are a number of resources that are helpful for addressing the overall security and privacy requirements of your AI systems. The following are a few that you might explore.
+
+AWS Cloud Adoption Framework: Security Perspective 
+
+The security perspective helps you achieve the confidentiality, integrity, and availability of your data and cloud workloads. To learn more, choose the following button.
+
+[AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-security-perspective/aws-caf-security-perspective.html)
+
+Mitre ATLAS
+
+Adversarial Threat Landscape for Artificial-Intelligence Systems (ATLAS) is a knowledge base of adversary tactics and techniques. To learn more, choose the following button.
+
+[ATLAS Webpage](https://atlas.mitre.org/)
+
+Addressing Open Worldwide Application Security Project (OWASP) Top 10 Risks 
+
+The OWASP Top 10 is a standard awareness document for developers and web application security. To learn how to address these risks within AWS, choose the following button.
+
+[Developer Article](https://builder.aws.com/content/2wCesCbqbOMKs3njdYPNVPDerKg/application-security-addressing-owasp-top-10-risks)
+
+Architect Defense-in-Depth Security for Generative AI Applications Using the OWASP Top 10 for LLMs 
+
+This blog post provides a common mental model and framework to apply security best practices. To learn more, choose the following button.
+
+[AWS Blog](https://aws.amazon.com/ru/blogs/machine-learning/architect-defense-in-depth-security-for-generative-ai-applications-using-the-owasp-top-10-for-llms/)
+
+# AWS Services and Features for Securing AI Systems
+
+## Using AWS services to secure your AI systems
+
+>#### Why you need to secure your AI systems
+>Securing AI systems when using AWS services is important for several reasons.
+
+>#### AI models process sensitive data
+>First, AI models often process sensitive data, such as personal information, financial records, or proprietary business data. Failing to secure these systems can lead to data breaches, privacy violations, and potential legal and financial consequences.
+
+>#### AI Systems can be vulnerable to adversarial attacks
+>Additionally, AI systems can be vulnerable to adversarial attacks, where malicious actors attempt to manipulate the model's behavior or steal its intellectual property. Proper security measures, such as access controls, encryption, and monitoring, help protect against these threats.
+
+>#### Integration into critical applications and decision-making processes
+>Furthermore, as AI systems are increasingly integrated into critical applications and decision-making processes, ensuring their security and reliability is essential to maintain trust and prevent potentially harmful outcomes. By prioritizing security, organizations can use the power of AWS services while mitigating risks and protecting their AI investments.
+
+>#### Summary
+>Security is top priority at AWS, and all customers, regardless of size, benefit from the ongoing investment of AWS in its secure infrastructure and new offerings. For customers developing AI AWS workloads, security is an integral part of the overall AWS solution. Generative AI is a key player in scaling Foundation Models for realizing business outcomes and there are multiple ways to create a generative AI workload. Integrating security and privacy in all aspects of AI is critical for the overall success of business outcomes.
+
+## The AWS Shared Responsibility Model 
+
+Security and compliance is a shared responsibility between AWS and the customer. The shared model helps relieve the customer’s operational burden. AWS operates, manages, and controls the host operating system and virtualization layer down to the physical security of the facilities in which the service operates.
+
+The customer assumes responsibility and management of the guest operating system. This includes updates, security patches, and other associated application software, in addition to the configuration of the AWS provided security group firewall. 
+
+Customers should carefully consider the services they choose. Their responsibilities vary, depending on the services used, the integration of those services into their IT environment, and applicable laws and regulations. The nature of this shared responsibility also provides the flexibility and customer control that permits the deployment. 
+
+As shown in the following chart, this differentiation of responsibility is commonly referred to as security of the cloud compared to security in the cloud.
+
+![](SharedResponsibilityModel-Final.jpg)
+
+>#### 1. Customer
+>
+>A customer's responsibility will be determined by the AWS Cloud services that a customer selects. This determines the amount of configuration work the customer must perform as part of their security responsibilities.
+
+>#### 2. Customer responsibility
+>
+>Customers are responsible for the following:
+>
+>- Customer data
+>- Platform, applications, identity and access management
+>- Operating system, network and firewall configuration
+>- Client-side data encryption and data integrity authentication
+>- Server-side encryption (including file system and data)
+>- Networking traffic protection (including encryption, integrity, identity)
+
+>#### 3. AWS responsibility
+>
+>AWS is responsible for protecting the infrastructure that runs all of the services offered in the AWS Cloud. This infrastructure is composed of the hardware, software, networking, and facilities that run AWS Cloud services.
+
+>#### 4. AWS software responsibility
+>
+>AWS is responsible for software, including compute, storage, database, and networking.
+
+>#### 5. AWS hardware responsibility
+>
+>AWS is responsible for hardware and AWS Global Infrastructure, including Regions, Availability Zones, and edge locations.
+
+## AWS services for securing AI systems 
+
+### Defense in depth security
+
+Recall that the defense in depth was briefly described at the beginning of this course. The goal of this strategy is to provide multiple layers of security around your data and workloads. 
+
+If one layer is compromised, the other layers will isolate, slow down, or stop a threat actor. The multiple layers prevent the threat actor from moving laterally, escalating privileges, exfiltrating or manipulating data, and so on.
+![](Defense-in-depth-Final.png)
+
+### Getting started with defense in depth
+
+There are four foundational AWS security services recommended for any workload, any customer, and any industry. You can realize benefits from implementing these deeply-integrated foundational security services, such as the following: 
+
+- Security Hub
+- AWS KMS
+- GuardDuty
+- AWS Shield Advanced
+
+Each service provides protection in one of the core security domains of incident response, data protection, threat detection, and network and application protection.  
+
+>#### AWS Security Hub
+>AWS Security Hub provides customers with a single dashboard to view all security findings, and to create and run automated playbooks. 
+>
+>For more information, see [AWS Security Hub](https://aws.amazon.com/security-hub/).
+
+>#### AWS KMS
+>AWS KMS encrypts data and gives customers the choice and control of using AWS managed keys or customer-managed keys to protect their data.
+>
+>For more information, see [AWS Key Management Service](https://aws.amazon.com/kms/).
+
+>#### Amazon GuardDuty
+>Amazon GuardDuty is a threat detection service that monitors for suspicious activity and unauthorized >behavior to protect AWS accounts, workloads, and data.
+>
+>For more information, see [Amazon Guard Duty](https://aws.amazon.com/guardduty/)
+
+>#### AWS Shield Advanced
+>AWS Shield Advanced helps protect workloads against Distributed Denial of Service (DDoS) events. AWS Shield Advanced includes AWS WAF and AWS Firewall Manager.
+>
+>For more information, see [AWS Shield Features](https://aws.amazon.com/shield/features/).
+
+### AWS security services
+
+AWS provides several services and features for securing AI systems. The following services are used to manage user identities and access to resources, identify and protect sensitive data, and guard your AI systems and applications.
+
+#### Identify sensitive data before training models
+Amazon Macie uses ML to automate sensitive data discovery at scale.
+
+You can use Amazon Macie to scan S3 buckets for personally identifiable information (PII), personal health information (PHI), financial information, and other sensitive data. You can determine whether you need to remove the data or whether it needs more security protections before training or fine-tuning models.
+
+You can also scan databases by extracting data to a data lake in Amazon S3 to then have Amazon Macie scan the database content.
+
+For more information, see the [Amazon Macie User Guide](https://docs.aws.amazon.com/macie/latest/user/what-is-macie.html).
+
+#### Manage identities and access to AWS services and resources
+With AWS Identity and Access Management (IAM), you can specify who or what can access services and resources in AWS. You can also centrally manage fine-grained permissions, and analyze access to refine permissions across AWS. Here are some IAM entities that you can create:
+
+- **IAM users and IAM user groups**: An IAM user is an entity that you create in AWS. The IAM user represents the human user or workload who uses the IAM user to interact with AWS. A user in AWS consists of a name and credentials. An IAM user group is a collection of IAM users. User groups let you specify permissions for multiple users, which can make it more convenient to manage the permissions for those users. 
+- **IAM roles**: An IAM role is an IAM identity that you can create in your account that has specific permissions. An IAM role is similar to an IAM user, in that it is an AWS identity with permission policies that determine what the identity can and cannot do in AWS. 
+- **IAM policies**: A policy is an entity that, when attached to an identity or resource, defines their permissions.
+For more information, see [AWS Identity and Access Management](https://aws.amazon.com/iam/) and the [AWS Identity and Access Management User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html). 
+
+#### Limit access to your data, models, and outputs
+Apply a policy of least privilege to training data, models, and applications using AWS IAM Identity Center and IAM Access Analyzer. Here are some other services you can use to limit access:
+
+- Explore further zero trust capabilities to add fine-grained access controls with AWS Verified Access and Amazon Verified Permissions. 
+- Use AWS Verified Access to further eliminate the costs, complexity and performance issues related to virtual private networks (VPNs). 
+You can use Amazon SageMaker Role Manager to build and manage persona-based IAM roles for common ML needs.
+
+Amazon SageMaker Role Manager provides three preconfigured role personas and predefined permissions for common ML activities. These role personas are as follows:
+
+- Data scientist persona
+- MLOps persona
+- SageMaker compute persona
+
+For more information, see the following resources:
+
+- AWS IAM Identity Center
+- AWS IAM Access Analyzer
+- AWS Verified Access
+- Amazon Verified Permissions
+- Amazon SageMaker Role Manager
+- Ensure Least Privilege Access
+
+#### Protect data from exfiltration (data theft) and manipulation
+For strong controls over data ingress and egress from AI systems, you can define strict AWS Network Firewall and Amazon VPC policies. This will prevent the movement of data in and out of your VPCs and networks. Here are some more services you can use to control data entering and leaving your AI systems:
+
+- AWS Network Firewall supports deep packet inspection to decrypt, inspect, and re-encrypt inbound and outbound TLS traffic to protect data. Data destined for the internet, another VPC, or another subnet is supported.
+- Amazon Virtual Private Cloud (Amazon VPC) lets you launch AWS resources in a logically isolated virtual network that you've defined. This virtual network closely resembles a traditional network that you would operate in your own data center, with the benefits of using the scalable infrastructure of AWS.
+- You can use AWS PrivateLink to establish private connectivity from your Amazon VPC to Amazon Bedrock, without having to expose your VPC to internet traffic.
+
+For more information, see the following resources:
+
+- AWS Network Firewall
+- Amazon Virtual Private Cloud
+- What is AWS PrivateLink?
+
+#### Protect AI workloads with intelligent threat detection
+In addition to Amazon GuardDuty, Amazon Inspector and Amazon Detective can help with intelligent threat detection. These services help identify suspicious activity such as AWS credential exfiltration (theft) and suspicious user API usage, including Amazon Bedrock and Amazon SageMaker APIs. Following is a brief description of Amazon Inspector and Amazon Detective:
+
+- Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure. 
+- Amazon Detective streamlines the investigative process and helps security teams conduct faster and more effective forensic investigations.
+
+For more information, see the following resources:
+
+- Amazon Inspector
+- Amazon Detective
+
+#### Automate incident response and compliance
+By automating security tasks on AWS, you can be more secure by reducing human configuration errors. This gives your team more time to focus on other work critical to your business. Task automation makes it more convenient for your security team to work closely with developer and operations teams to create and deploy code faster and more securely. 
+
+For example, by employing technologies like ML, you can automatically and continuously discover, classify, and protect sensitive data in AWS. 
+
+You can also automate infrastructure and application security checks to continually enforce your security and compliance controls and help ensure confidentiality, integrity, and availability at all times.
+
+You can automate incident response and compliance with AWS services that you learned about earlier, such as the following:
+
+- AWS Security Hub
+- AWS Config
+- AWS Audit Manager
+- AWS Artifact
+
+#### Defend your generative AI web applications and data
+In addition to AWS Shield Advanced and AWS Firewall Manager, which you learned about earlier, you can also use AWS WAF to protect your web applications and data.
+
+AWS WAF helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources. With AWS WAF you can do the following:
+
+- Filter web traffic.
+- Prevent account takeover fraud.
+- Use AWS WAF Bot Control to control pervasive bot traffic (such as scrapers, scanners, crawlers). Pervasive bot traffic can consume excess resources, skew metrics, cause downtime, or perform other undesired activities. For more information, see AWS WAF Bot Control(opens in a new tab).
+
+## Additional resources
+
+For more information about the Shared Responsibility Model and AWS cloud security in general, see the following resources.
+
+**Shared Responsibility Model **
+
+To learn more about the AWS Shared Responsibility Model, choose the following button.
+
+[AWS Webpage](https://aws.amazon.com/compliance/shared-responsibility-model/)
+
+**AWS Cloud Security **
+
+To learn more about AWS cloud security in detail, choose the following button.
+
+[AWS webpage](https://aws.amazon.com/security/)
+
+# Understanding Data and Model Lineage
+
+Data and model lineage refer to the detailed record of the origin, transformation, and evolution of data and models used in AI and generative AI systems. This information is important for understanding the origin, reliability, and potential biases or limitations of the data and models used in these systems.
+
+## What is source citation and data origins documentation?
+
+### Citing sources and documenting origins
+
+Source citation and documenting data origins are essential tasks that contribute to securing your AI systems. These tasks help ensure the transparency, traceability, and accountability of the data and information used in the AI system. This is important for maintaining the integrity and trustworthiness of the system. These tasks involve providing information about the sources of the data used to train the generative AI model and the provenance of the data. Following is a description of source citation and how to document data origins.
+
+#### Source citation
+Source citation in generative AI refers to the act of properly attributing and acknowledging the sources of the data used to train the model.
+
+It is necessary to identify the sources from which the training data was collected, such as the following: 
+
+- Datasets
+- Databases
+- Other sources
+
+In addition, it is necessary to identify any relevant licenses, terms of use, or permissions associated with the data.
+
+Accurate source citation helps users and stakeholders understand the origins of the information used to generate the AI-produced content. This prepares them to assess the reliability and trustworthiness of the output.
+
+#### Documenting data origins
+Documenting data origins in the context of generative AI involves providing detailed information about the provenance, or the place of origin of the data used to train the model.
+
+This includes the following:
+
+- Details about the data collection process
+- The methods used to curate and clean the data
+- Any preprocessing or transformations applied to the data
+Documenting the data origins is important for understanding the potential biases, limitations, or quality issues that might be present in the training data. This can ultimately impact the performance and reliability of the generative AI model.
+
+## Tools and techniques
+
+By implementing the following tools and techniques, generative AI systems can effectively document the sources and origins of the data used in their development. This promotes transparency, accountability, and reproducibility. The following describes some of the common techniques and tools.
+
+#### Data lineage
+Data lineage is a technique used to track the history of data, including its origin, transformation, and movement through different systems.
+
+In the context of generative AI, data lineage can be used to document the journey of the training data, from its initial sources to the final model.
+
+This information can be used to provide detailed source citations and data origin documentation for transparency and reproducibility.
+
+Now that you have learned about data lineage, move on to the next tab to learn about cataloging.
+
+#### Cataloging
+Cataloging involves the systematic organization and documentation of the datasets, models, and other resources used in the development of a generative AI system.
+
+A well-maintained catalog can serve as a comprehensive repository of information about the components of the AI system. In addition, this information can include sources, licenses, and metadata associated with the training data.
+
+Cataloging facilitates the effective management and communication of data origins and source citations to users and stakeholders.
+
+Now that you have learned about cataloging, move on to the next tab to learn about model cards.
+
+#### Model cards
+Model cards are a standardized format for documenting the key details about an ML model, including its intended use, performance characteristics, and potential limitations.
+
+In the context of generative AI, model cards can be used to provide source citations and data origin documentation. This helps users understand the provenance (lineage) of the data used to train the model.
+
+Model cards can include details about the datasets used, their sources, licenses, and any known biases or quality issues in the training data.
+
+## Amazon SageMaker Model Cards 
+
+You can use Amazon SageMaker Model Cards to document critical details about your ML models in a single place for streamlined governance and reporting.
+
+![](ModelCard-2.png)
+
+Model cards can catalog details, such as the intended use and risk rating of a model, training details and metrics, evaluation results and observations. It also catalogs additional call-outs such as considerations, recommendations, and custom information. By creating model cards, you can do the following:
+
+- Provide guidance on how a model should be used.
+
+- Support audit activities with detailed descriptions of model training and performance.
+
+- Communicate how a model is intended to support business goals.
+
+## Additional resources
+
+### Enforce Data Lineage 
+
+To learn how to implement a plan to enforce data lineage, choose the following button.
+
+[Documentation](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/mlsec-06.html)
+
+### Data Protection
+
+To learn how data protection is addressed within the AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning, and Generative AI, choose the following button.
+
+[AWS Whitepaper](https://docs.aws.amazon.com/whitepapers/latest/aws-caf-for-ai/security-perspective-compliance-and-assurance-of-aiml-systems.html#data-protection)
+
+### Amazon SageMaker Model Cards 
+
+To learn more about using Amazon SageMaker Model Cards to document critical details about your ML models, choose the following button. 
+
+[Developer Guide](https://docs.aws.amazon.com/sagemaker/latest/dg/model-cards.html)
+
+# Best Practices for Secure Data Engineering
+
+## Review of data usage in generative AI
+
+A generative AI application typically includes customer data, fine-tuning data, and training data. You learned about the Generative AI Security Scoping Matrix in the Approaches for Implementing Governance Strategies lesson. Depending on the scope of the application, the ownership and control of the data will vary between the customer and the application provider. The following is a review of the common data usage in generative AI.
+
+#### User data
+User data represents the specific inputs or requirements provided by the customers or end-users. This data is used to generate or personalize the output of the generative AI model.
+
+For all application scopes, the customer controls their data. 
+
+#### Fine-tuning data
+This data is used to adapt or fine-tune the pre-trained a generative AI model to the specific needs or preferences of the customers or the application domain. Here are some more details about the fine-tuning data:
+
+- The fine-tuning data is typically a subset of the training data or additional data collected from the application domain.
+- The fine-tuning process adjusts the model's parameters and weights to better fit the fine-tuning data, allowing the model to generate more relevant and personalized outputs.
+
+For application Scopes 1 and 2, the application provider controls the fine-tuning data.
+
+For application Scope 4, the customer controls the fine-tuning data.
+
+#### Training data
+Training data is the comprehensive dataset used to train the initial pre-trained generative AI model. Here are some more details about the training-data:
+
+- The training data is typically a large and diverse collection of data, such as text, images, or audio, depending on the specific application.
+- The training data is used to build the fundamental knowledge and capabilities of the generative AI model.
+For application Scopes 1, 2, 3, and 4, the application provider controls the training data.
+
+For application Scope 5, the customer controls the training data.
+
+## Data flows in a generative AI application
+
+The following graphic shows an example data flow for a generic Scope 1 and Scope 2 application.
+
+To learn about each step in the data flow, choose each of the numbered markers.  
+
+![](DataFlowsGenAIapp-Final.png)
+
+#### 1. User prompts the application
+The user sends a prompt to the application.
+
+#### 2. App queries custom data
+The application might optionally query data from custom data sources using plugins.
+
+#### 3. App formats user's prompt
+The application formats the user’s prompt and any custom data into a prompt to the foundation model (FM).
+
+#### 4. Prompt completion
+The prompt is completed by the FM, which might be fine-tuned or pre-trained.
+
+#### 5. Completions sent to the app
+The completion is processed by the application.
+
+#### 6. Final response
+The final response is sent to the user.
+
+### Securing Generative AI: Applying Relevant Security Controls 
+
+To learn about data flows for other application scopes, choose the following button.
+
+[AWS Blog](https://aws.amazon.com/blogs/security/securing-generative-ai-applying-relevant-security-controls/)
+
+## What is the data engineering lifecycle?
+
+The data engineering lifecycle is an iterative process where the data is collected, prepared, and analyzed. This data is then used to train, evaluate, and continuously improve the AI or generative AI models. This lifecycle ensures that the underlying data is of high quality, representative, and optimized for the specific AI or generative AI use case. Ultimately, this process contributes to the success and performance of the AI or generative AI systems.
+
+
+#### 1. Automation and access control
+
+Pipeline automation is an important part of modern data-centric architecture design. To successfully run your production system, it is recommended that you have a data pipeline.  The pipeline should have a start action, connecting steps, and a mechanism for separating failed and passed stages. It is also important to log failures while not hindering the rest of the extract, transform, and load (ETL) process. You can use AWS Glue workflows to create a pipeline.
+
+#### 2. Data collection
+
+This diagram shows how the data collection stage fits into the data engineering automation and access control lifecycle.
+
+AWS provides various data collection tools. Some of these tools include:
+- Amazon Kinesis
+- AWS Database Migration Service
+- AWS Glue
+
+#### 3. Data preparation and cleaning
+
+Data preparation and cleaning is one of the most important, yet most time-consuming, stages of the data lifecycle.
+
+If you have a large workload that has a variety of data, it is recommended that you use Amazon EMR or AWS Glue for your data preparation and cleaning tasks.
+
+#### 4. Data quality checks
+
+Data quality is an integral but often overlooked part of the data cleaning process.
+
+AWS provides data quality solutions based on your use case. These solutions are as follows:
+
+- AWS Glue DataBrew
+- AWS Glue Data Quality
+
+#### 5. Data visualization and analysis
+
+After you complete your data quality checks, you can move to the data analysis or visualization stage.
+
+In this stage, there are various AWS services you can use. These services include the following: 
+
+- Amazon QuickSight - Use to create graphs or charts. 
+- Amazon Neptune - Use for graph database operations and visualization.
+
+#### 6. IaC deployment
+
+Modern architecture is incomplete without a mechanism for an infrastructure as code (IaC) deployment. It is recommended that any deployed infrastructure is always backed by code using IaC tools. AWS CloudFormation can be used to get started with IaC tools.
+
+#### 7. Monitoring and debugging
+
+Certain phases in the data lifecycle are not sequential, but are consistently present. This is true for the monitoring and debugging stage, as shown in this diagram.
+
+The process of data engineering must be continually monitored for correctness and performance. Amazon CloudWatch plays a crucial role in monitoring data engineering.
+
+## Secure data engineering
+
+Secure data engineering practices are essential for ensuring the safety and reliability of AI and generative AI systems. The following are some best practices to consider.
+
+#### Assessing data quality
+Best practices for assessing the quality of data include the following:
+
+- Define clear data quality metrics and benchmarks such as the following: 
+    - Completeness: Training data covers a diverse and comprehensive range of scenarios, without any significant gaps or biases.
+    - Accuracy: Input data used for training AI models is accurate, up to date, and representative of the real-world scenarios the model will be applied to.
+    - Timeliness: Also called currency, this measures the age of data in a data store.
+    - Consistency: Maintain coherence and logical consistency of the data throughout the AI development and deployment process.
+- Implement data validation checks and tests at various stages of the data pipeline.
+- Perform regular data profiling and monitoring to identify data quality issues.
+- Establish a feedback loop to address data quality problems and continuously improve.
+Maintain detailed data lineage and metadata to understand the origin and transformation of data.
+
+#### Implementing privacy-enhancing technologies
+Some best practices for implementing privacy-enhancing technologies include the following:
+
+- Implement data masking, data obfuscation, or differential privacy mechanisms to reduce the risk of data breaches.
+- Use encryption, tokenization, or secure multi-party computation to protect data during processing and storage.
+
+#### Data access control
+The following are some best practices for controlling access to your data:
+
+- Establish a comprehensive data governance framework with clear policies and procedures for data access, usage, and sharing.
+- Implement role-based access controls and fine-grained permissions to restrict access to sensitive data.
+- Use authentication and authorization mechanisms, such as single sign-on, multi-factor authentication (MFA), or identity and access management (IAM) solutions.
+- Monitor and log all data access activities to detect and investigate any unauthorized access or anomalies.
+- Regularly review and update access rights based on the principle of least privilege.
+
+#### Data integrity
+In the context of AI and generative AI, data integrity refers to the quality, accuracy, and reliability of the data used to train the AI models. It ensures that the data used for model development, training, and deployment is complete, consistent, and free from errors or inconsistencies. The following practices will ensure data integrity:
+
+- Implement data validation and integrity checks at various stages of the data pipeline, such as schema validation, referential integrity checks, and business rule validations.
+- Maintain a robust data backup and recovery strategy to ensure data can be restored in case of errors, system failures, or natural disasters.
+- Employ transaction management and atomicity principles to ensure data consistency and reliability during data processing and transformation.
+- Maintain detailed data lineage and audit trails to track the origin, transformations, and changes made to the data.
+- Regularly monitor and test the data integrity controls to ensure their effectiveness and make necessary adjustments.
+
+### AWS Privacy Reference Architecture
+
+The AWS Privacy Reference Architecture (AWS PRA) offers a set of guidelines to assist in the design and implementation of privacy-supporting controls within AWS services. This guide can help you make informed decisions regarding the people, processes, and technology that are necessary to ensure privacy in the AWS Cloud environment.
+
+#### AWS PRA 
+
+To learn more about the AWS Prescriptive Guidance for AWS PRA, choose the following button.
+
+[Documentation](https://docs.aws.amazon.com/prescriptive-guidance/latest/privacy-reference-architecture/introduction.html)
+
+## Additional resources
+
+#### Data Engineering 
+
+The AWS Cloud Adoption Framework provides prescriptive guidance for data engineering. To explore the documentation, choose the following button.
+
+[AWS Documentation](https://docs.aws.amazon.com/prescriptive-guidance/latest/aws-caf-platform-perspective/data-eng.html)
+
+#### Data Engineering Principles 
+
+To learn more about best practices for designing and implementing modern data-centric architecture use cases, choose the following button.
+
+[AWS Documentation](https://docs.aws.amazon.com/prescriptive-guidance/latest/modern-data-centric-use-cases/data-engineering-principles.html)
+
+#### Data Lifecycle 
+
+To learn more about the stages in the data lifecycle process, choose the following button.
+
+[AWS Documentation](https://docs.aws.amazon.com/prescriptive-guidance/latest/modern-data-centric-use-cases/data-lifecycle.html)
+
+# Knowledge Check
+You have completed the Securing AI Systems section. The following questions will help you check what you’ve learned. Select the correct answers and choose SUBMIT. 
+
+## Question 1
+
+A company is developing several artificial intelligence (AI) solutions that will be for both internal use and customer facing. The IT security team needs to investigate security threats that are commonly aimed at AI systems. 
+
+Which security and privacy considerations will they need to address? (Select THREE.)
+
+- Phishing attacks
+- Malicious actors generating fake content
+- Distributed denial-of-service (DDoS) attacks
+- Prompt injection by adversaries
+- Ransomware attacks
+- AI model weaknesses that make the AI systems vulnerable
+
+Fake content, prompt injection, and AI model weaknesses should be addressed in the context of AI systems. The other threats are not necessarily unique to AI systems and should be familiar to the IT security teams.
+
+## Question 2
+
+AWS provides several services and features for securing artificial intelligence (AI) systems.
+
+How should a security administrator best approach the planning of a security strategy for new and future AI solutions? 
+
+- Begin by understanding the AWS Shared Responsibility Model and consider which security services they will need for their solutions.
+
+- Start with Amazon SageMaker Role Manager to determine which preconfigured role personas they will require for their solutions.
+
+- First use Amazon Macie to discover sensitive data and identify data security risks.
+
+- Review the Generative AI Security Scoping Matrix to identify the scope of each application in the AI solution.
+
+Start by understanding the AWS Shared Responsibility Model and then consider the security services needed for the solutions. This ensures that the security administrator has a solid foundation and understanding of their responsibilities in the shared security model before planning the specific security controls.
+
+## Question 3
+
+A development team needs to train their model with a large collection of data that includes text and images.
+
+Which best practices are recommended to secure their data? (Select TWO.)
+
+- Control access to the data.
+- Ensure the integrity of the data.
+- Clean the data to remove errors and duplicates.
+- Prepare the data using reduction and splitting.
+- Identify inconsistencies in the data.
+
+To secure the data, they should control access to the data and ensure the integrity of the data. The other options relate to cleaning and preparing the data for machine learning.
+
+# Resources
+## Additional Resources
+
+For more information about security, compliance, and governance, see the following resources:
+
+#### Security, Identity, and Compliance on AWS 
+
+To learn more about all of the products for security, identity, and compliance, choose the following button.
+
+[AWS Webpage](https://aws.amazon.com/products/security/)
+
+#### AWS Compliance 
+
+To learn more about compliance offerings, choose the following button.
+
+[AWS Webpage](https://aws.amazon.com/compliance/)
+
+#### Management and Governance on AWS 
+
+To learn more about management and governance, choose the following button.
+
+[AWS Webpage](https://aws.amazon.com/products/management-and-governance/)
+
+#### Secure Approach to Generative AI 
+
+To learn more about securing generative AI using AWS security capabilities, choose the following button.
+
+[AWS Webpage](https://aws.amazon.com/ai/generative-ai/security/)
+
