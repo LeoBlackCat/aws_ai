@@ -379,7 +379,7 @@ AWS AI Service Cards are a new resource to help you better understand AWS AI ser
 
 They are part of a comprehensive development process to build AWS services in a responsible way that addresses the core dimensions of responsible AI.
 
-![](AWS%20Service%20Cards.jpg)
+![](AWS_Service_Cards.jpg)
 
 ### AWS AI model cards
 Each AI Service Card contains four sections that cover the following:
@@ -402,13 +402,13 @@ When selecting a model for your AI application, you must narrowly define your us
 #### Example: Defining application use case narrowly for traditional AI
 In this example, you might have an AI application that uses face recognition. Face recognition is not a use case; it is a technology. The way your model applies that technology is a use case. 
 
-![](Gallery%20retrieval.jpg)  
+![](Gallery_retrieval.jpg)  
 Gallery retrieval
 
-![](Celebrity%20recognition.jpg)  
+![](Celebrity_recognition.jpg)  
 Celebrity recognition
 
-![](Virtual%20proctoring.jpg)  
+![](Virtual_proctoring.jpg)  
 Virtual proctoring
 
 For example, a gallery retrieval application might be used to help find missing persons. In this case, you would need a model that can be tuned for favor recall or precision. Favor recall would bring up many results that could be beneficial to the use case of the AI application used in finding missing persons. 
@@ -445,7 +445,7 @@ Model performance varies across a number of factors, including the following:
 #### Consider a model based on performance with test datasets
 A common mistake when choosing a model is to assume that the model, in and of itself, is either good or bad. This is not the case. Performance is a function of the model and a test dataset, not just the model. So, when you are assessing a model, you need to determine how well a model performs on a particular dataset. 
 
-![](Model%20performance%20by%20dataset.jpg)
+![](Model_performance_by_dataset.jpg)
 Model that performs differently on different datasets
 
 ---
@@ -525,14 +525,14 @@ Inclusiveness and diversity in data collection ensure that data collection proce
 
 For example, if an ML model is trained primarily on data from middle-aged individuals, it might be less accurate when making predictions involving younger and older people. Therefore, the datasets should be collected so that age groups are equally represented.
 
-![](Bias%20example.png)
+![](Bias_example.png)
 Example that shows bias towards middle-aged people
 
 ---
 
 Inclusiveness and diversity in data collection is a primary concern for data that focuses on people. This is because alienating groups of people in the training data can lead to societal harms and legal repercussions. However, inclusiveness and diversity in data collection should be a primary focus regardless of the topic. For example, collection of data for people, scientific research, geography, weather, products, and other topics should be collected with a focus on the diverse range for each topic.
 
-![](Bias%20topics.png)
+![](Bias_topics.png)
 
 By promoting inclusiveness and diversity within AI, organizations can promote fairness, transparency, and accountability in their AI systems and contribute to the responsible development of AI technology.
 
@@ -541,7 +541,7 @@ The second part of balancing the datasets involves curation of the datasets. Cur
 
 The main steps of curating data include data preprocessing, data augmentation, and regular auditing.
 
-![](Data%20curation%20process.png)
+![](Data_curation_process.png)
 
 #### Data preprocessing
 
@@ -767,7 +767,7 @@ Interpretability is the access into a system so that a human can interpret the m
 
 Explainability is how to take an ML model and explain the behavior in human terms. With complex models (for example, black boxes), you cannot fully understand how and why the inner mechanics impact the prediction. However, through model agnostic methods (for example, partial dependence plots, SHAP dependence plots, or surrogate models) you can discover meaning between input data attributions and model outputs. With that understanding, you can explain the nature and behavior of the AI/ML model.
 
-![](Interpretability%20diagram.jpg)
+![](Interpretability_diagram.jpg)
 Diagram that shows how a model's interpretability can affect performance.
 
 ---

@@ -1,5 +1,3 @@
-# Fundamentals of Machine Learning and Artificial Intelligence
-
 # Introduction
 
 In this course, you will learn about the foundations of machine learning (ML) and artificial intelligence (AI). You will explore the connections between AI, ML, deep learning, and the emerging field of generative artificial intelligence (generative AI), which has captured the attention of businesses and individuals alike. You will gain a solid understanding of foundational AI terms, laying the groundwork for a deeper dive into these concepts. Additionally, you will learn about a selection of Amazon Web Services (AWS) services that use AI and ML capabilities. You will gain practical insights into how these tools can be used to solve real-world problems and drive innovation across various industries.
@@ -206,7 +204,7 @@ Diffusion is a deep learning architecture system that starts with pure noise or 
 
 ### Forward diffusion
 Using forward diffusion, the system gradually introduces a small amount of noise to an input image until only the noise is left over.
-![](forward%20diffusion2.png)
+![](forward_diffusion2.png)
 
 ### Reverse diffusion
 In the subsequent reverse diffusion step, the noisy image is gradually introduced to denoising until a new image is generated.

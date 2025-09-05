@@ -299,7 +299,7 @@ The car needs to learn the desired driving behavior to reach the goal of complet
 
 In summary, as you can see in the following graphic, machine learning techniques encompass diverse methods, including supervised learning, unsupervised learning, and reinforcement learning. Supervised learning has two subcategories: classification and regression. Similarly, unsupervised learning has two subcategories: clustering and dimensionality reductions. To use the full potential of ML, you should understand the principles and applications of these techniques.
 
-![](Diagram_NORPOCESS_ML%20Techniques5.png)
+![](Diagram_NORPOCESS_ML_Techniques5.png)
 
 **Next, you will test your knowledge with a set of knowledge check questions.**
 
