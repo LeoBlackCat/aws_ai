@@ -1,0 +1,48 @@
+AWS AI Practitioner Definition Validation Report
+==================================================
+
+Model Used: gpt-4o
+Total Analyzed: 48
+Valid Definitions: 13
+Invalid Definitions: 35
+Success Rate: 27.1%
+
+Validation Notes:
+Definitions were evaluated based on clarity, completeness, and standalone nature. Many entries were found to be descriptions or procedural statements rather than standalone definitions.
+
+REMOVED DEFINITIONS:
+--------------------
+- "text generation": Describes an application of generative AI rather than providing a stand-alone definition.
+- "Deep learning (DL)": Incomplete and vague; does not provide a full definition of deep learning.
+- "Generative AI": Mixes a procedural and characteristic description rather than a clear definition.
+- "Generative AI systems": Too vague and more of a description than a technical definition.
+- "Building a machine learning model": Describes a process rather than providing a definition.
+- "Tabular data": Descriptive of format and storage rather than a standalone definition.
+- "Time-series data": Descriptive but lacks the necessary detail to be a full definition.
+- "Text data": More of a list or description rather than a definition.
+- "Image data": Just a list or description without a full definition.
+- "Inferencing": Describes a phase in model usage rather than gives a technical definition.
+- "foundation models (FMs)": Descriptive statement more than a clear definition.
+- "Diffusion": Incomplete and too vague to function as a full technical definition.
+- "Diffusion models": Describes functionality without fully defining what a diffusion model is.
+- "Forward diffusion": Describes a process rather than a full definition.
+- "Reverse diffusion": Continues the process description without being a stand-alone definition.
+- "Multimodal models": Descriptive but not a clear, standalone technical definition.
+- "Multimodal models": Further descriptive without being a clear technical definition.
+- "Amazon Q Developer (previously Amazon CodeWhisperer)": Describes functionality rather than providing a technical definition.
+- "SageMaker": Describes functionality without giving a clear, standalone definition.
+- "Amazon Bedrock": Describes features and functionalities, not a standalone definition.
+- "pay-as-you-go pricing models": Functional description, not a clear definition.
+- "AWS global infrastructure and distributed computing capabilities": Describes a feature rather than providing a definition.
+- "Flexibility and access to models": A section header, not a definition.
+- "Amazon Bedrock": Functional description, not a standalone definition.
+- "Services like Amazon Comprehend and Amazon Rekognition": Benefit list rather than a technical definition.
+- "AWS AI services": Describes integration rather than providing a definition.
+- "The AWS ecosystem": Describes a feature rather than providing a standalone definition.
+- "Responsiveness and availability": Descriptive of service characteristics rather than a technical definition.
+- "Redundancy and Regional coverage": Describes feature and deployment, not a standalone definition.
+- "compute options": A list of options without providing a clear definition.
+- "Higher-performance options": Describes performance characteristics, not a standalone definition.
+- "Token-based pricing": Describes pricing model without a clear standalone definition.
+- "Provisioned throughput": Describes functional feature rather than standalone definition.
+- "Custom models": Describes flexibility in model use, not a technical definition.

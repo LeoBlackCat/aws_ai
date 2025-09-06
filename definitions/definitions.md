@@ -1,0 +1,2930 @@
+# AWS AI Practitioner - Key Definitions
+
+## Fundamentals
+
+### Generative AI
+
+branch of artificial intelligence that focuses on creating new content, such as text, images, audio, or even computer code, from existing data
+
+*Source: fundamentals.md*
+
+---
+
+### AI
+
+broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making
+
+*Source: fundamentals.md*
+
+---
+
+### AI is a broad field that
+
+the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making
+
+*Source: fundamentals.md*
+
+---
+
+### ML
+
+type of AI for understanding and building methods that make it possible for machines to learn
+
+*Source: fundamentals.md*
+
+---
+
+### Deep learning
+
+the concept of neurons and synapses similar to how our brain is wired
+
+*Source: fundamentals.md*
+
+---
+
+### Generative AI
+
+subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning
+
+*Source: fundamentals.md*
+
+---
+
+### Building a machine learning model
+
+data collection and preparation, selecting an appropriate algorithm, training the model on the prepared data, and evaluating its performance through testing and iteration
+
+*Source: fundamentals.md*
+
+---
+
+### Labeled data
+
+dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification
+
+*Source: fundamentals.md*
+
+---
+
+### Unlabeled data
+
+dataset where the instances or examples do not have any associated labels or target variables
+
+*Source: fundamentals.md*
+
+---
+
+### Structured data
+
+data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns
+
+*Source: fundamentals.md*
+
+---
+
+### Unsupervised learning
+
+algorithms that learn from unlabeled data
+
+*Source: fundamentals.md*
+
+---
+
+### Both batch and real-time inferencing have their own unique advantages and
+
+cases
+
+*Source: fundamentals.md*
+
+---
+
+### Computer vision
+
+field of artificial intelligence that makes it possible for computers to interpret and understand digital images and videos
+
+*Source: fundamentals.md*
+
+---
+
+### Natural language processing (NLP)
+
+branch of artificial intelligence that deals with the interaction between computers and human languages
+
+*Source: fundamentals.md*
+
+---
+
+### LLMs
+
+these tokens, embeddings, and vectors to understand and generate text
+
+*Source: fundamentals.md*
+
+---
+
+### GANs are a type of generative model that
+
+two neural networks competing against each other in a zero-sum game framework
+
+*Source: fundamentals.md*
+
+---
+
+### Retrieval-augmented generation (RAG)
+
+technique that supplies domain-relevant data as context to produce responses based on that data
+
+*Source: fundamentals.md*
+
+---
+
+### Next is the AI/ML services layer, where you find a wide array of specialized services tailored for different
+
+cases
+
+*Source: fundamentals.md*
+
+---
+
+### With SageMaker, you can build, train, and deploy ML models for any
+
+case with fully managed infrastructure, tools, and workflows
+
+*Source: fundamentals.md*
+
+---
+
+### Amazon Personalize is an ML service that developers can
+
+to create individualized recommendations for customers who use their applications
+
+*Source: fundamentals.md*
+
+---
+
+### With AWS, you can build and grow your own custom AI applications that
+
+generative AI
+
+*Source: fundamentals.md*
+
+---
+
+### AWS AI services seamlessly integrate with other AWS services, so developers can build end-to-end solutions that
+
+multiple cloud services The AWS ecosystem provides a wide range of tools, SDKs, and APIs, so developers can incorporate AI capabilities into their existing applications or build entirely new AI-driven applications.
+
+*Source: fundamentals.md*
+
+---
+
+### Many AWS generative AI services, such as Amazon Q Developer and Amazon Bedrock,
+
+a token-based pricing model
+
+*Source: fundamentals.md*
+
+---
+
+### Artificial intelligence (AI)
+
+AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI, among others.
+
+*Source: fundamentals.md*
+
+---
+
+### Machine learning (ML)
+
+ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks.
+
+*Source: fundamentals.md*
+
+---
+
+### Deep learning (DL)
+
+Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds.
+
+*Source: fundamentals.md*
+
+---
+
+### Generative AI
+
+Generative AI is a subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning.
+
+*Source: fundamentals.md*
+
+---
+
+### Machine Learning Fundamentals
+
+Building a machine learning model involves data collection and preparation, selecting an appropriate algorithm, training the model on the prepared data, and evaluating its performance through testing and iteration.
+
+*Source: fundamentals.md*
+
+---
+
+### Training data
+
+The machine learning process starts with collecting and processing training data. Bad data is often called garbage in, garbage out, and therefore an ML model is only as good as the data used to train it. Although data preparation and processing are sometimes a routine process, it is arguably the most critical stage in making the whole model work as intended or ruining its performance.
+
+*Source: fundamentals.md*
+
+---
+
+### Labeled data
+
+Labeled data is a dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification. These labels are typically provided by human experts or obtained through a reliable process.
+
+*Source: fundamentals.md*
+
+---
+
+### Unlabeled data
+
+Unlabeled data is a dataset where the instances or examples do not have any associated labels or target variables. The data consists only of input features, without any corresponding output or classification.
+
+*Source: fundamentals.md*
+
+---
+
+### Structured data
+
+Structured data refers to data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns. This type of data is suitable for traditional machine learning algorithms that require well-defined features and labels. The following are types of structured data.
+
+*Source: fundamentals.md*
+
+---
+
+### Unstructured data
+
+Unstructured data is data that lacks a predefined structure or format, such as text, images, audio, and video. This type of data requires more advanced machine learning techniques to extract meaningful patterns and insights.
+
+*Source: fundamentals.md*
+
+---
+
+### Machine learning process
+
+The compiled training data is fed into machine learning algorithms. The ML learning process is traditionally divided into three broad categories: supervised learning, unsupervised learning, and reinforcement learning.
+
+*Source: fundamentals.md*
+
+---
+
+### Batch inferencing
+
+Batch inferencing is when the computer takes a large amount of data, such as images or text, and analyzes it all at once to provide a set of results. This type of inferencing is often used for tasks like data analysis, where the speed of the decision-making process is not as crucial as the accuracy of the results.
+
+*Source: fundamentals.md*
+
+---
+
+### Real-time inferencing
+
+Real-time inferencing is when the computer has to make decisions quickly, in response to new information as it comes in. This is important for applications where immediate decision-making is critical, such as in chatbots or self-driving cars. The computer has to process the incoming data and make a decision almost instantaneously, without taking the time to analyze a large dataset.
+
+*Source: fundamentals.md*
+
+---
+
+### Deep Learning Fundamentals
+
+The field of deep learning is inspired by the structure and function of the brain. It involves the use of artificial neural networks, which are computational models that are designed to mimic the way the human brain processes information.
+
+*Source: fundamentals.md*
+
+---
+
+### Neural networks
+
+At the core of deep learning are neural networks. Just like our brains have neurons that are connected to each other, neural networks have lots of tiny units called nodes that are connected together. These nodes are organized into layers. The layers include an input layer, one or more hidden layers, and an output layer.
+
+*Source: fundamentals.md*
+
+---
+
+### Computer vision
+
+Computer vision is a field of artificial intelligence that makes it possible for computers to interpret and understand digital images and videos. Deep learning has revolutionized computer vision by providing powerful techniques for tasks such as image classification, object detection, and image segmentation.
+
+*Source: fundamentals.md*
+
+---
+
+### Natural language processing (NLP)
+
+Natural language processing (NLP) is a branch of artificial intelligence that deals with the interaction between computers and human languages. Deep learning has made significant strides in NLP, making possible tasks such as text classification, sentiment analysis, machine translation, and language generation.
+
+*Source: fundamentals.md*
+
+---
+
+### Generative AI Fundamentals
+
+Machine learning has been around for decades, which begs the question, what has led to the emergence of generative AI right now? The answer is as straightforward as huge investments in resources. Hiring a large team, spending on compute resources, and importantly, having the willingness to invest and develop big ideas, are all contributors to the rise of generative AI.
+
+*Source: fundamentals.md*
+
+---
+
+### Foundation models
+
+Generative AI is powered by models that are pretrained on internet-scale data, and these models are called foundation models (FMs). With FMs, instead of gathering labeled data for each model and training multiple models as in traditional ML, you can adapt a single FM to perform multiple tasks. These tasks include text generation, text summarization, information extraction, image generation, chatbot interactions, and question answering. FMs can also serve as the starting point for developing more specialized models.
+
+*Source: fundamentals.md*
+
+---
+
+### Pre-training
+
+Although traditional ML models rely on supervised, unsupervised, or reinforcement learning patterns, FMs are typically pre-trained through self-supervised learning. With self-supervised learning, labeled examples are not required. Self-supervised learning makes use of the structure within the data to autogenerate labels.
+
+*Source: fundamentals.md*
+
+---
+
+### Large language models
+
+Large language models (LLMs) can be based on a variety of architectures, but the most common architecture in today's state-of-the-art models is the transformer architecture. Transformer-based LLMs are powerful models that can understand and generate human-like text. They are trained on vast amounts of text data from the internet, books, and other sources, and learn patterns and relationships between words and phrases.
+
+*Source: fundamentals.md*
+
+---
+
+### TOKENS
+
+Tokens are the basic units of text that the model processes. Tokens can be words, phrases, or individual characters like a period. Tokens also provide standardization of input data, which makes it easier for the model to process.
+
+*Source: fundamentals.md*
+
+---
+
+### EMBEDDINGS AND VECTORS
+
+Embeddings are numerical representations of tokens, where each token is assigned a vector (a list of numbers) that captures its meaning and relationships with other tokens. These vectors are learned during the training process and allow the model to understand the context and nuances of language.
+
+*Source: fundamentals.md*
+
+---
+
+### Diffusion models
+
+Diffusion is a deep learning architecture system that starts with pure noise or random data. The models gradually add more and more meaningful information to this noise until they end up with a clear and coherent output, like an image or a piece of text. Diffusion models learn through a two-step process of forward diffusion and reverse diffusion.
+
+*Source: fundamentals.md*
+
+---
+
+### Forward diffusion
+
+Using forward diffusion, the system gradually introduces a small amount of noise to an input image until only the noise is left over.
+
+*Source: fundamentals.md*
+
+---
+
+### Reverse diffusion
+
+In the subsequent reverse diffusion step, the noisy image is gradually introduced to denoising until a new image is generated.
+
+*Source: fundamentals.md*
+
+---
+
+### Multimodal models
+
+Instead of just relying on a single type of input or output, like text or images, multimodal models can process and generate multiple modes of data simultaneously. For example, a multimodal model could take in an image and some text as input, and then generate a new image and a caption describing it as output.
+
+*Source: fundamentals.md*
+
+---
+
+### Generative adversarial networks (GANs)
+
+GANs are a type of generative model that involves two neural networks competing against each other in a zero-sum game framework. The two networks are generator and discriminator.
+
+*Source: fundamentals.md*
+
+---
+
+### Variational autoencoders (VAEs)
+
+VAEs are a type of generative model that combines ideas from autoencoders (a type of neural network) and variational inference (a technique from Bayesian statistics). In a VAE, the model consists of two parts: Encoder: This neural network takes the input data (for example, an image) and maps it to a lower-dimensional latent space, which captures the essential features of the data.
+
+*Source: fundamentals.md*
+
+---
+
+### Prompt engineering
+
+Prompts act as instructions for foundation models. Prompt engineering focuses on developing, designing, and optimizing prompts to enhance the output of FMs for your needs. It gives you a way to guide the model's behavior to the outcomes that you want to achieve.
+
+*Source: fundamentals.md*
+
+---
+
+### Fine-tuning
+
+Although FMs are pre-trained through self-supervised learning and have inherent capability of understanding information, fine-tuning the FM base model can improve performance. Fine-tuning is a supervised learning process that involves taking a pre-trained model and adding specific, smaller datasets. Adding these narrower datasets modifies the weights of the data to better align with the task.
+
+*Source: fundamentals.md*
+
+---
+
+### Retrieval-augmented generation
+
+Retrieval-augmented generation (RAG) is a technique that supplies domain-relevant data as context to produce responses based on that data. This technique is similar to fine-tuning. However, rather than having to fine-tune an FM with a small set of labeled examples, RAG retrieves a small set of relevant documents and uses that to provide context to answer the user prompt. RAG will not change the weights of the foundation model, whereas fine-tuning will change model weights.
+
+*Source: fundamentals.md*
+
+---
+
+### AWS AI/ML services stack
+
+The stack starts at the ML frameworks layer. At the core of this layer is Amazon SageMaker. SageMaker is a fully managed machine learning service that you can use to build, train, and deploy your own custom models. SageMaker provides tools and infrastructure to accelerate your ML development and deployment lifecycle.
+
+*Source: fundamentals.md*
+
+---
+
+### ML frameworks
+
+The ML frameworks layer plays a crucial role in the development and deployment of machine learning models. At the core of the frameworks layer is Amazon SageMaker. SageMaker offers the right tools to effectively build, train, and run LLMs and other FMs efficiently and cost effectively. Choose the following tab to learn more about this service.
+
+*Source: fundamentals.md*
+
+---
+
+### AI/ML services
+
+AWS provides a robust AI/ML services layer, offering ready-to-use solutions like Amazon Comprehend for natural language processing tasks and Amazon Kendra for intelligent search across organizational data. This layer includes a wide range of services that provide developers with AI/ML capabilities without requiring extensive infrastructure management or specialized expertise.
+
+*Source: fundamentals.md*
+
+---
+
+### Generative AI
+
+Services included in the generative AI layer.
+
+*Source: fundamentals.md*
+
+---
+
+### Advantages and benefits of AWS AI solutions
+
+From small startups to massive companies, organizations rely on AWS to innovate with powerful AI tools. AWS offers top-notch security and privacy features to keep your data safe, and it gives you access to the most advanced AI models available.
+
+*Source: fundamentals.md*
+
+---
+
+### Responsiveness and availability
+
+AWS generative AI services are designed to be highly responsive and available. However, higher levels of responsiveness and availability often come at an increased cost. For example, services with lower latency and higher availability (for example, multi-Region deployment) will typically have higher pricing compared to alternatives with lower performance and availability guarantees.
+
+*Source: fundamentals.md*
+
+---
+
+### Redundancy and Regional coverage
+
+To ensure redundancy and high availability, AWS generative AI services can be deployed across multiple Availability Zones or even across multiple AWS Regions. This redundancy comes with an additional cost, because resources have to be provisioned and data replicated across multiple locations.
+
+*Source: fundamentals.md*
+
+---
+
+## Ai Usecases
+
+### Review the definitions of AI, ML, deep learning (DL), and generative AI before exploring the
+
+cases and applications associated with these terms
+
+*Source: ai_usecases.md*
+
+---
+
+### AI
+
+broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making
+
+*Source: ai_usecases.md*
+
+---
+
+### AI is a broad field that
+
+the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making
+
+*Source: ai_usecases.md*
+
+---
+
+### Deep learning
+
+the concept of neurons and synapses similar to how our brain is wired
+
+*Source: ai_usecases.md*
+
+---
+
+### Generative AI
+
+subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning
+
+*Source: ai_usecases.md*
+
+---
+
+### Now that you understand the relationship between AI, ML, DL, and generative AI, let's explore real-world
+
+cases and applications associated with these terms
+
+*Source: ai_usecases.md*
+
+---
+
+### Computer vision
+
+field of artificial intelligence that allows computers to interpret and understand digital images and videos
+
+*Source: ai_usecases.md*
+
+---
+
+### NLP
+
+branch of artificial intelligence that deals with the interaction between computers and human languages
+
+*Source: ai_usecases.md*
+
+---
+
+### Remember, ML
+
+subset of AI that focuses on developing algorithms and statistical models so that computer systems can learn from data and make predictions or decisions without being explicitly programmed
+
+*Source: ai_usecases.md*
+
+---
+
+### In this section, you will learn about when ML
+
+appropriate solution and the techniques used for specific use cases
+
+*Source: ai_usecases.md*
+
+---
+
+### In this section, you will learn about when ML is an appropriate solution and the techniques used for specific
+
+cases
+
+*Source: ai_usecases.md*
+
+---
+
+### To determine the appropriate AI solution, you must understand when to
+
+AI to resolve a business problem
+
+*Source: ai_usecases.md*
+
+---
+
+### When choosing an ML solution, it’s not just about the technology, but also about understanding the appropriate ML techniques for specific
+
+cases
+
+*Source: ai_usecases.md*
+
+---
+
+### Unsupervised learning
+
+algorithms that learn from unlabeled data
+
+*Source: ai_usecases.md*
+
+---
+
+### Supervised learning
+
+popular type of ML because it’s widely applicable
+
+*Source: ai_usecases.md*
+
+---
+
+### Classification
+
+supervised learning technique used to assign labels or categories to new, unseen data instances based on a trained model
+
+*Source: ai_usecases.md*
+
+---
+
+### Regression
+
+supervised learning technique used for predicting continuous or numerical values based on one or more input variable
+
+*Source: ai_usecases.md*
+
+---
+
+### Unsupervised learning
+
+various techniques and algorithms
+
+*Source: ai_usecases.md*
+
+---
+
+### Dimensionality reduction
+
+unsupervised learning technique used to reduce the number of features or dimensions in a dataset while preserving the most important information or patterns
+
+*Source: ai_usecases.md*
+
+---
+
+### Generative AI
+
+subset of deep learning
+
+*Source: ai_usecases.md*
+
+---
+
+### This course provided a comprehensive understanding of AI's various applications and
+
+cases in different industries
+
+*Source: ai_usecases.md*
+
+---
+
+### Artificial Intelligence
+
+Review the definitions of AI, ML, deep learning (DL), and generative AI before exploring the use cases and applications associated with these terms.
+
+*Source: ai_usecases.md*
+
+---
+
+### AI
+
+AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI.
+
+*Source: ai_usecases.md*
+
+---
+
+### ML
+
+ML is subset of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks.
+
+*Source: ai_usecases.md*
+
+---
+
+### DL
+
+Deep learning uses the concept of neurons and synapses similar to how our brain is wired.
+
+*Source: ai_usecases.md*
+
+---
+
+### Generative AI
+
+Generative AI is a subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning.
+
+*Source: ai_usecases.md*
+
+---
+
+### Media and entertainment
+
+AI contributes to media and entertainment in the following ways: Content generation: AI can create scripts, dialogues, or even complete stories for films, TV shows, and games.
+
+*Source: ai_usecases.md*
+
+---
+
+### Retail
+
+AI contributes to retail in the following ways: Product review summaries: AI can generate review summaries for products so consumers can quickly find pertinent information.
+
+*Source: ai_usecases.md*
+
+---
+
+### Examples of AI Applications
+
+AI applications and other AWS services automate processes across various industries. Some of the applications include computer vision, natural language processing (NLP), intelligent document processing (IDP), and fraud detection. These applications are used in various industries, from healthcare to finance to retail. These AI applications aim to enhance customer experiences, boost employee productivity, and improve business operations.
+
+*Source: ai_usecases.md*
+
+---
+
+### Computer vision
+
+Computer vision is a field of artificial intelligence that allows computers to interpret and understand digital images and videos. Deep learning has revolutionized computer vision by providing powerful techniques for tasks such as image classification, object detection, and image segmentation.
+
+*Source: ai_usecases.md*
+
+---
+
+### PUBLIC SAFETY AND HOME SECURITY
+
+Computer vision image and facial recognition can swiftly identify unlawful entries or persons of interest, which fosters safer communities and works as a crime deterrent.
+
+*Source: ai_usecases.md*
+
+---
+
+### Natural language processing
+
+NLP is a branch of artificial intelligence that deals with the interaction between computers and human languages. Deep learning has made significant strides in NLP. It can perform tasks such as text classification, sentiment analysis, machine translation, and language generation.
+
+*Source: ai_usecases.md*
+
+---
+
+### RETAIL
+
+Fraud detection systems in the retail industry protect businesses from financial losses, safeguard customer accounts and data, and maintain trust and confidence in online transactions.
+
+*Source: ai_usecases.md*
+
+---
+
+### Machine Learning
+
+Remember, ML is a subset of AI that focuses on developing algorithms and statistical models so that computer systems can learn from data and make predictions or decisions without being explicitly programmed. ML models learn patterns and relationships from data rather than relying on hard-coded rules for instructions. These models are trained on large datasets, and their accuracy and performance improve over time as they process more data.
+
+*Source: ai_usecases.md*
+
+---
+
+### When AI and ML are appropriate solutions
+
+To determine the appropriate AI solution, you must understand when to use AI to resolve a business problem. AI is a good choice for the following use cases: - Coding the rules is challenging: Many human tasks cannot be solved properly using simple, rule-based solutions. Take spam filtering for instance. Determining whether an incoming email is legitimate or spam is a complex task that cannot always be effectively tackled through a set of predefined rules. There are many variables at play. When rules rely on too many factors, have overlaps, or need to be finely tuned, it becomes difficult for humans to code them accurately. ML can be used to effectively solve this kind of problem.
+
+*Source: ai_usecases.md*
+
+---
+
+### Alternative approach to AI and ML
+
+Notice in the previous section that AI can solve many problems. However, there might be situations where alternative approaches would be more suitable. Consider all approaches and select the most appropriate one based on the task’s specific requirements and constraints.
+
+*Source: ai_usecases.md*
+
+---
+
+### Machine Learning Techniques and Use Cases
+
+When choosing an ML solution, it’s not just about the technology, but also about understanding the appropriate ML techniques for specific use cases. ML learning techniques represent the backbone of modern AI and empower systems to learn from data and make intelligent decisions without explicit programming. These techniques include supervised learning, unsupervised learning, and reinforcement learning, which each serve a distinct purpose.
+
+*Source: ai_usecases.md*
+
+---
+
+### Supervised learning
+
+In supervised learning, the algorithms are trained on labeled data. The goal is to learn a mapping function that can predict the output for new, unseen input data.
+
+*Source: ai_usecases.md*
+
+---
+
+### Unsupervised learning
+
+Unsupervised learning refers to algorithms that learn from unlabeled data. The goal is to discover inherent patterns, structures, or relationships within the input data.
+
+*Source: ai_usecases.md*
+
+---
+
+### Reinforcement learning
+
+In reinforcement learning, the machine is given only a performance score as guidance and semi-supervised learning, where only a portion of training data is labeled. Feedback is provided in the form of rewards or penalties for its actions and the machine learns from this feedback to improve it decision-making over time.
+
+*Source: ai_usecases.md*
+
+---
+
+### Supervised learning use cases
+
+Supervised learning is a popular type of ML because it’s widely applicable. It’s called supervised learning because there needs to be a supervisor. The supervisor is labeled training data. Like any student, a supervised algorithm needs to learn by example. Essentially, this type of algorithm uses training data to help determine the patterns and relationships between the inputs and outputs. For example, pictures of cars labeled by people as cars are provided to the model. Then, when the model receives a new picture of a car that is not labeled, the model can predict that it is a car.
+
+*Source: ai_usecases.md*
+
+---
+
+### CLASSIFICATION
+
+Classification is a supervised learning technique used to assign labels or categories to new, unseen data instances based on a trained model. The model is trained on a labeled dataset, where each instance is already assigned to a known class or category. The goal of classification is to learn patterns from the training data and use them to predict the class or category for new unlabeled data instances.
+
+*Source: ai_usecases.md*
+
+---
+
+### Unsupervised learning use cases
+
+Recall that in supervised learning, the data includes labels so that the model can learn the patterns and relationships. In unsupervised learning, the model is trained on unlabeled data. The algorithm tries to discover hidden patterns or structures within the data without any prior information or guidance.
+
+*Source: ai_usecases.md*
+
+---
+
+### CLUSTERING
+
+A common subcategory of unsupervised learning is clustering. This kind of algorithm groups data into different clusters based on similar features or distances between the data point to better understand the attributes of a specific cluster.
+
+*Source: ai_usecases.md*
+
+---
+
+### DIMENSIONALITY REDUCTION
+
+Dimensionality reduction is an unsupervised learning technique used to reduce the number of features or dimensions in a dataset while preserving the most important information or patterns.
+
+*Source: ai_usecases.md*
+
+---
+
+### Reinforcement learning use case
+
+Another kind of algorithm that has gained popularity recently is reinforcement learning. Unlike the first two algorithms, this one continuously improves its model by mining feedback from previous iterations. In reinforcement learning, an agent continuously learns through trial and error as it interacts in an environment. Reinforcement learning is broadly useful when the reward of a desired outcome is known, but the path to achieving it isn’t—and that path requires a lot of trial and error to discover.
+
+*Source: ai_usecases.md*
+
+---
+
+### Generative AI
+
+Generative AI is a subset of deep learning. It can adapt models that are built using deep learning without needing to retrain or fine-tune them. Generative AI is capable of generating new data based on the patterns and structures learned from training data. Generative AI can create new content, including conversations, stories, images, videos, music, and code.
+
+*Source: ai_usecases.md*
+
+---
+
+### Capabilities of Generative AI
+
+If you are considering implementing AI within your organization, it is important to understand the capabilities of generative AI. Generative AI can automate tedious tasks such as data entry and analyze data to identify patterns and trends, which can assist organizations in making more informed decisions. Additionally, it can automate complex tasks, freeing up time for users to focus on more creative work. Review additional capabilities of generative AI below.
+
+*Source: ai_usecases.md*
+
+---
+
+### Challenges of Generative AI
+
+While AI offers many capabilities, some challenges include regulatory violations, social risks, privacy concerns, toxicity, hallucination, and interpretability. These challenges are important to take into account because a model has the potential to make decisions that are unethical or socially irresponsible. Review the list below:
+
+*Source: ai_usecases.md*
+
+---
+
+### Data security and privacy concerns
+
+Risk The information shared with your model can include personal information and can potentially violate privacy laws.
+
+*Source: ai_usecases.md*
+
+---
+
+### Toxicity
+
+Risk Generative AI models can generate content that is inflammatory, offensive, or inappropriate.
+
+*Source: ai_usecases.md*
+
+---
+
+### Hallucinations
+
+Risk The model generates inaccurate responses that are not consistent with the training data. These are called hallucinations.
+
+*Source: ai_usecases.md*
+
+---
+
+### Factors to Consider When Selecting a Generative AI Model
+
+When selecting a generative AI model, there are several important factors to consider. First, it's essential to define the specific task or application you want the model to perform, such as text generation, image creation, or code generation. Models are optimized for different tasks, so choosing the right one is crucial for achieving the desired results.
+
+*Source: ai_usecases.md*
+
+---
+
+### AI21 labs
+
+Jurassic-2 Models
+
+*Source: ai_usecases.md*
+
+---
+
+### Stability AI
+
+Stable Diffusion
+
+*Source: ai_usecases.md*
+
+---
+
+### Constraints
+
+Consider the constraints of a model such as the following: - Computational resources (for example, available GPU power, CPU power, or memory) - Data availability (for example, size and quality of training data) - Deployment requirement (for example, on premises or cloud) Some models might have higher resource demands or require specific hardware configurations, which could impact their use case.
+
+*Source: ai_usecases.md*
+
+---
+
+### Compliance
+
+Compliance is another factor. Generative AI models can pose moral concerns, including biases, privacy issues, and potential misuse. When evaluating a particular model, consider its compliance and moral implications, particularly in sensitive domains like healthcare, finance, and legal applications. One should consider factors such as fairness, transparency or traceability, accountability, hallucination, and toxicity. Additionally, the model should adhere to relevant regulation guidelines.
+
+*Source: ai_usecases.md*
+
+---
+
+### Business Metrics for Generative AI
+
+Deploying AI applications has become increasingly prevalent. Organizations have unprecedented opportunities for innovation, efficiency, and growth. However, the success of the AI initiative hinges not only on the sophistication of the underlying algorithms but also on their tangible impact on key business objectives. By quantifying the performance, effectiveness, and return on investment (ROI) of AI applications through relevant business metrics, organizations can gain valuable insights into the value delivered. They can also identify areas of improvement and make informed decisions to optimize resource allocation and strategy.
+
+*Source: ai_usecases.md*
+
+---
+
+### Business metrics for generative AI
+
+The business metrics you use to measure the success of your model can vary depending on the use case.
+
+*Source: ai_usecases.md*
+
+---
+
+### Average revenue per user
+
+Average revenue per user (ARPU) calculates the average revenue generated per user or customer attributed to the generative AI application.
+
+*Source: ai_usecases.md*
+
+---
+
+### Average revenue per user
+
+Average revenue per user (ARPU) calculates the average revenue generated per user or customer attributed to the generative AI application.
+
+*Source: ai_usecases.md*
+
+---
+
+## Responsible Ai Practices
+
+### As you develop your AI system, whether it
+
+traditional or generative AI application, it is important to incorporate responsible AI
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Responsible AI
+
+practices and principles that ensure that AI systems are transparent and trustworthy while mitigating potential risks and negative outcomes
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Explainability
+
+the ability of an AI model to clearly explain or provide justification for its internal mechanisms and decisions so that it is understandable to humans
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Privacy and security in responsible AI
+
+data that is protected from theft and exposure
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparency communicates information about an AI system so stakeholders can make informed choices about their
+
+of the system
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Veracity and robustness in AI
+
+the mechanisms to ensure an AI system operates reliably, even with unexpected situations, uncertainty, and errors
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Governance
+
+set of processes that are used to define, implement, and enforce responsible AI practices within an organization
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Safety in responsible AI
+
+the development of algorithms, models, and systems in such a way that they are responsible, safe, and beneficial for individuals and society as a whole
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Controllability in responsible AI
+
+the ability to monitor and guide an AI system's behavior to align with human values and intent
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Amazon Bedrock is a fully managed service that makes available high-performing FMs from leading AI startups and Amazon for your
+
+through a unified API
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### With Amazon Bedrock Guardrails, you can implement safeguards for your generative AI applications based on your
+
+cases and responsible AI policies
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Amazon Bedrock Guardrails evaluates user inputs and FM responses based on
+
+case specific policies and provides an additional layer of safeguards regardless of the underlying FM
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Amazon Augmented AI (Amazon A2I)
+
+service that helps build the workflows required for human review of ML predictions
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### When selecting a model for your AI application, you must narrowly define your
+
+case
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### In this example, you might have an AI application that
+
+face recognition
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Sustainability in the context of responsible AI
+
+the ability of AI systems to be developed and deployed in a way that is socially, environmentally, and economically sustainable over the long term
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Responsible agency in responsible AI
+
+an AI system's capacity to make good judgments and act in a socially responsible manner
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### When you are developing and deploying AI systems,
+
+environmental considerations as you implement responsible AI
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### AI Service Cards are a resource to increase transparency and help customers better understand AWS AI services, including how to
+
+them in a responsible way
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Catalog details include information such as the intended
+
+and risk rating of a model, training details and metrics, evaluation results and observations, and additional callouts such as considerations, recommendations, and custom information
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### With model safety focusing on protecting information, and model transparency focusing on exposing information, you can understand that there
+
+delicate balance needed between them
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Design for human and AI learning
+
+process that aims to create learning environments and tools that are beneficial and effective for both humans and AI
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Reinforcement learning from human feedback (RLHF)
+
+ML technique that uses human feedback to optimize ML models to self-learn more efficiently
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Reinforcement learning from human feedback (RLHF) is an ML technique that
+
+human feedback to optimize ML models to self-learn more efficiently
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### A model that provides transparency into a system so a human can explain the model’s output based on the weights and features
+
+example of interpretability in a model
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### A model that uses model agnostic methods to explain the behavior of the model in human terms
+
+example of explainability in a model
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### A model that you can influence the predictions and behavior by changing aspects of the training data
+
+example of controllability in a model
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Responsible AI
+
+As you develop your AI system, whether it is a traditional or generative AI application, it is important to incorporate responsible AI.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### What is responsible AI?
+
+Responsible AI refers to practices and principles that ensure that AI systems are transparent and trustworthy while mitigating potential risks and negative outcomes. These responsible standards should be considered throughout the entire lifecycle of an AI application. This includes the initial design, development, deployment, monitoring, and evaluation phases To operate AI responsibly, companies should proactively ensure the following about their system: - It is fully transparent and accountable, with monitoring and oversight mechanisms in place.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### TRADITIONAL AI
+
+Traditional machine learning models perform tasks based on the data you provide. They can make predictions such as ranking, sentiment analysis, image classification, and more. However, each model can perform only one task. And to successfully do it, the model needs to be carefully trained on the data. As they train, they analyze the data and look for patterns. Then these models make a prediction based on these patterns.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### GENERATIVE AI
+
+Generative artificial intelligence (generative AI) runs on foundation models (FMs). These models are pre-trained on massive amounts of general domain data that is beyond your own data. They can perform multiple tasks. Based on user input, usually in the form of text called a prompt, the model actually generates content. This content comes from learning patterns and relationships that empower the model to predict the desired outcome.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Biases in AI systems
+
+Accuracy of models The number one problem that developers face in AI applications is accuracy. Both traditional and generative AI applications are powered by models that are trained on datasets. These models can make predictions or generate content based only on the data they are trained on. If they are not trained properly, you will get inaccurate results. Therefore, it is important to address bias and variance in your model.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### BIAS
+
+Bias is one of the biggest challenges a developer faces in AI systems. Bias in a model means that the model is missing important features of the datasets. This means that the data is too basic. Bias is measured by the difference between the expected predictions of the model and the true values we are trying to predict. If the difference is narrow, then the model has low bias. If the difference is wide, then the model has a high bias.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### VARIANCE
+
+Variance offers a different challenge for developers. Variance refers to the model's sensitivity to fluctuations or noise in the training data. The problem is that the model might consider noise in the data to be important in the output. When variance is high, the model becomes so familiar with the training data that it can make predictions with high accuracy. This is because it is capturing all the features of the data.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Challenges of generative AI
+
+Just as generative AI has its unique set of benefits, it also has a unique set of challenges. Some of these challenges include toxicity, hallucinations, intellectual property, and plagiarism, and cheating.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Core dimensions of responsible AI
+
+The core dimensions of responsible AI include fairness, explainability, privacy and security, robustness, governance, transparency, safety, and controllability. No one dimension is a standalone goal for responsible AI. In fact, each topic should be considered as a required part for a complete implementation of responsible AI.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Fairness
+
+Fairness is crucial for developing responsible AI systems. With fairness, AI systems promote inclusion, prevent discrimination, uphold responsible values and legal norms, and build trust with society.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Explainability
+
+Explainability refers to the ability of an AI model to clearly explain or provide justification for its internal mechanisms and decisions so that it is understandable to humans.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Privacy and security
+
+Privacy and security in responsible AI refers to data that is protected from theft and exposure. More specifically, this means that at a privacy level, individuals control when and if their data can be used. At the security level, it verifies that no unauthorized systems or unauthorized users will have access to the individual’s data.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparency
+
+Transparency communicates information about an AI system so stakeholders can make informed choices about their use of the system. Some of this information includes development processes, system capabilities, and limitations.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Governance
+
+Governance is a set of processes that are used to define, implement, and enforce responsible AI practices within an organization.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Business benefits of responsible AI
+
+Responsible AI offers key business benefits in the development and deployment of AI systems.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Regulatory compliance
+
+As AI regulations emerge, companies with robust ethical AI frameworks are better positioned to comply with guidelines on data privacy, fairness, accountability, and transparency.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Amazon Services and Tools for Responsible AI
+
+As the leader in cloud technologies, AWS offers services like Amazon SageMaker and Amazon Bedrock that have built-in tools to help you with responsible AI. These tools cover topics such as foundation model evaluation, safeguards for generative AI, bias detection, model prediction explanations, monitoring and human reviews, and governance improvement.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Reviewing Amazon service tools for responsible AI
+
+Next, you will look at Amazon service tools that can help you with different areas of responsible AI. These areas include FM evaluation, safeguards for generative AI, bias detection, model prediction explanation, monitoring and human reviews, and governance improvement.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Safeguards for generative AI
+
+With Amazon Bedrock Guardrails, you can implement safeguards for your generative AI applications based on your use cases and responsible AI policies. Guardrails helps control the interaction between users and FMs by filtering undesirable and harmful content, redacting personally identifiable information (PII), and enhancing content safety and privacy in generative AI applications. You can create multiple guardrails with different configurations tailored to specific use cases. Additionally, you can continuously monitor and analyze user inputs and FM responses that can violate customer-defined policies in the guardrails.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Consistent level of AI safety
+
+Amazon Bedrock Guardrails evaluates user inputs and FM responses based on use case specific policies and provides an additional layer of safeguards regardless of the underlying FM. Amazon Bedrock Guardrails can be applied across FMs, including Anthropic Claude, Meta Llama 2, Cohere Command, AI21 Labs Jurassic, Amazon Titan Text, and fine-tuned models. Customers can create multiple guardrails, each configured with a different combination of controls, and use these guardrails across different applications and use cases. Amazon Bedrock Guardrails can also be integrated with Amazon Bedrock Agents to build generative AI applications aligned with your responsible AI policies.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Redact PII to protect user privacy
+
+Amazon Bedrock Guardrails helps you detect PII in user inputs and FM responses. Based on the use case, you can selectively reject inputs containing PII or redact PII in FM responses. For example, you can redact users’ personal information while generating summaries from customer and agent conversation transcripts in a call center.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Bias detection
+
+SageMaker Clarify helps identify potential bias in machine learning models and datasets without the need for extensive coding. You specify input features, such as gender or age, and SageMaker Clarify runs an analysis job to detect potential bias in those features. SageMaker Clarify then provides a visual report with a description of the metrics and measurements of potential bias so that you can identify steps to remediate the bias.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Governance improvement
+
+SageMaker provides purpose-built governance tools to help you implement AI responsibly. These tools give you tighter control and visibility over your AI models. You can capture and share model information and stay informed on model behavior, like bias, all in one place.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Providing transparency
+
+AWS AI Service Cards are a new resource to help you better understand AWS AI services. AI Service Cards are a form of responsible AI documentation that provides a single place to find information on the intended use cases and limitations, responsible AI design choices, and deployment and performance optimization best practices for AWS AI services.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### AWS AI model cards
+
+Each AI Service Card contains four sections that cover the following: - Basic concepts to help customers better understand the service or service features - Intended use cases and limitations - Responsible AI design considerations - Guidance on deployment and performance optimization The content of the AI Service Cards addresses a broad audience of customers, technologists, researchers, and other stakeholders. This content helps these audiences better understand key considerations in the responsible design and use of an AI service.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Example: Defining application use case narrowly for traditional AI
+
+In this example, you might have an AI application that uses face recognition. Face recognition is not a use case; it is a technology. The way your model applies that technology is a use case.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Example: Defining application use case narrowly for generative AI
+
+In this example, you might have an AI application to assist customers in shopping on your online store. The use case might be to provide a product catalog or to persuade customers to buy products. An appropriate model would need to be selected based on the narrowly defined use case.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Choosing a model based on sustainability concerns
+
+Sustainability in the context of responsible AI refers to the ability of AI systems to be developed and deployed in a way that is socially, environmentally, and economically sustainable over the long term.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparency and accountability
+
+The AI system should be transparent about its decision-making process. It should allow external oversight and accountability to ensure its actions are responsibly justified.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparent and Explainable Models
+
+To promote trust and accountability in an AI system, there should be transparency and explainability in the model.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparency and explainability
+
+AI systems are now commonplace in many fields that impact business and society. Some of these fields include healthcare, security, and financial institutions. There must be trust and accountability in these AI systems. Therefore, including transparent and explainable models is fundamental for developing these AI systems.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparency
+
+Transparency helps to understand HOW a model makes decisions.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Explainability
+
+Explainability helps to understand WHY the model made the decision that it made. It gives insight into the limitations of a model.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparent and explainable models compared to black box models
+
+Models that lack transparency and explainability are often referred to as black box models. These models use complex algorithms and numerous layers of neural networks to make predictions, but they do not provide insight into their internal workings.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Solutions for transparent and explainable models
+
+There is no standard solution for creating transparent and explainable models. Depending on the use case of the model, you might use different techniques.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Explainability frameworks
+
+There are several explainability frameworks available, such as SHapley Value Added (SHAP), Layout-Independent Matrix Factorization (LIME), and Counterfactual Explanations, that can help summarize and interpret the decisions made by AI systems. These frameworks can provide insights into the factors that influenced a particular decision and help assess the fairness and consistency of the AI system.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Risks of transparent and explainable models
+
+Just as transparent and explainable models provide many advantages, they also come with some risks. Some of those risks include the following: - Increasing the complexity of the development and maintenance of the model can increase the costs.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### AWS tools for transparency
+
+To help with transparency, Amazon offers AWS AI Service Cards and Amazon SageMaker Model Cards. The difference between them is that with AI Service Cards, Amazon provides transparent documentation on Amazon services that help you build your AI services. With SageMaker Model Cards, you can catalog and provide documentation on models that you create or develop yourself.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### AWS AI Service Cards
+
+AI Service Cards are a resource to increase transparency and help customers better understand AWS AI services, including how to use them in a responsible way. AI service cards are a form of responsible AI documentation that provides customers with a single place to find information on the intended use cases and limitations, responsible AI design choices, and the deployment and operation best practices for our AI services.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Explainability
+
+Explainability is how to take an ML model and explain the behavior in human terms. With complex models (for example, black boxes), you cannot fully understand how and why the inner mechanics impact the prediction. However, through model agnostic methods (for example, partial dependence plots, SHAP dependence plots, or surrogate models) you can discover meaning between input data attributions and model outputs. With that understanding, you can explain the nature and behavior of the AI/ML model.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Model safety and model transparency trade-offs
+
+With model safety focusing on protecting information, and model transparency focusing on exposing information, you can understand that there is a delicate balance needed between them.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Accuracy
+
+Complex models like large neural networks tend to be more accurate but less interpretable than simpler linear models, which are more transparent.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Privacy
+
+Privacy-preserving techniques like differential privacy can improve safety but make models harder to inspect. This can make models less transparent.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Security
+
+Highly secured air-gapped train models (models that are trained on networks that are private and do not have access to external data) might be less open to external auditing.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Principles of Human-Centered Design for Explainable AI
+
+Human-centered design (HCD) is an approach to creating products and services that are intuitive, easy to use, and meet the needs of the people who will be using them. When applied to explainable AI, HCD helps ensure that the explanations and interfaces provided are clear, understandable, and useful to the people they are intended to serve. This includes being accurate and fair.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Design for unbiased decision-making
+
+The design for unbiased decision-making principle and practices aim to ensure that the design of decision-making processes, systems, and tools is free from biases that can influence the outcomes. This can have significant impacts on decision-making outcomes and help promote fairness and efficient use of resources.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Key aspects of designing for unbiased decision-making
+
+By designing for unbiased decision-making, you can create more effective decision-making processes. Some of the key aspects to incorporate for designing for unbiased decision-making include transparency, fairness, and training.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Transparency
+
+Decision-making processes and tools should be designed in a way that is clear and accessible to all stakeholders. These processes should provide easy scrutiny and identification of potential biases. This can involve using data visualization techniques to make complex information more accessible and intuitive and providing clear explanations of the decision-making process and its implications.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Fairness
+
+Decision-making processes and tools should be designed to minimize unfairness and discrimination. They should help to ensure that all stakeholders have an equal opportunity to participate and influence the outcomes. This can involve designing decision-making processes that are inclusive of diverse perspectives and experiences. It also involves avoiding the use of biased criteria or metrics that might perpetuate stereotypes or biases.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Training
+
+Decision-makers, including policymakers, judges, and business leaders, need to be trained to recognize and mitigate biases. This can involve providing training to help decision-makers develop strategies for managing and overcoming biases.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Design for human and AI learning
+
+Design for human and AI learning is a process that aims to create learning environments and tools that are beneficial and effective for both humans and AI. It encompasses a range of strategies and approaches that take into account the unique strengths and limitations of each learner and the goals and purposes of the learning experience.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Key aspects of designing for human and AI learning
+
+By designing for human and AI learning, you can create more effective AI systems. Some of the key aspects to incorporate for designing for human and AI learning include cognitive apprenticeship, personalization, and user-centered design.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+### Reinforcement learning from human feedback
+
+Reinforcement learning from human feedback (RLHF) is an ML technique that uses human feedback to optimize ML models to self-learn more efficiently. Reinforcement learning (RL) techniques train software to make decisions that maximize rewards, which makes their outcomes more accurate. RLHF incorporates human feedback in the rewards function, so the ML model can perform tasks aligned with human goals, wants, and needs. RLHF is used in both traditional AI and generative AI applications.
+
+*Source: responsible_ai_practices.md*
+
+---
+
+## Developing Ml
+
+### In this machine learning course, you will learn about the machine learning lifecycle, and how to
+
+AWS services at every stage
+
+*Source: developing_ml.md*
+
+---
+
+### Machine learning (ML) lifecycle
+
+the end-to-end process of developing, deploying, and maintaining machine learning models
+
+*Source: developing_ml.md*
+
+---
+
+### The data scientist, data engineers, and ML architects work with the line of business subject matter experts (SMEs) to determine whether it is appropriate to
+
+ML to solve the business problem
+
+*Source: developing_ml.md*
+
+---
+
+### To train an accurate ML model, developers
+
+data processing to convert data into a usable format
+
+*Source: developing_ml.md*
+
+---
+
+### The machine learning lifecycle
+
+iterative process
+
+*Source: developing_ml.md*
+
+---
+
+### There are different types of machine learning algorithms based on your
+
+case and requirements and the data you have
+
+*Source: developing_ml.md*
+
+---
+
+### In case of a regression problem, there are other common metrics you can use to evaluate your model, including
+
+squared error and R squared
+
+*Source: developing_ml.md*
+
+---
+
+### In case of a regression problem, there are other common metrics you can
+
+to evaluate your model, including mean squared error and R squared
+
+*Source: developing_ml.md*
+
+---
+
+### The choice between a managed API service or a self-hosted API for ML deployment depends on factors such as the specific requirements of your
+
+case, the level of control and customization needed, the available resources and expertise, and cost considerations
+
+*Source: developing_ml.md*
+
+---
+
+### MLOps
+
+the practice of operationalizing and streamlining the end-to-end machine learning lifecycle from model development and deployment to monitoring and maintenance
+
+*Source: developing_ml.md*
+
+---
+
+### Most ML workloads
+
+the management of code, data, and models
+
+*Source: developing_ml.md*
+
+---
+
+### MLOps
+
+set of practices and principles that aims to manage the entire lifecycle of machine learning systems, from model development and training to deployment, monitoring, and maintenance
+
+*Source: developing_ml.md*
+
+---
+
+### The Machine learning lifecycle
+
+the end-to-end process of developing, deploying, and maintaining machine learning models from identifying the business problem to the deploying and monitoring the model
+
+*Source: developing_ml.md*
+
+---
+
+### SageMaker is the fully managed ML service from AWS that you can
+
+to perform all the steps of an ML workflow, from data collection to model deployment
+
+*Source: developing_ml.md*
+
+---
+
+### Machine learning operations, or MLOps,
+
+the practice of operationalizing and streamlining the end-to-end machine learning lifecycle, from model development and deployment to monitoring and maintenance
+
+*Source: developing_ml.md*
+
+---
+
+### ML development lifecycle
+
+Machine learning (ML) lifecycle refers to the end-to-end process of developing, deploying, and maintaining machine learning models.
+
+*Source: developing_ml.md*
+
+---
+
+### 2. ML problem framing
+
+The problem formulation entails articulating the business problem and converting it into a machine learning problem.
+
+*Source: developing_ml.md*
+
+---
+
+### 5. Retrain
+
+If the model doesn't meet the business goals, it's necessary to take a second look at the data and features to identify ways to improve the model. Building a model is usually an iterative process. This might also involve adjusting the training hyperparameters.
+
+*Source: developing_ml.md*
+
+---
+
+### Bias and variance
+
+When evaluating models, both bias and variance contribute to errors the model makes on unseen data, which affects its generalization.
+
+*Source: developing_ml.md*
+
+---
+
+### Classification and regression problems
+
+How you evaluate a machine learning model depends on what kind of ML problem you're working with. In this section, you will look into the classification and regression metrics.
+
+*Source: developing_ml.md*
+
+---
+
+### Classification example
+
+The following is a binary classification problem where an image recognition model labels data as "cat" or "not cat." An example of a simple binary classification problem To evaluate a classification problem like the one shown, use the following steps: Step 1: Send the held-out observations where you know the target values to the model.
+
+*Source: developing_ml.md*
+
+---
+
+### Confusion matrix
+
+A confusion matrix can help classify why and how a model gets something wrong. It is the building block for running these types of model evaluations for classification problems. Review the following graphic, which is a confusion matrix for the image recognition example. The matrix gives a high-level comparison of how the predicted classes matched up against the actual classes.
+
+*Source: developing_ml.md*
+
+---
+
+### Accuracy
+
+Calculation for a model's accuracy To calculate the model’s accuracy, also known as its score, add up the correct predictions and then divide that number by the total number of predictions.
+
+*Source: developing_ml.md*
+
+---
+
+### Precision
+
+Precision removes the negative predictions from the picture. Precision is the proportion of positive predictions that are actually correct. You can calculate it by taking the true positive count and dividing it by the total number of positives.
+
+*Source: developing_ml.md*
+
+---
+
+### Recall
+
+In addition to precision, there is also recall (or sensitivity). In recall, you are looking at the proportion of correct sets that are identified as positive. Recall is calculated by dividing the true positive count by the sum of the true positives and false negatives. By looking at that ratio, you get an idea of how good the algorithm is at detecting, for example, cats.
+
+*Source: developing_ml.md*
+
+---
+
+### AUC-ROC
+
+Area under the curve-receiver operator curve (AUC-ROC) is another evaluation metric. ROC is a probability curve, and AUC represents the degree or measure of separability.
+
+*Source: developing_ml.md*
+
+---
+
+### Regression problem metrics
+
+In case of a regression problem, there are other common metrics you can use to evaluate your model, including mean squared error and R squared. Mean squared error is very commonly used.
+
+*Source: developing_ml.md*
+
+---
+
+### Mean squared error
+
+The general purpose of mean squared error (MSE) is the same as the classification metrics. You determine the prediction from the model and compare the difference between the prediction and the actual outcome.
+
+*Source: developing_ml.md*
+
+---
+
+### R squared
+
+R squared is another commonly used metric with linear regression problems. R squared explains the fraction of variance accounted for by the model. It’s like a percentage, reporting a number from 0 to 1. When R squared is close to 1, it usually indicates that a lot of the variance in the data can be explained by the model itself.
+
+*Source: developing_ml.md*
+
+---
+
+### MLOps
+
+MLOps combines people, technology, and processes to deliver collaborative ML solutions.
+
+*Source: developing_ml.md*
+
+---
+
+### Using MLOps
+
+Applications that expose trained models might have different hosting requirements and strategies than standard applications. Trained models are sensitive to changes in data; therefore, a model-based application that works well when first implemented might not perform as well days, weeks, or months after being implemented. To account for these differences, you need different processes and procedures for applications that are based in managing ML.
+
+*Source: developing_ml.md*
+
+---
+
+### Goals of MLOps
+
+A goal of MLOps is to get ML workloads into production and keep them operating. To meet this goal, MLOps adopts many DevOps principles and practices for the development, training, deployment, monitoring, and retraining of machine learning models. The aim is to use MLOps to do the following: - Increase the pace of the model development lifecycle through automation.
+
+*Source: developing_ml.md*
+
+---
+
+### Benefits of MLOps
+
+Adopting MLOps practices gives you faster time-to-market for ML projects by delivering the following benefits.
+
+*Source: developing_ml.md*
+
+---
+
+### Key principles of MLOps
+
+The key principles of MLOps include:
+
+*Source: developing_ml.md*
+
+---
+
+### Model governance
+
+Good governance of machine learning systems requires close collaboration between data scientists, engineers, and business stakeholders. Clear documentation, effective communication channels, and feedback mechanisms help align everyone and improve models over time. It is also crucial to protect sensitive data, secure access, and meet compliance rules. A structured process for reviewing, validating, and approving models before deployment checks for fairness, bias, and ethics. Governance manages all aspects of systems for efficiency.
+
+*Source: developing_ml.md*
+
+---
+
+### ML lifecycle and MLOps
+
+Most ML workloads involve the management of code, data, and models.
+
+*Source: developing_ml.md*
+
+---
+
+### Implementing MLOps
+
+The following diagram is an example of an end-to-end automation process. A productionized ML lifecycle typically contains separate training and deployment pipelines.
+
+*Source: developing_ml.md*
+
+---
+
+### AWS services for MLOps
+
+In the following diagram, you can see which AWS services can be used to implement an MLOps pipeline.
+
+*Source: developing_ml.md*
+
+---
+
+### Machine learning development lifecycle
+
+Machine learning development lifecycle The Machine learning lifecycle refers to the end-to-end process of developing, deploying, and maintaining machine learning models from identifying the business problem to the deploying and monitoring the model.
+
+*Source: developing_ml.md*
+
+---
+
+### Machine learning AWS services
+
+SageMaker is the fully managed ML service from AWS that you can use to perform all the steps of an ML workflow, from data collection to model deployment.
+
+*Source: developing_ml.md*
+
+---
+
+### Machine learning models
+
+SageMaker supports pre-trained models, built-in algorithms, and custom Docker images. It provides several built-in general-purpose algorithms that can be used for the following: - Supervised learning with either classification or regression problems - Unsupervised learning for tasks such as clustering, dimension reduction, pattern recognition, and anomaly detection - Image processing for image classification, object detection, and computer vision as well as time series - The analysis of textual documents used in natural language processing, document classification or summarization, topic modeling or classification, and language transcription or translation
+
+*Source: developing_ml.md*
+
+---
+
+### Machine learning model performance evaluation
+
+Evaluation occurs after a model has been trained. The data you use is partitioned into three parts: training set, validation set, and test set.
+
+*Source: developing_ml.md*
+
+---
+
+### MLOps
+
+MLOps goes from model development to model monitoring Machine learning operations, or MLOps, refers to the practice of operationalizing and streamlining the end-to-end machine learning lifecycle, from model development and deployment to monitoring and maintenance. It helps ensure that models are not just developed but also deployed, monitored, and retrained systematically and repeatedly.
+
+*Source: developing_ml.md*
+
+---
+
+## Developing Genai
+
+### The generative AI application lifecycle
+
+the process of using generative AI models within applications or systems
+
+*Source: developing_genai.md*
+
+---
+
+### The first stage in the generative AI application lifecycle is defining a
+
+case
+
+*Source: developing_genai.md*
+
+---
+
+### The selection criteria for choosing a pre-trained model depend on the requirements of the business
+
+case
+
+*Source: developing_genai.md*
+
+---
+
+### After selecting an appropriate pre-trained foundation model that aligns with the business
+
+case, the next step is to focus on improving the performance of the model
+
+*Source: developing_genai.md*
+
+---
+
+### Prompt engineering
+
+the process of carefully crafting the input prompts or instructions given to the model to generate desired outputs or behaviors
+
+*Source: developing_genai.md*
+
+---
+
+### RAG
+
+natural language processing (NLP) technique that combines the capabilities of retrieval systems and generative language models to produce high-quality and informative text outputs
+
+*Source: developing_genai.md*
+
+---
+
+### The RAG prompt techniques approach
+
+retrieval systems and generative language models
+
+*Source: developing_genai.md*
+
+---
+
+### Overall, RAG
+
+powerful technique that combines the strengths of retrieval systems and generative language models
+
+*Source: developing_genai.md*
+
+---
+
+### In the context of the generative AI application lifecycle, creating a model from scratch
+
+training a completely new model architecture on a custom dataset, without using any pre-existing models or weights
+
+*Source: developing_genai.md*
+
+---
+
+### When developing a generative AI application, there is often a trade-off between cost and accuracy when deciding whether to
+
+a pre-trained foundation model or pursue a more customized approach
+
+*Source: developing_genai.md*
+
+---
+
+### Pursuing a more customized approach, such as training a model from scratch or heavily fine-tuning a pre-trained model, can potentially yield higher accuracy and better performance tailored to the specific
+
+case
+
+*Source: developing_genai.md*
+
+---
+
+### RAG
+
+approach that combines retrieval from a knowledge base with natural language generation
+
+*Source: developing_genai.md*
+
+---
+
+### ROUGE
+
+widely used metric for evaluating text summarization systems
+
+*Source: developing_genai.md*
+
+---
+
+### Developing generative AI solutions.
+
+Imagine being able to create stunning visuals, captivating stories, and even functional code with just a few prompts. Through the generative AI application lifecycle, we can train powerful models to generate human-like content across various domains. From generating personalized marketing campaigns to accelerating drug discovery, the possibilities are endless. Companies are already using this technology to automate content creation, reduce costs, and deliver truly unique experiences. With knowledge on developing generative AI solutions, you can unlock the full potential of generative AI to transform businesses and shape the future of content creation.
+
+*Source: developing_genai.md*
+
+---
+
+### Capabilities and challenges of using generative AI
+
+Before exploring the generative AI application lifecycle, it's important to understand some of the capabilities and challenges of using generative AI.
+
+*Source: developing_genai.md*
+
+---
+
+### Capabilities of generative AI
+
+- Adaptability - Responsiveness - Simplicity - Creativity and exploration - Data efficiency - Personalization - Scalability
+
+*Source: developing_genai.md*
+
+---
+
+### Challenges of generative AI
+
+- Regulatory violations - Social risks - Data security and privacy concerns - Toxicity - Hallucinations - Interpretability - Nondeterminism Keep the capabilities and challenges in mind while navigating through the generative AI application lifecycle phases.
+
+*Source: developing_genai.md*
+
+---
+
+### Generative AI application lifecycle
+
+The generative AI application lifecycle refers to the process of using generative AI models within applications or systems.
+
+*Source: developing_genai.md*
+
+---
+
+### Addressing business use cases with generative AI
+
+When it comes to resolving business problems using generative AI, there are various metrics and approaches that can be employed.
+
+*Source: developing_genai.md*
+
+---
+
+### Productivity gains
+
+Generative AI can augment human capabilities, leading to increased productivity. Metrics like output volume, error rates, or task completion times can measure productivity improvements.
+
+*Source: developing_genai.md*
+
+---
+
+### Pre-trained model selection criteria
+
+Pre-trained models offer a valuable head start by encapsulating knowledge distilled from vast amounts of data. These models can be fine-tuned on task-specific data, potentially leading to faster convergence and better generalization. However, pre-trained models might carry undesirable biases or fail to fully capture the nuances of the target domain.
+
+*Source: developing_genai.md*
+
+---
+
+### Choosing a pre-trained model based on selection criteria
+
+Comparing pre-trained generative AI models based on selection criteria can be a complex task. There are many factors to consider, and the relative importance of each factor can vary depending on the specific business use case.
+
+*Source: developing_genai.md*
+
+---
+
+### Prompt engineering
+
+Prompt engineering is the fastest way to harness the power of large language models (LLMs). By interacting with an LLM through prompts (a series of questions, statements, or instructions), you can adjust LLM output behavior based on the specific context of the output that you want to achieve.
+
+*Source: developing_genai.md*
+
+---
+
+### RAG
+
+RAG is a natural language processing (NLP) technique that combines the capabilities of retrieval systems and generative language models to produce high-quality and informative text outputs.
+
+*Source: developing_genai.md*
+
+---
+
+### RAG business applications
+
+RAG has several business applications, including the following: - Building intelligent question-answering systems - Expanding and enriching existing knowledge bases - Generating high-quality content
+
+*Source: developing_genai.md*
+
+---
+
+### Fine-tuning
+
+Fine-tuning is another way to improve the performance of a foundation model even further. Fine-tuning refers to the process of taking a pre-trained language model and further training it on a specific task or domain-specific dataset. Fine-tuning allows the model to adapt its knowledge and capabilities to better suit the requirements of the business use case. Although FMs are pre-trained through self-supervised learning and have inherent capability of understanding information, fine-tuning the FM base model can improve performance.
+
+*Source: developing_genai.md*
+
+---
+
+## Optimizing Fm
+
+### Fine-tuning, on the other hand,
+
+more targeted process where a pretrained model is adapted to perform well on a specific task or within a particular domain
+
+*Source: optimizing_fm.md*
+
+---
+
+### ROUGE
+
+set of metrics used to evaluate automatic summarization of texts, in addition to machine translation quality in NLP
+
+*Source: optimizing_fm.md*
+
+---
+
+### ROUGE-L: This metric
+
+the longest common subsequence between the generated text and the reference texts
+
+*Source: optimizing_fm.md*
+
+---
+
+### BLEU
+
+metric used to evaluate the quality of text that has been machine-translated from one natural language to another
+
+*Source: optimizing_fm.md*
+
+---
+
+### BLEU is popular in the field of machine translation for its ease of
+
+and effectiveness at a broad scale
+
+*Source: optimizing_fm.md*
+
+---
+
+### BERTScore
+
+the pretrained contextual embeddings from models like BERT to evaluate the quality of text-generation tasks
+
+*Source: optimizing_fm.md*
+
+---
+
+### Vector embeddings
+
+Embedding is the process by which text, images, and audio are given numerical representation in a vector space. Embedding is usually performed by a machine learning (ML) model. The following diagram provides more details about embedding.
+
+*Source: optimizing_fm.md*
+
+---
+
+### Storing vectors
+
+The core function of vector databases is to compactly store billions of high-dimensional vectors representing words and entities. Vector databases provide ultra-fast similarity searches across these billions of vectors in real time.
+
+*Source: optimizing_fm.md*
+
+---
+
+### RAG in the context of AnyCompany's business case
+
+Following is an updated version of AnyCompany's architecture diagram, including the RAG system. The chatbot is now able to query a database containing enterprise data and use it to provide more accurate and contextual answers to users.
+
+*Source: optimizing_fm.md*
+
+---
+
+### AnyCompany: A fashion retailer
+
+AnyCompany, a trendy online fashion retailer, faces challenges with high cart abandonment rates and low repeat purchases. Customers often feel overwhelmed by the vast options and find it difficult to determine which products suit their personal style and needs.
+
+*Source: optimizing_fm.md*
+
+---
+
+### The different fine-tuning approaches
+
+- Instruction tuning: This approach involves retraining the model on a new dataset that consists of prompts followed by the desired outputs. This is structured in a way that the model learns to follow specific instructions better. This method is particularly useful for improving the model's ability to understand and execute user commands accurately, making it highly effective for interactive applications like virtual assistants and chatbots.
+
+*Source: optimizing_fm.md*
+
+---
+
+### Preparing the data for the fine-tuning step
+
+During the initial training phase, a foundational model is trained on a vast and diverse dataset. This dataset typically encompasses a wide range of topics to develop a broad understanding and general capabilities. The goals during this phase are as follows: - Extensive coverage: Ensuring the dataset covers a broad spectrum of knowledge to give the model a robust foundational understanding - Diversity: Including varied types of data from numerous sources to equip the model with the ability to handle a wide array of tasks - Generalization: Focusing on building a model that can generalize across different tasks and domains without specific tailoring Data preparation for this phase involves collecting as much data as possible. The data is often from publicly available sources, curated datasets, and sometimes proprietary data, depending on the model's intended usage. The data needs thorough cleaning and possibly anonymization to ensure privacy and compliance with regulations.
+
+*Source: optimizing_fm.md*
+
+---
+
+### Data preparation for fine-tuning
+
+Fine-tuning, on the other hand, is a more targeted process where a pretrained model is adapted to perform well on a specific task or within a particular domain. The data preparation for fine-tuning is distinct from initial training due to the following reasons: Specificity: The dataset for fine-tuning is much more focused, containing examples that are directly relevant to the specific tasks or problems the model needs to solve.
+
+*Source: optimizing_fm.md*
+
+---
+
+### Key steps in fine-tuning data preparation
+
+The following list walks through the key steps in fine-tuning data preparation: 1. Data curation: Although it is a continuation, this involves a more rigorous selection process to ensure every piece of data is highly relevant. This step also ensures the data contributes to the model's learning in the specific context.
+
+*Source: optimizing_fm.md*
+
+---
+
+### ROUGE
+
+ROUGE is a set of metrics used to evaluate automatic summarization of texts, in addition to machine translation quality in NLP. The main idea behind ROUGE is to count the number of overlapping units. This includes words, N-grams, or sentence fragments between the computer-generated output and a set of reference (human-created) texts.
+
+*Source: optimizing_fm.md*
+
+---
+
+### BLEU
+
+BLEU is a metric used to evaluate the quality of text that has been machine-translated from one natural language to another. Quality is calculated by comparing the machine-generated text to one or more high-quality human translations. BLEU measures the precision of N-grams in the machine-generated text that appears in the reference texts and applies a penalty for overly short translations (brevity penalty).
+
+*Source: optimizing_fm.md*
+
+---
+
+### The BERTScore
+
+BERTScore uses the pretrained contextual embeddings from models like BERT to evaluate the quality of text-generation tasks. BERTScore computes the cosine similarity between the contextual embeddings of words in the candidate and the reference texts. This is unlike traditional metrics that rely on exact matches of N-grams or words.
+
+*Source: optimizing_fm.md*
+
+---
+
+## Security Compliance Governance
+
+### AI standards compliance influences how organizations follow established guidelines, rules, and legal requirements that govern the development, deployment, and
+
+of AI technologies
+
+*Source: security.md*
+
+---
+
+### Data governance strategies for AI and generative AI workloads
+
+an approach to managing the data lifecycle, from data collection and storage, to data usage and security
+
+*Source: security.md*
+
+---
+
+### Data lifecycles
+
+the management of data throughout its entire lifespan, from creation to eventual disposal or archiving
+
+*Source: security.md*
+
+---
+
+### Data logging
+
+the systematic recording of data related to the processing of an AI workload
+
+*Source: security.md*
+
+---
+
+### Data residency
+
+the physical location where data is stored and processed
+
+*Source: security.md*
+
+---
+
+### Data monitoring
+
+the ongoing observation and analysis of data used in AI workloads
+
+*Source: security.md*
+
+---
+
+### Monitoring an AI system is necessary to ensure its performance, reliability, and compliance with the intended
+
+case
+
+*Source: security.md*
+
+---
+
+### To learn more about the Generative AI Security Scoping Matrix and how to
+
+it, choose the following button
+
+*Source: security.md*
+
+---
+
+### A company has several AI systems that
+
+different levels of generative AI solutions, such as pre-trained models and fine-tuned models
+
+*Source: security.md*
+
+---
+
+### Security and compliance
+
+shared responsibility between AWS and the customer
+
+*Source: security.md*
+
+---
+
+### Source citation in generative AI
+
+the act of properly attributing and acknowledging the sources of the data used to train the model
+
+*Source: security.md*
+
+---
+
+### Documenting data origins in the context of generative AI
+
+providing detailed information about the provenance, or the place of origin of the data used to train the model
+
+*Source: security.md*
+
+---
+
+### Model cards can catalog details, such as the intended
+
+and risk rating of a model, training details and metrics, evaluation results and observations
+
+*Source: security.md*
+
+---
+
+### In the context of AI and generative AI, data integrity
+
+the quality, accuracy, and reliability of the data used to train the AI models
+
+*Source: security.md*
+
+---
+
+### A company is developing several artificial intelligence (AI) solutions that will be for both internal
+
+and customer facing
+
+*Source: security.md*
+
+---
+
+### Security, compliance, and governance for AI solutions
+
+Amazon Web Services (AWS) provides a comprehensive set of tools, services, and partner solutions to build and secure artificial intelligence (AI) systems. These resources help achieve compliance objectives, such as protecting data, and apply governance to manage risk and accelerate business outcomes.
+
+*Source: security.md*
+
+---
+
+### Concepts of security, governance, and compliance in organizations
+
+Security, governance, and compliance might seem like the same function. The following are examples of the primary goals of each: - Security: Ensure that confidentiality, integrity, and availability are maintained for organizational data and information assets and infrastructure. This function is often called information security or cybersecurity in an organization.
+
+*Source: security.md*
+
+---
+
+### High-level strategy for governance and compliance
+
+Developing a high-level governance and compliance strategy for an organization producing AI solutions is important for ensuring the responsible deployment of these technologies. To begin, you might consider the following: - Establish an AI governance framework - Address AI compliance considerations >#### Governance framework >The following is an example approach for establishing a governance framework.
+
+*Source: security.md*
+
+---
+
+### The importance of governance and compliance for AI systems
+
+Following are points that explain the advantages of governance and compliance: - Managing, optimizing, and scaling the organizational AI initiative is at the core of the governance perspective. Incorporating AI governance into an organization’s AI strategy is instrumental in building trust. Governance also helps in enabling the deployment of AI technologies at scale, and overcoming challenges to drive business transformation and growth.
+
+*Source: security.md*
+
+---
+
+### AWS compliance
+
+AWS compliance empowers customers to understand the robust controls in place at AWS to maintain security and data protection in the AWS Cloud. AWS supports 143 security standards and compliance certifications.
+
+*Source: security.md*
+
+---
+
+### AI standards compliance
+
+AI standards compliance influences how organizations follow established guidelines, rules, and legal requirements that govern the development, deployment, and use of AI technologies.
+
+*Source: security.md*
+
+---
+
+### AWS Governance and Compliance
+
+AWS takes a proactive and collaborative approach to governance and compliance when it comes to AI and generative AI workflows. AWS works closely with regulators, customers, and other stakeholders to ensure these technologies are used responsibly and in alignment with relevant laws and regulations.
+
+*Source: security.md*
+
+---
+
+### AWS CloudTrail
+
+AWS CloudTrail helps you perform operational and risk auditing, governance, and compliance of your AWS account. Actions taken by a user, role, or an AWS service are recorded as events in CloudTrail. Events include actions taken in the AWS Management Console, AWS Command Line Interface (AWS CLI), and AWS SDKs and APIs.
+
+*Source: security.md*
+
+---
+
+### Data governance strategies
+
+Data governance strategies for AI and generative AI workloads involve an approach to managing the data lifecycle, from data collection and storage, to data usage and security. The following are some key data governance strategies that organizations can consider.
+
+*Source: security.md*
+
+---
+
+### Data protection and privacy
+
+To ensure data protection and privacy, implement the following steps: - Develop and enforce data privacy policies that protect sensitive or personal information.
+
+*Source: security.md*
+
+---
+
+### Data lifecycle management
+
+Some steps for data lifecycle management include the following: - Classify and catalog data assets based on their sensitivity, value, and criticality to the organization.
+
+*Source: security.md*
+
+---
+
+### Responsible AI
+
+Some steps to ensure responsible AI include the following: - Establish responsible frameworks and guidelines for the development and deployment of AI and generative AI models, addressing issues like bias, fairness, transparency, and accountability.
+
+*Source: security.md*
+
+---
+
+### Governance structures and roles
+
+Follow these steps to establish governance structures and roles: - Establish a data governance council or committee to oversee the development and implementation of data governance policies and practices.
+
+*Source: security.md*
+
+---
+
+### Data lifecycles
+
+Data lifecycles refer to the management of data throughout its entire lifespan, from creation to eventual disposal or archiving. In the context of AI workloads, the data lifecycle encompasses the following stages in the lifecycle of data used to train and deploy AI models: - Collection - Processing - Storage - Consumption - Disposal or archiving
+
+*Source: security.md*
+
+---
+
+### Data logging
+
+Data logging involves the systematic recording of data related to the processing of an AI workload. This can include the following: - Tracking inputs - Tracking outputs - Model performance metrics - System events Effective data logging is necessary for debugging, monitoring, and understanding the behavior of AI systems.
+
+*Source: security.md*
+
+---
+
+### Data residency
+
+Data residency refers to the physical location where data is stored and processed. In the context of AI workloads, data residency considerations might include the following: - Compliance with data privacy regulations - Data sovereignty requirements - Proximity of data to the compute resources used for training and inference
+
+*Source: security.md*
+
+---
+
+### Data monitoring
+
+Data monitoring involves the ongoing observation and analysis of data used in AI workloads. This can include the following: - Monitoring data quality - Identifying anomalies (An anomaly is an unexpected data point that significantly deviates from the norm.) - Tracking data drift (Data drift is observed when the distribution of the input data changes over time.) Monitoring also helps to ensure that the data being used for training and inference remains relevant and representative.
+
+*Source: security.md*
+
+---
+
+### Approaches to governance strategies
+
+When working with generative AI solutions, it's important to establish and follow governance strategies to ensure responsible development and deployment. The following are some key approaches to consider.
+
+*Source: security.md*
+
+---
+
+### Transparency standards
+
+Commit to maintaining high standards of transparency in the development and deployment of generative AI solutions by ensuring the following: - Include publishing information about the AI models, their training data, and the key decisions made during the development process.
+
+*Source: security.md*
+
+---
+
+### Team training requirements
+
+Ensure that all team members involved in the development and deployment of generative AI solutions are adequately trained on relevant policies, guidelines, and best practices. Some suggestions for team training include the following: - Provide comprehensive training on bias mitigation, and responsible AI practices.
+
+*Source: security.md*
+
+---
+
+### Monitoring for bias and fairness
+
+Regularly assess the AI system for potential biases and unfair outcomes, especially in sensitive domains such as healthcare, finance, and HR. This can help ensure the AI system is making fair and unbiased decisions.
+
+*Source: security.md*
+
+---
+
+### Monitoring for compliance and responsible AI
+
+Ensure the AI system's operations and outputs adhere to relevant regulations, industry standards, and responsible guidelines. Monitor for any potential violations or issues that could raise compliance or responsible AI concerns.
+
+*Source: security.md*
+
+---
+
+### Generative AI Security Scoping Matrix
+
+You can use the Generative AI Security Scoping Matrix to assist you with application security scoping efforts. This matrix summarizes the key security disciplines that you should consider based on your generative AI solution. Use the matrix to guide you in classifying your applications among the five defined generative AI scopes.
+
+*Source: security.md*
+
+---
+
+### Scope 3: Pre-trained models
+
+Your business builds its own application using an existing third-party generative AI foundation model. You directly integrate it with your workload through an API.
+
+*Source: security.md*
+
+---
+
+### Scope 5: Self-trained models
+
+Your business builds and trains a generative AI model from scratch using data that you own or acquire. You own every aspect of the model.
+
+*Source: security.md*
+
+---
+
+### Security disciplines
+
+The matrix provides guidance on how to apply the following security disciplines to each scope.
+
+*Source: security.md*
+
+---
+
+### Security considerations
+
+In the context of AI and generative AI, there are a number of security tasks, such as threat detection, vulnerability management, infrastructure protection, prompt injection, and data encryption. Following is a description of each of these tasks.
+
+*Source: security.md*
+
+---
+
+### The OWASP Top 10 for LLMs
+
+The Open Web Application Security Project (OWASP) Top 10 is the industry standard list of the top 10 vulnerabilities that can impact a generative AI LLM system. These vulnerabilities are as follows: 1. Prompt injection: Malicious user inputs that can manipulate the behavior of a language model 2. Insecure output handling: Failure to properly sanitize or validate model outputs, leading to security vulnerabilities 3. Training data poisoning: Introducing malicious data into a model's training set, causing it to learn harmful behaviors 4. Model denial of service: Techniques that exploit vulnerabilities in a model's architecture to disrupt its availability 5. Supply chain vulnerabilities: Weaknesses in the software, hardware, or services used to build or deploy a model 6. Sensitive information disclosure: Leakage of sensitive data through model outputs or other unintended channels 7. Insecure plugin design: Flaws in the design or implementation of optional model components that can be exploited 8. Excessive agency: Granting a model too much autonomy or capability, leading to unintended and potentially harmful actions 9. Overreliance: Over-dependence on a model's capabilities, leading to over-trust and failure to properly audit its outputs 10. Model theft: Unauthorized access or copying of a model's parameters or architecture, allowing for its reuse or misuse OWASP Top 10 for LLMs
+
+*Source: security.md*
+
+---
+
+### Using AWS services to secure your AI systems
+
+>#### Why you need to secure your AI systems >Securing AI systems when using AWS services is important for several reasons.
+
+*Source: security.md*
+
+---
+
+### Defense in depth security
+
+Recall that the defense in depth was briefly described at the beginning of this course. The goal of this strategy is to provide multiple layers of security around your data and workloads.
+
+*Source: security.md*
+
+---
+
+### AWS security services
+
+AWS provides several services and features for securing AI systems. The following services are used to manage user identities and access to resources, identify and protect sensitive data, and guard your AI systems and applications.
+
+*Source: security.md*
+
+---
+
+### Identify sensitive data before training models
+
+Amazon Macie uses ML to automate sensitive data discovery at scale.
+
+*Source: security.md*
+
+---
+
+### Protect AI workloads with intelligent threat detection
+
+In addition to Amazon GuardDuty, Amazon Inspector and Amazon Detective can help with intelligent threat detection. These services help identify suspicious activity such as AWS credential exfiltration (theft) and suspicious user API usage, including Amazon Bedrock and Amazon SageMaker APIs. Following is a brief description of Amazon Inspector and Amazon Detective: - Amazon Inspector is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
+
+*Source: security.md*
+
+---
+
+### Automate incident response and compliance
+
+By automating security tasks on AWS, you can be more secure by reducing human configuration errors. This gives your team more time to focus on other work critical to your business. Task automation makes it more convenient for your security team to work closely with developer and operations teams to create and deploy code faster and more securely.
+
+*Source: security.md*
+
+---
+
+### Defend your generative AI web applications and data
+
+In addition to AWS Shield Advanced and AWS Firewall Manager, which you learned about earlier, you can also use AWS WAF to protect your web applications and data.
+
+*Source: security.md*
+
+---
+
+### Review of data usage in generative AI
+
+A generative AI application typically includes customer data, fine-tuning data, and training data. You learned about the Generative AI Security Scoping Matrix in the Approaches for Implementing Governance Strategies lesson. Depending on the scope of the application, the ownership and control of the data will vary between the customer and the application provider. The following is a review of the common data usage in generative AI.
+
+*Source: security.md*
+
+---
+
+### Fine-tuning data
+
+This data is used to adapt or fine-tune the pre-trained a generative AI model to the specific needs or preferences of the customers or the application domain. Here are some more details about the fine-tuning data: - The fine-tuning data is typically a subset of the training data or additional data collected from the application domain.
+
+*Source: security.md*
+
+---
+
+### Training data
+
+Training data is the comprehensive dataset used to train the initial pre-trained generative AI model. Here are some more details about the training-data: - The training data is typically a large and diverse collection of data, such as text, images, or audio, depending on the specific application.
+
+*Source: security.md*
+
+---
+
+### Data flows in a generative AI application
+
+The following graphic shows an example data flow for a generic Scope 1 and Scope 2 application.
+
+*Source: security.md*
+
+---
+
+### Securing Generative AI: Applying Relevant Security Controls
+
+To learn about data flows for other application scopes, choose the following button.
+
+*Source: security.md*
+
+---
+
+### Implementing privacy-enhancing technologies
+
+Some best practices for implementing privacy-enhancing technologies include the following: - Implement data masking, data obfuscation, or differential privacy mechanisms to reduce the risk of data breaches.
+
+*Source: security.md*
+
+---
+
+### AWS Privacy Reference Architecture
+
+The AWS Privacy Reference Architecture (AWS PRA) offers a set of guidelines to assist in the design and implementation of privacy-supporting controls within AWS services. This guide can help you make informed decisions regarding the people, processes, and technology that are necessary to ensure privacy in the AWS Cloud environment.
+
+*Source: security.md*
+
+---
+
+### Data Lifecycle
+
+To learn more about the stages in the data lifecycle process, choose the following button.
+
+*Source: security.md*
+
+---
+
+### Security, Identity, and Compliance on AWS
+
+To learn more about all of the products for security, identity, and compliance, choose the following button.
+
+*Source: security.md*
+
+---
+
+### AWS Compliance
+
+To learn more about compliance offerings, choose the following button.
+
+*Source: security.md*
+
+---
+
+### Management and Governance on AWS
+
+To learn more about management and governance, choose the following button.
+
+*Source: security.md*
+
+---
+
+### Secure Approach to Generative AI
+
+To learn more about securing generative AI using AWS security capabilities, choose the following button.
+
+*Source: security.md*
+
+---
+
+## Prompt Engineering
+
+### The smart home security system market
+
+rapidly growing
+
+*Source: prompt_engineering.md*
+
+---
+
+### Zero-shot prompting
+
+technique where a user presents a task to a generative model without providing any examples or explicit training for that specific task
+
+*Source: prompt_engineering.md*
+
+---
+
+### Few-shot prompting
+
+technique that involves providing a language model with contextual examples to guide its understanding and expected output for a specific task
+
+*Source: prompt_engineering.md*
+
+---
+
+### Few-shot prompting is a technique that
+
+providing a language model with contextual examples to guide its understanding and expected output for a specific task
+
+*Source: prompt_engineering.md*
+
+---
+
+### Chain-of-thought (CoT) prompting
+
+technique that divides intricate reasoning tasks into smaller, intermediary steps
+
+*Source: prompt_engineering.md*
+
+---
+
+### That’s correct! The temperature parameter in generative models
+
+scaling factor that controls the randomness or diversity of the generated outputs
+
+*Source: prompt_engineering.md*
+
+---
+
+### Jailbreaking
+
+the practice of modifying or circumventing the constraints and safety measures implemented in a generative model or AI assistant to gain unauthorized access or functionality
+
+*Source: prompt_engineering.md*
+
+---
+
+### Jailbreaking attempts
+
+crafting carefully constructed prompts or input sequences that aim to bypass or exploit vulnerabilities in the AI system's filtering mechanisms or constraints
+
+*Source: prompt_engineering.md*
+
+---
+
+### Prompt Engineering Techniques
+
+In the previous lessons, you learned the fundamentals of understanding prompts and how to modify them using best practices. Some of the best practices covered in the previous lesson influenced the common prompt engineering techniques you will discover in this lesson. Using these prompt engineering techniques can help you use generative models most effectively for your unique objectives.
+
+*Source: prompt_engineering.md*
+
+---
+
+### Zero-shot prompting
+
+Zero-shot prompting is a technique where a user presents a task to a generative model without providing any examples or explicit training for that specific task. In this approach, the user relies on the model's general knowledge and capabilities to understand and carry out the task without any prior exposure, or shots, of similar tasks. Remarkably, modern FMs have demonstrated impressive zero-shot performance, effectively tackling tasks thatthey were not explicitly trained for.
+
+*Source: prompt_engineering.md*
+
+---
+
+### Few-shot prompting
+
+Few-shot prompting is a technique that involves providing a language model with contextual examples to guide its understanding and expected output for a specific task. In this approach, you supplement the prompt with sample inputs and their corresponding desired outputs, effectively giving the model a few shots or demonstrations to condition it for the requested task. Although few-shot prompting provides a model with multiple examples, you can also use single-shot or one-shot prompting by providing just one example.
+
+*Source: prompt_engineering.md*
+
+---
+
+### Chain-of-thought prompting
+
+Chain-of-thought (CoT) prompting is a technique that divides intricate reasoning tasks into smaller, intermediary steps. This approach can be employed using either zero-shot or few-shot prompting techniques. CoT prompts are tailored to specific problem types. To initiate the chain-of-thought reasoning process in a machine learning model, you can use the phrase "Think step by step." It is recommended to use CoT prompting when the task requires multiple steps or a series of logical reasoning.
+
+*Source: prompt_engineering.md*
+
+---
+
+### Jailbreaking
+
+Jailbreaking refers to the practice of modifying or circumventing the constraints and safety measures implemented in a generative model or AI assistant to gain unauthorized access or functionality.
+
+*Source: prompt_engineering.md*
+
+---
+

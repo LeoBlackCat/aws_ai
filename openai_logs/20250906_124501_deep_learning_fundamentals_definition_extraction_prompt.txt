@@ -1,0 +1,32 @@
+Timestamp: 2025-09-06 12:45:01.770835
+Chunk: deep_learning_fundamentals
+Call Type: definition_extraction
+==================================================
+Find technical terms that have clear definitions in this course material. Focus on AI/ML concepts that are explicitly defined.
+
+Return only the term names as a JSON array. If no definitions found, return [].
+
+Course material:
+# Deep Learning Fundamentals
+
+The field of deep learning is inspired by the structure and function of the brain. It involves the use of artificial neural networks, which are computational models that are designed to mimic the way the human brain processes information.
+
+## Neural networks
+
+At the core of deep learning are neural networks. Just like our brains have neurons that are connected to each other, neural networks have lots of tiny units called nodes that are connected together. These nodes are organized into layers. The layers include an input layer, one or more hidden layers, and an output layer.
+
+When we show a neural network many examples, like data about customers who bought certain products or used certain services, it figures out how to identify patterns by adjusting the connections between its nodes. It's like the nodes are talking to each other and slowly figuring out the patterns that separate different types of customers.
+
+When a neural network learns to recognize these patterns from the examples, it can then look at data for completely new customers that it has never seen before and still make predictions about what they might buy or how they might behave.
+
+The following are a couple branches of AI where deep learning is used to enhance results.
+
+### Computer vision
+
+Computer vision is a field of artificial intelligence that makes it possible for computers to interpret and understand digital images and videos. Deep learning has revolutionized computer vision by providing powerful techniques for tasks such as image classification, object detection, and image segmentation.
+
+### Natural language processing (NLP)
+
+Natural language processing (NLP) is a branch of artificial intelligence that deals with the interaction between computers and human languages. Deep learning has made significant strides in NLP, making possible tasks such as text classification, sentiment analysis, machine translation, and language generation.
+
+Return format: ["term1", "term2", "term3"]

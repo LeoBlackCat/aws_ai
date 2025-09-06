@@ -1,0 +1,342 @@
+[
+  {
+    "term": "Artificial intelligence (AI)",
+    "definition": "AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI, among others."
+  },
+  {
+    "term": "Machine learning (ML)",
+    "definition": "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks."
+  },
+  {
+    "term": "Deep learning (DL)",
+    "definition": "Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds."
+  },
+  {
+    "term": "This technology",
+    "definition": "rapidly transforming industries and shaping the future of how we interact with machines."
+  },
+  {
+    "term": "Generative AI",
+    "definition": "a branch of artificial intelligence that focuses on creating new content, such as text, images, audio, or even computer code, from existing data."
+  },
+  {
+    "term": "One of the most popular applications of generative AI",
+    "definition": "text generation, where models like Amazon Titan and Anthropic’s Claude can produce human-like writing on virtually any topic, from creative stories to technical reports."
+  },
+  {
+    "term": "Artificial intelligence (AI)\n\nAI",
+    "definition": "a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making."
+  },
+  {
+    "term": "Machine learning (ML)\n\nML",
+    "definition": "a type of AI for understanding and building methods that make it possible for machines to learn."
+  },
+  {
+    "term": "An example of a deep learning application",
+    "definition": "Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds."
+  },
+  {
+    "term": "Generative AI\n\nGenerative AI",
+    "definition": "a subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning."
+  },
+  {
+    "term": "Generative AI systems",
+    "definition": "capable of generating new data based on the patterns and structures learned from training data."
+  },
+  {
+    "term": "Bad data",
+    "definition": "often called garbage in, garbage out, and therefore an ML model is only as good as the data used to train it."
+  },
+  {
+    "term": "Although data preparation and processing",
+    "definition": "sometimes a routine process, it is arguably the most critical stage in making the whole model work as intended or ruining its performance."
+  },
+  {
+    "term": "There",
+    "definition": "a several different types of data used in training an ML model."
+  },
+  {
+    "term": "Labeled data\n\nLabeled data",
+    "definition": "a dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification."
+  },
+  {
+    "term": "These labels",
+    "definition": "typically provided by human experts or obtained through a reliable process."
+  },
+  {
+    "term": "Unlabeled data\n\nUnlabeled data",
+    "definition": "a dataset where the instances or examples do not have any associated labels or target variables."
+  },
+  {
+    "term": "A collection of images without any labels or annotations\n\nThe main types of data used in training",
+    "definition": "structured and unstructured data."
+  },
+  {
+    "term": "Structured data\n\nStructured data",
+    "definition": "data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns."
+  },
+  {
+    "term": "This type of data",
+    "definition": "suitable for traditional machine learning algorithms that require well-defined features and labels."
+  },
+  {
+    "term": "The following",
+    "definition": "types of structured data."
+  },
+  {
+    "term": "Unstructured data\n\nUnstructured data",
+    "definition": "data that lacks a predefined structure or format, such as text, images, audio, and video."
+  },
+  {
+    "term": "Machine learning process\n\nThe compiled training data",
+    "definition": "fed into machine learning algorithms."
+  },
+  {
+    "term": "The ML learning process",
+    "definition": "traditionally divided into three broad categories: *supervised learning*, *unsupervised learning*, and *reinforcement learning*."
+  },
+  {
+    "term": "The goal",
+    "definition": "to learn a mapping function that can predict the output for new, unseen input data."
+  },
+  {
+    "term": "Feedback",
+    "definition": "provided in the form of rewards or penalties for its actions, and the machine learns from this feedback to improve its decision-making over time."
+  },
+  {
+    "term": "Batch inferencing\n\nBatch inferencing",
+    "definition": "when the computer takes a large amount of data, such as images or text, and analyzes it all at once to provide a set of results."
+  },
+  {
+    "term": "This type of inferencing",
+    "definition": "often used for tasks like data analysis, where the speed of the decision-making process is not as crucial as the accuracy of the results."
+  },
+  {
+    "term": "Deep Learning Fundamentals\n\nThe field of deep learning",
+    "definition": "inspired by the structure and function of the brain."
+  },
+  {
+    "term": "Just like our brains have neurons that",
+    "definition": "connected to each other, neural networks have lots of tiny units called nodes that are connected together."
+  },
+  {
+    "term": "These nodes",
+    "definition": "organized into layers."
+  },
+  {
+    "term": "Computer vision\n\nComputer vision",
+    "definition": "a field of artificial intelligence that makes it possible for computers to interpret and understand digital images and videos."
+  },
+  {
+    "term": "Natural language processing (NLP)\n\nNatural language processing (NLP)",
+    "definition": "a branch of artificial intelligence that deals with the interaction between computers and human languages."
+  },
+  {
+    "term": "The answer",
+    "definition": "as straightforward as huge investments in resources."
+  },
+  {
+    "term": "FM lifecycle\n\nThe foundation model lifecycle",
+    "definition": "a comprehensive process that involves several stages, each playing a crucial role in developing and deploying effective and reliable foundation models."
+  },
+  {
+    "term": "FMs",
+    "definition": "typically pre-trained through self-supervised learning."
+  },
+  {
+    "term": "FM lifecycle",
+    "definition": "an iterative process, where lessons learned and insights gained from each stage can inform and improve subsequent iterations."
+  },
+  {
+    "term": "LLMs",
+    "definition": "powerful models that can understand and generate human-like text."
+  },
+  {
+    "term": "TOKENS\nTokens",
+    "definition": "the basic units of text that the model processes."
+  },
+  {
+    "term": "A puppy",
+    "definition": "to dog as a kitten is to cat."
+  },
+  {
+    "term": "EMBEDDINGS AND VECTORS\nEmbeddings",
+    "definition": "numerical representations of tokens, where each token is assigned a vector (a list of numbers) that captures its meaning and relationships with other tokens."
+  },
+  {
+    "term": "These vectors",
+    "definition": "learned during the training process and allow the model to understand the context and nuances of language."
+  },
+  {
+    "term": "Diffusion models\nDiffusion",
+    "definition": "a deep learning architecture system that starts with pure noise or random data."
+  },
+  {
+    "term": "These kinds of models learn how different modalities like images and text",
+    "definition": "connected and can influence each other."
+  },
+  {
+    "term": "Other generative models\nThere",
+    "definition": "several types of generative models used in ML and AI."
+  },
+  {
+    "term": "Generative adversarial networks (GANs)\n\nGANs",
+    "definition": "a type of generative model that involves two neural networks competing against each other in a zero-sum game framework."
+  },
+  {
+    "term": "The two networks",
+    "definition": "generator and discriminator."
+  },
+  {
+    "term": "Its goal",
+    "definition": "to distinguish between the real and generated data."
+  },
+  {
+    "term": "This adversarial process continues until the generator produces data that",
+    "definition": "indistinguishable from the real data."
+  },
+  {
+    "term": "Variational autoencoders (VAEs)\n\nVAEs",
+    "definition": "a type of generative model that combines ideas from autoencoders (a type of neural network) and variational inference (a technique from Bayesian statistics)."
+  },
+  {
+    "term": "The key aspect of VAEs",
+    "definition": "that the latent space is encouraged to follow a specific probability distribution (usually a Gaussian distribution), which allows for generating new data by sampling from this latent space and passing the samples through the decoder."
+  },
+  {
+    "term": "Optimizing model outputs\nA key part of the foundation model lifecycle",
+    "definition": "the optimization phase."
+  },
+  {
+    "term": "You",
+    "definition": "an experienced journalist that excels at condensing long articles into concise summaries."
+  },
+  {
+    "term": "Although FMs",
+    "definition": "pre-trained through self-supervised learning and have inherent capability of understanding information, fine-tuning the FM base model can improve performance."
+  },
+  {
+    "term": "Prompt tuning",
+    "definition": "a type of instruction fine-tuning."
+  },
+  {
+    "term": "If you",
+    "definition": "working on a task that requires industry knowledge, you can take a pre-trained model and fine-tune the model with industry data."
+  },
+  {
+    "term": "This technique",
+    "definition": "similar to fine-tuning."
+  },
+  {
+    "term": "Neural networks",
+    "definition": "a type of decision tree algorithm that can be trained on image data to create a set of rules for classifying handwritten digits."
+  },
+  {
+    "term": "A company",
+    "definition": "developing an artificial intelligence (AI) system to control a self-driving car."
+  },
+  {
+    "term": "Which machine learning (ML) approach",
+    "definition": "being used in this scenario?**\n- Supervised learning\n- Reinforcement learning\n- Unsupervised learning\n- Self-supervised learning\n\n### Question 3\nA company is developing a large language model (LLM) for natural language processing tasks, such as text generation, summarization, and question answering."
+  },
+  {
+    "term": "Embeddings",
+    "definition": "numerical representations of words or tokens, where semantically similar words have similar vector representations."
+  },
+  {
+    "term": "A team",
+    "definition": "tasked with choosing a generative artificial intelligence (AI) model that can recognize and interpret different forms of input data, such as text, images, and audio."
+  },
+  {
+    "term": "Which of the following model architectures",
+    "definition": "best suited for this task?**\n- Large language model\n- Diffusion model\n- Multimodal model\n- Foundation model\n\n# AWS Infrastructure and Technologies\nAWS offers a comprehensive suite of ML and generative AI services that can help you unlock the full potential of these transformative technologies."
+  },
+  {
+    "term": "SageMaker",
+    "definition": "a fully managed machine learning service that you can use to build, train, and deploy your own custom models."
+  },
+  {
+    "term": "Next",
+    "definition": "the AI/ML services layer, where you find a wide array of specialized services tailored for different use cases."
+  },
+  {
+    "term": "Amazon Bedrock",
+    "definition": "a fully managed service that makes FMs from Amazon and leading AI startups available through an API."
+  },
+  {
+    "term": "And there",
+    "definition": "Amazon Q Developer, providing ML–powered code recommendations to accelerate development in a variety of programming languages and applications."
+  },
+  {
+    "term": "Each of these services",
+    "definition": "designed to empower you to harness the potential of AI and ML, driving innovation, efficiency, and growth."
+  },
+  {
+    "term": "Understands how positive or negative the text",
+    "definition": "Analyzes text using tokenization and parts of speech\nAnd automatically organizes a collection of text files by topic\n\n#### Amazon Translate\n\nAmazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation."
+  },
+  {
+    "term": "Neural machine translation",
+    "definition": "a form of language translation automation that uses deep learning models to deliver more accurate and more natural-sounding translation than traditional statistical and rule-based translation algorithms."
+  },
+  {
+    "term": "Amazon Textract\n\nAmazon Textract",
+    "definition": "a service that automatically extracts text and data from scanned documents."
+  },
+  {
+    "term": "Amazon Lex\n\nAmazon Lex",
+    "definition": "a fully managed AI service to design, build, test, and deploy conversational interfaces into any application using voice and text."
+  },
+  {
+    "term": "Amazon Alexa",
+    "definition": "now available to any developer."
+  },
+  {
+    "term": "Amazon Polly\n\nAmazon Polly",
+    "definition": "a service that turns text into lifelike speech."
+  },
+  {
+    "term": "Amazon Polly",
+    "definition": "an AI service that uses advanced deep learning technologies to synthesize speech that sounds like a human voice."
+  },
+  {
+    "term": "Amazon Transcribe\n\nAmazon Transcribe",
+    "definition": "an automatic speech recognition (ASR) service for automatically converting speech to text."
+  },
+  {
+    "term": "Amazon Transcribe",
+    "definition": "designed to handle a wide range of speech and acoustic characteristics, including variations in volume, pitch, and speaking rate."
+  },
+  {
+    "term": "Amazon Kendra\n\nAmazon Kendra",
+    "definition": "an intelligent search service powered by ML."
+  },
+  {
+    "term": "Your employees and customers can conveniently find the content that they",
+    "definition": "looking for, even when it’s scattered across multiple locations and content repositories within your organization."
+  },
+  {
+    "term": "Amazon Personalize\n\nAmazon Personalize",
+    "definition": "an ML service that developers can use to create individualized recommendations for customers who use their applications."
+  },
+  {
+    "term": "AWS DeepRacer\n\nAWS DeepRacer",
+    "definition": "a 1/18th scale race car that gives you an interesting and fun way to get started with reinforcement learning (RL)."
+  },
+  {
+    "term": "Its superpower",
+    "definition": "that it learns very complex behaviors without requiring any labeled training data, and it can make short-term decisions while optimizing for a longer-term goal."
+  },
+  {
+    "term": "The solutions",
+    "definition": "fully customizable and showcase the use of AWS CloudFormation templates and reference architectures so that you can accelerate your ML journey."
+  },
+  {
+    "term": "Amazon Bedrock\nAmazon Bedrock",
+    "definition": "a fully managed service that makes FMs from Amazon and leading AI startups available through an API."
+  },
+  {
+    "term": "Responsiveness and availability\nAWS generative AI services",
+    "definition": "designed to be highly responsive and available."
+  }
+]

@@ -1,0 +1,107 @@
+Timestamp: 2025-09-06 12:47:01.541157
+Chunk: generative_ai_fundamentals
+Call Type: definition_extraction
+==================================================
+Find technical terms that have clear definitions in this course material. Focus on AI/ML concepts that are explicitly defined.
+
+Return only the term names as a JSON array. If no definitions found, return [].
+
+Course material:
+# Generative AI Fundamentals
+
+Machine learning has been around for decades, which begs the question, what has led to the emergence of generative AI right now? The answer is as straightforward as huge investments in resources. Hiring a large team, spending on compute resources, and importantly, having the willingness to invest and develop big ideas, are all contributors to the rise of generative AI.
+
+## Foundation models
+
+![](FMDiagram2.png)
+
+Generative AI is powered by models that are pretrained on internet-scale data, and these models are called foundation models (FMs).  With FMs, instead of gathering labeled data for each model and training multiple models as in traditional ML, you can adapt a single FM to perform multiple tasks. These tasks include text generation, text summarization, information extraction, image generation, chatbot interactions, and question answering. FMs can also serve as the starting point for developing more specialized models.
+
+### FM lifecycle
+
+The foundation model lifecycle is a comprehensive process that involves several stages, each playing a crucial role in developing and deploying effective and reliable foundation models.
+
+#### Data selection
+
+Unlabeled data can be used at scale for pre-training because it is much easier to obtain compared to labeled data. Unlabeled data includes raw data, such as images, text files, or videos, with no meaningful informative labels to provide context. FMs require training on massive datasets from diverse sources.
+
+#### Pre-training
+
+Although traditional ML models rely on supervised, unsupervised, or reinforcement learning patterns, FMs are typically pre-trained through self-supervised learning. With self-supervised learning, labeled examples are not required. Self-supervised learning makes use of the structure within the data to autogenerate labels.
+
+During the initial pre-training stage, the FM's algorithm can learn the meaning, context, and relationship of the words in the datasets. For example, the model might learn whether drink means beverage, the noun, or swallowing the liquid, the verb.
+
+After the initial pre-training, the model can be further pre-trained on additional data. This is known as continuous pre-training. The goal is to expand the model's knowledge base and improve its ability to understand and generalize across different domains or tasks.
+
+#### Optimization
+
+Pre-trained language models can be optimized through techniques like prompt engineering, retrieval-augmented generation (RAG), and fine-tuning on task-specific data. These methods will vary in complexity and cost and will be discussed later in this lesson.
+
+#### Evaluation
+
+Whether or not you fine-tune a model or use a pre-trained model off the shelf, the next logical step is to evaluate the model. An FM's performance can be measured using appropriate metrics and benchmarks. Evaluation of model performance and its ability to meet business needs is important.
+
+#### Deployment
+
+When the FM meets the desired performance criteria, it can be deployed in the target production environment. Deployment can involve integrating the model into applications, APIs, or other software systems.
+
+#### Feedback and continuous improvement
+
+After deployment, the model's performance is continuously monitored, and feedback is collected from users, domain experts, or other stakeholders. This feedback, along with model monitoring data, is used to identify areas for improvement, detect potential biases or drift, and inform future iterations of the model. The feedback loop permits continuous enhancement of the foundation model through fine-tuning, continuous pre-training, or re-training, as needed.
+
+#### Summary
+
+It's important to note that the FM lifecycle is an iterative process, where lessons learned and insights gained from each stage can inform and improve subsequent iterations.
+
+
+> ℹ️
+> Amazon Bedrock provides access to a choice of high-performing FMs from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and Amazon.
+> With these FMs as a foundation, you can further optimize their outputs with prompt engineering, fine-tuning, or RAG.
+
+
+There are a few types of FMs that are essential to understanding generative AI's capabilities.
+
+### Large language models
+Large language models (LLMs) can be based on a variety of architectures, but the most common architecture in today's state-of-the-art models is the transformer architecture. Transformer-based LLMs are powerful models that can understand and generate human-like text. They are trained on vast amounts of text data from the internet, books, and other sources, and learn patterns and relationships between words and phrases.
+
+To better understand how LLMs work, choose the following tabs to learn about tokens and embeddings and vectors.
+
+#### TOKENS
+Tokens are the basic units of text that the model processes. Tokens can be words, phrases, or individual characters like a period. Tokens also provide standardization of input data, which makes it easier for the model to process.
+
+As an example, the sentence "A puppy is to dog as a kitten is to cat." might be broken up into the following tokens: “A” “puppy” “is” “to” “dog” “as” "a" “kitten” “is” “to” "cat." 
+
+![](tokens.png)
+
+#### EMBEDDINGS AND VECTORS
+Embeddings are numerical representations of tokens, where each token is assigned a vector (a list of numbers) that captures its meaning and relationships with other tokens. These vectors are learned during the training process and allow the model to understand the context and nuances of language.
+ 
+For example, the embedding vector for the token "cat" might be close to the vectors for "feline" and "kitten" in the embedding space, indicating that they are semantically related. This way, the model can understand that "cat" is similar to "feline" and "kitten" without being explicitly programmed with those relationships.
+
+![](embeddings.png)
+
+LLMs use these tokens, embeddings, and vectors to understand and generate text. The models can capture complex relationships in language, so they can generate coherent and contextually appropriate text, answer questions, summarize information, and even engage in creative writing.
+
+## Diffusion models
+Diffusion is a deep learning architecture system that starts with pure noise or random data. The models gradually add more and more meaningful information to this noise until they end up with a clear and coherent output, like an image or a piece of text. Diffusion models learn through a two-step process of forward diffusion and reverse diffusion.
+
+### Forward diffusion
+Using forward diffusion, the system gradually introduces a small amount of noise to an input image until only the noise is left over.
+![](forward_diffusion2.png)
+
+### Reverse diffusion
+In the subsequent reverse diffusion step, the noisy image is gradually introduced to denoising until a new image is generated.
+![](reverseddiffusion2.png)
+
+Although some of the most well-known and impressive applications of diffusion models have been text-to-image models, diffusion models can be applied to a variety of tasks beyond just image generation.
+
+## Multimodal models
+Instead of just relying on a single type of input or output, like text or images, multimodal models can process and generate multiple modes of data simultaneously. For example, a multimodal model could take in an image and some text as input, and then generate a new image and a caption describing it as output.
+
+These kinds of models learn how different modalities like images and text are connected and can influence each other. Multimodal models can be used for automating video captioning, creating graphics from text instructions, answering questions more intelligently by combining text and visual info, and even translating content while keeping relevant visuals.
+
+## Other generative models
+There are several types of generative models used in ML and AI. Expand the following tabs to learn more about two of the
+[Content truncated...]
+
+Return format: ["term1", "term2", "term3"]

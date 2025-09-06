@@ -1,0 +1,4 @@
+Timestamp: 2025-09-06 12:48:38.836294
+Chunk: aws_infrastructure_and_technologies
+Call Type: definition_extraction
+==================================================

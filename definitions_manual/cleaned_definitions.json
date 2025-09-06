@@ -1,0 +1,102 @@
+[
+  {
+    "term": "Amazon Bedrock",
+    "definition": "a fully managed service that makes FMs from Amazon and leading AI startups available through an API."
+  },
+  {
+    "term": "Amazon Personalize",
+    "definition": "an ML service that developers can use to create individualized recommendations for customers who use their applications."
+  },
+  {
+    "term": "Amazon Polly",
+    "definition": "a service that turns text into lifelike speech."
+  },
+  {
+    "term": "Amazon Textract",
+    "definition": "a service that automatically extracts text and data from scanned documents."
+  },
+  {
+    "term": "Artificial intelligence (AI)",
+    "definition": "AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI, among others."
+  },
+  {
+    "term": "AWS DeepRacer",
+    "definition": "a 1/18th scale race car that gives you an interesting and fun way to get started with reinforcement learning (RL)."
+  },
+  {
+    "term": "Bad data",
+    "definition": "often called garbage in, garbage out, and therefore an ML model is only as good as the data used to train it."
+  },
+  {
+    "term": "Computer vision",
+    "definition": "a field of artificial intelligence that makes it possible for computers to interpret and understand digital images and videos."
+  },
+  {
+    "term": "Deep learning (DL)",
+    "definition": "Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds."
+  },
+  {
+    "term": "Diffusion models",
+    "definition": "a deep learning architecture system that starts with pure noise or random data."
+  },
+  {
+    "term": "EMBEDDINGS AND VECTORS",
+    "definition": "numerical representations of tokens, where each token is assigned a vector (a list of numbers) that captures its meaning and relationships with other tokens."
+  },
+  {
+    "term": "FM lifecycle",
+    "definition": "a comprehensive process that involves several stages, each playing a crucial role in developing and deploying effective and reliable foundation models."
+  },
+  {
+    "term": "Generative adversarial networks (GANs)",
+    "definition": "a type of generative model that involves two neural networks competing against each other in a zero-sum game framework."
+  },
+  {
+    "term": "Generative AI",
+    "definition": "a branch of artificial intelligence that focuses on creating new content, such as text, images, audio, or even computer code, from existing data."
+  },
+  {
+    "term": "Labeled data",
+    "definition": "a dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification."
+  },
+  {
+    "term": "LLMs",
+    "definition": "powerful models that can understand and generate human-like text."
+  },
+  {
+    "term": "Machine learning (ML)",
+    "definition": "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks."
+  },
+  {
+    "term": "Natural language processing (NLP)",
+    "definition": "a branch of artificial intelligence that deals with the interaction between computers and human languages."
+  },
+  {
+    "term": "Neural machine translation",
+    "definition": "a form of language translation automation that uses deep learning models to deliver more accurate and more natural-sounding translation than traditional statistical and rule-based translation algorithms."
+  },
+  {
+    "term": "Neural networks",
+    "definition": "a type of decision tree algorithm that can be trained on image data to create a set of rules for classifying handwritten digits."
+  },
+  {
+    "term": "SageMaker",
+    "definition": "a fully managed machine learning service that you can use to build, train, and deploy your own custom models."
+  },
+  {
+    "term": "Structured data",
+    "definition": "data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns."
+  },
+  {
+    "term": "TOKENS",
+    "definition": "the basic units of text that the model processes."
+  },
+  {
+    "term": "Unstructured data",
+    "definition": "data that lacks a predefined structure or format, such as text, images, audio, and video."
+  },
+  {
+    "term": "Variational autoencoders (VAEs)",
+    "definition": "a type of generative model that combines ideas from autoencoders (a type of neural network) and variational inference (a technique from Bayesian statistics)."
+  }
+]

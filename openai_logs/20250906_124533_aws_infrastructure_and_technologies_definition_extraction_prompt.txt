@@ -1,0 +1,161 @@
+Timestamp: 2025-09-06 12:45:33.499235
+Chunk: aws_infrastructure_and_technologies
+Call Type: definition_extraction
+==================================================
+Find technical terms that have clear definitions in this course material. Focus on AI/ML concepts that are explicitly defined.
+
+Return only the term names as a JSON array. If no definitions found, return [].
+
+Course material:
+# AWS Infrastructure and Technologies
+AWS offers a comprehensive suite of ML and generative AI services that can help you unlock the full potential of these transformative technologies.
+
+In this lesson, you will learn about the various AI and ML services available on AWS, from text comprehension with Amazon Comprehend to code generation with Amazon Q Developer. You will gain a broad understanding of the capabilities of each service and how they can be used to build innovative, intelligent applications.
+
+You will also explore the advantages of using AWS generative AI services, and the benefits of the AWS infrastructure when developing generative AI applications. Finally, you will be introduced to the cost trade-offs and considerations that you should keep in mind when using these powerful tools.
+
+## AWS AI/ML services stack
+The stack starts at the ML frameworks layer. At the core of this layer is Amazon SageMaker. SageMaker is a fully managed machine learning service that you can use to build, train, and deploy your own custom models. SageMaker provides tools and infrastructure to accelerate your ML development and deployment lifecycle.
+ 
+Next is the AI/ML services layer, where you find a wide array of specialized services tailored for different use cases. In the text and documents domain, there is Amazon Comprehend for natural language processing, Amazon Translate for language translation, and Amazon Textract for extracting data from scanned documents.
+ 
+For chatbots, AWS offers Amazon Lex, which you can use to build conversational interfaces powered by the same deep learning technologies that drive Amazon Alexa. In the speech domain, you can find Amazon Polly for text-to-speech and Amazon Transcribe for automatic speech recognition.
+ 
+In the vision domain, you have Amazon Rekognition, a deep learning-based computer vision service that can analyze images and videos for a wide range of applications. For search, Amazon Kendra reimagines enterprise search for websites and applications so that individuals can readily find the content they are looking for.
+ 
+In the recommendations domain, we have Amazon Personalize for real-time personalization and recommendations. Finally, in the miscellaneous category, there is AWS DeepRacer, a fully autonomous 1/18th scale race car that lets you get hands-on experience with reinforcement learning.
+ 
+AWS offers even more in the generative AI layer. You will find a set of services and tools that unlock the power of foundation models. This includes Amazon SageMaker JumpStart, which provides a set of solutions for the most common use cases.
+
+Amazon Bedrock is a fully managed service that makes FMs from Amazon and leading AI startups available through an API. With Amazon Bedrock, you can quickly get started, experiment with FMs, privately customize them with your own data, and seamlessly integrate and deploy FMs into AWS applications. If you'd prefer to experiment with building AI applications, you can get hands-on experience by using PartyRock, an Amazon Bedrock Playground.
+
+Finally, you have applications like Amazon Q, a generative AI–powered assistant designed for work that can be tailored for a business's data. And there is Amazon Q Developer, providing ML–powered code recommendations to accelerate development in a variety of programming languages and applications.
+ 
+Each of these services is designed to empower you to harness the potential of AI and ML, driving innovation, efficiency, and growth.
+
+AWS rapidly innovates across the AI and ML stack, offering comprehensive capabilities from infrastructure and tools to groundbreaking applications like AI-based coding. Customers value the AWS data-first approach, security, and breadth of enterprise-grade offerings spanning all layers.
+
+### ML frameworks
+The ML frameworks layer plays a crucial role in the development and deployment of machine learning models. At the core of the frameworks layer is Amazon SageMaker. SageMaker offers the right tools to effectively build, train, and run LLMs and other FMs efficiently and cost effectively. Choose the following tab to learn more about this service.
+
+#### Amazon SageMaker
+With SageMaker, you can build, train, and deploy ML models for any use case with fully managed infrastructure, tools, and workflows. SageMaker removes the heavy lifting from each step of the ML process to make it easier to develop high-quality models. SageMaker provides all the components used for ML in a single toolset, so models get to production faster with much less effort and at lower cost.
+
+### AI/ML services
+AWS provides a robust AI/ML services layer, offering ready-to-use solutions like Amazon Comprehend for natural language processing tasks and Amazon Kendra for intelligent search across organizational data. This layer includes a wide range of services that provide developers with AI/ML capabilities without requiring extensive infrastructure management or specialized expertise. 
+
+#### Amazon Comprehend
+
+Amazon Comprehend uses ML and natural language processing (NLP) to help you uncover the insights and relationships in your unstructured data. This service performs the following functions:
+Identifies the language of the text
+Extracts key phrases, places, people, brands, or events
+Understands how positive or negative the text is
+Analyzes text using tokenization and parts of speech
+And automatically organizes a collection of text files by topic
+
+#### Amazon Translate
+
+Amazon Translate is a neural machine translation service that delivers fast, high-quality, and affordable language translation. Neural machine translation is a form of language translation automation that uses deep learning models to deliver more accurate and more natural-sounding translation than traditional statistical and rule-based translation algorithms. With Amazon Translate, you can localize content such as websites and applications for your diverse users, translate large volumes of text for analysis, and efficiently implement cross-lingual communication between users.
+
+#### Amazon Textract
+
+Amazon Textract is a service that automatically extracts text and data from scanned documents. Amazon Textract goes beyond optical character recognition (OCR) to also identify the contents of fields in forms and information stored in tables.
+
+#### Amazon Lex
+
+Amazon Lex is a fully managed AI service to design, build, test, and deploy conversational interfaces into any application using voice and text. Amazon Lex provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text, and natural language understanding (NLU) to recognize the intent of the text. This permits you to build applications with highly engaging user experiences and lifelike conversational interactions, and create new categories of products. With Amazon Lex, the same deep learning technologies that power Amazon Alexa are now available to any developer. You can efficiently build sophisticated, natural-language conversational bots and voice-enabled interactive voice response (IVR) systems.
+
+#### Amazon Polly
+
+Amazon Polly is a service that turns text into lifelike speech. Amazon Polly lets you create applications that talk, so you can build entirely new categories of speech-enabled products. Amazon Polly is an AI service that uses advanced deep learning technologies to synthesize speech that sounds like a human voice. Amazon Polly includes a wide selection of lifelike voices spread across dozens of languages, so you can select the ideal voice and build speech-enabled applications that work in many different countries.
+
+#### Amazon Transcribe
+
+Amazon Transcribe is an automatic speech recognition (ASR) service for automatically converting speech to text. The service can transcribe audio files stored in common formats, like WAV and MP3, with time stamps for every word so that you can quickly locate the audio in the original source by searching for the text. You can also send a live audio stream to Amazon Transcribe and receive a stream of transcripts in real time. Amazon Transcribe is designed to handle a wide range of speech and acoustic characteristics, including variations in volume, pitch, and speaking rate. Customers can use Amazon Transcribe for a variety of business applications, including the following:
+Transcription of voice-based customer service calls
+Generation of subtitles on audio and video content
+Conducting (text based) content analysis on audio and video content
+
+#### Amazon Rekognition
+
+Amazon Rekognition facilitates adding image and video analysis to your applications. It uses proven, highly scalable, deep learning technology that requires no ML expertise to use. With Amazon Rekognition, you can identify objects, people, text, scenes, and activities in images and videos, and even detect inappropriate content. Amazon Rekognition also provides highly accurate facial analysis and facial search capabilities. You can use it to detect, analyze, and compare faces for a wide variety of user verification, people counting, and public safety use cases.
+
+#### Amazon Kendra
+
+Amazon Kendra is an intelligent search service powered by ML. Amazon Kendra reimagines enterprise search for your websites and applications. Your employees and customers can conveniently find the content that they are looking for, even when it’s scattered across multiple locations and content repositories within your organization.
+
+#### Amazon Personalize
+
+Amazon Personalize is an ML service that developers can use to create individualized recommendations for customers who use their applications.
+
+With Amazon Personalize, you provide an activity stream from your application (page views, signups, purchases, and so forth). You also provide an inventory of the items that you want to recommend, such as articles, products, videos, or music. You can choose to provide Amazon Personalize with additional demographic information from your users, such as age or geographic location. Amazon Personalize processes and examines the data, identifies what is meaningful, selects the right algorithms, and trains and optimizes a personalization model that is customized for your data.
+
+#### AWS DeepRacer
+
+AWS DeepRacer is a 1/18th scale race car that gives you an interesting and fun way to get started with reinforcement learning (RL). RL is an advanced ML technique that takes a very different approach to training models than other ML methods. Its superpower is that it learns very complex behaviors without requiring any labeled training data, and it can make short-term decisions while optimizing for a longer-term goal.
+
+### Generative AI
+Services included in the generative AI layer.
+The generative AI services layer in the AI and ML stack offers a suite of powerful tools and services specifically designed for generative AI tasks. This layer includes services like SageMaker JumpStart for accelerating model development and deployment. Amazon Bedrock offers a choice of high-performing FMs from leading AI companies through a single API. With these services, developers and organizations can harness the capabilities of generative AI models, unlocking new possibilities for content creation, data synthesis, and interactive AI experiences. Choose the following tabs to learn more about these services
+
+#### Amazon SageMaker JumpStart
+SageMaker JumpStart helps you quickly get started with ML. To facilitate getting started, SageMaker JumpStart provides a set of solutions for the most common use cases, which can be readily deployed. The solutions are fully customizable and showcase the use of AWS CloudFormation templates and reference architectures so that you can accelerate your ML journey. SageMaker JumpStart also supports one-click deployment and fine-tuning of more than 150 popular open-source models such as natural language processing, object detection, and image classification models.
+
+#### Amazon Bedrock
+Amazon Bedrock is a fully managed service that makes FMs from Amazon and leading AI startups available through an API. With the Amazon Bedrock serverless experience, you can quickly get started, experiment with FMs, privately customize them with your own data, and seamlessly integrate and deploy FMs into your AWS applications.
+
+#### Amazon Q
+Amazon Q can help you get fast, relevant answers to pressing questions, solve problems, generate content, and take actions using the data and expertise found in your company's information repositories, code, and enterprise systems. When you chat with Amazon Q, it provides immediate, relevant information and advice to help streamline tasks, speed decision-making, and help spark creativity and innovation.
+
+#### Amazon Q Developer
+Designed to improve developer productivity, Amazon Q Developer provides ML–powered code recommendations to accelerate development of C#, Java, JavaScript, Python, and TypeScript applications. The service integrates with multiple integrated development environments (IDEs) and helps developers write code faster by generating entire functions and logical blocks of code—often consisting of more than 10–15 lines of code.
+
+## Advantages and benefits of AWS AI solutions
+From small startups to massive companies, organizations rely on AWS to innovate with powerful AI tools. AWS offers top-notch security and privacy features to keep your data safe, and it gives you access to the most advanced AI models available.
+
+With AWS, you can build and grow your own custom AI applications that use generative AI. These applications can be tailored to your specific needs. AWS helps you take advantage of generative AI technology and create something truly unique and personalized.
+
+### Accelerated development and deployment
+Amazon Q Developer (previously Amazon CodeWhisperer) can generate code in real time. Amazon ran a productivity challenge during the preview of CodeWhisperer. Participants who used the service were 27 percent more likely to complete tasks successfully and did so an average of 57 percent faster than those who did not use CodeWhisperer.
+SageMaker handles tasks such as data preprocessing, model training, and deployment. So developers can focus on the application logic and user experience.
+Amazon Bedrock provides access to pre-trained models and APIs. So developers can quickly integrate AI capabilities into their applications without the need for extensive training or specialized hardware. This accelerates the development process and permits faster iteration cycles, reducing the time to market for AI-powered applications.
+
+### Scalability and cost optimization
+With pay-as-you-go pricing models, businesses only pay for the resources that they consume. This reduces upfront costs and facilitates efficient resource utilization.
+AWS global infrastructure and distributed computing capabilities permit applications to scale seamlessly across regions and handle large datasets or high-volume traffic.
+
+### Flexibility and access to models
+AWS continuously updates and expands its AI services, providing access to the latest advancements in machine learning models, techniques, and algorithms.
+Amazon Bedrock offers a choice of high-performing FMs from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Mistral AI, Stability AI, and AWS, through a single API.
+
+### Integration with AWS tools and services
+Services like Amazon Comprehend and Amazon Rekognition offer ready-to-use AI capabilities that can be readily incorporated into applications.
+AWS AI services seamlessly integrate with other AWS services, so developers can build end-to-end solutions that use multiple cloud services.
+The AWS ecosystem provides a wide range of tools, SDKs, and APIs, so developers can incorporate AI capabilities into their existing applications or build entirely new AI-driven applications.
+
+## Cost considerations
+When working with AI and ML services on AWS, it's essential to understand the various cost considerations involved. These trade-offs can impact factors such as responsiveness, availability, redundancy, performance, regional coverage, pricing models, throughput, and the ability to use custom models.
+
+### Responsiveness and availability
+AWS generative AI services are designed to be highly responsive and available. However, higher levels of responsiveness and availability often come at an increased cost. For example, services with lower latency and higher availability (for example, multi-Region deployment) will typically have higher pricing compared to alternatives with lower performance and availability guarantees.
+
+### Redundancy and Regional coverage
+To ensure redundancy and high availability, AWS generative AI services can be deployed across multiple Availability Zones or even across multiple AWS Regions. This redundancy comes with an additional cost, because resources have to be provisioned and data replicated across multiple locations.
+
+### Performance
+AWS offers different compute options (for example, CPU, GPU, and custom hardware accelerators) for generative AI services. Higher-performance options, such as GPU instances, generally come at a higher cost but can provide significant performance improvements for certain workloads.
+
+### Token-based pricing
+Many AWS generative AI services, such as Amazon Q Developer and Amazon Bedrock, use a token-based pricing model. This means that you pay for the number of tokens (a unit of text or code) generated or processed by the service. The more tokens you generate or process, the higher the cost.
+
+### Provisioned throughput
+Some AWS generative AI services, like Amazon Polly and Amazon Transcribe, let you provision a specific amount of throughput (for example, audio or text processing capacity) in advance. Higher provisioned throughput levels typically come at a higher cost but can ensure predictable performance for time-sensitive workloads.
+
+### Custom models
+AWS provides pre-trained models for various generative AI tasks, but you can also bring your own custom models or fine-tune existing models. Training and deploying custom models can incur additional costs, depending on the complexity of the model, the training data, and the compute resources required.
+
+It's important to carefully evaluate your specific requirements and workloads when choosing AWS services. Factors like those listed previously, can significantly impact the overall cost and performance.
+
+By understanding these cost considerations, you can make informed decisions and optimize your AWS AI deployments to balance cost, performance, and other requirements effectively.
+
+Return format: ["term1", "term2", "term3"]

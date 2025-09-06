@@ -1,0 +1,29 @@
+Timestamp: 2025-09-06 12:47:21.232204
+Chunk: knowledge_check
+Call Type: definition_extraction
+==================================================
+Find technical terms that have clear definitions in this course material. Focus on AI/ML concepts that are explicitly defined.
+
+Return only the term names as a JSON array. If no definitions found, return [].
+
+Course material:
+# Knowledge Check
+### Question 1
+A company has a large collection of customer support emails and chat transcripts. They want to analyze the sentiment expressed in these messages and identify common issues or topics discussed by their customers.
+
+**Which AWS service would be most appropriate for this task? **
+- Amazon Transcribe
+- Amazon Kendra
+- Amazon Polly
+- Amazon Comprehend
+
+### Question 2
+A retail company has accumulated a large volume of customer transaction data, including purchase history, product preferences, and demographic information. The company wants to use this data to build machine learning models that can provide personalized product recommendations to customers and improve their overall shopping experience.
+
+**Which AWS service would be most suitable for the retail company to build, train, and deploy machine learning models for personalized product recommendations?**
+- Amazon SageMaker
+- Amazon Bedrock
+- Amazon Lex
+- Amazon Q Developer
+
+Return format: ["term1", "term2", "term3"]

@@ -1,0 +1,11 @@
+AWS AI Practitioner Definition Extraction - Cost Summary
+============================================================
+
+Model Used: gpt-5-mini
+Total API Calls: 82
+Total Input Tokens: 24,718
+Total Output Tokens: 68,493
+Total Cost: $0.143166
+
+Total Definitions Extracted: 48
+Cost per Definition: $0.002983
