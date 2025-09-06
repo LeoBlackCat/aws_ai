@@ -1,0 +1,41 @@
+[2025-09-06T15:48:08.207Z] === Definition Extraction Session Started ===
+
+[2025-09-06T15:48:08.210Z] Found Introduction section with 4 concepts
+[2025-09-06T15:48:08.214Z] Concepts: Artificial intelligence (AI), Machine learning (ML), Deep learning (DL), Generative AI
+[2025-09-06T15:48:08.214Z] 
+=== Processing batch: fundamentals_introduction ===
+[2025-09-06T15:48:08.214Z] Concepts to process: 4
+[2025-09-06T15:48:08.223Z] Processing concept: "Artificial intelligence (AI)"
+[2025-09-06T15:48:08.223Z] Prompt tokens: 8867
+[2025-09-06T15:48:15.116Z] Response tokens: 0
+[2025-09-06T15:48:15.117Z] Total tokens for this request: 8867
+[2025-09-06T15:48:15.118Z] Definition extracted: ""
+[2025-09-06T15:48:15.118Z] ---
+[2025-09-06T15:48:15.226Z] Processing concept: "Machine learning (ML)"
+[2025-09-06T15:48:15.226Z] Prompt tokens: 8866
+[2025-09-06T15:48:22.090Z] Response tokens: 34
+[2025-09-06T15:48:22.090Z] Total tokens for this request: 8900
+[2025-09-06T15:48:22.091Z] Definition extracted: "ML is a type of AI for understanding and building methods that make it possible for machines to lear..."
+[2025-09-06T15:48:22.091Z] ---
+[2025-09-06T15:48:22.209Z] Processing concept: "Deep learning (DL)"
+[2025-09-06T15:48:22.210Z] Prompt tokens: 8866
+[2025-09-06T15:48:28.777Z] Response tokens: 0
+[2025-09-06T15:48:28.778Z] Total tokens for this request: 8866
+[2025-09-06T15:48:28.778Z] Definition extracted: ""
+[2025-09-06T15:48:28.778Z] ---
+[2025-09-06T15:48:28.902Z] Processing concept: "Generative AI"
+[2025-09-06T15:48:28.903Z] Prompt tokens: 8865
+[2025-09-06T15:48:35.125Z] Response tokens: 0
+[2025-09-06T15:48:35.126Z] Total tokens for this request: 8865
+[2025-09-06T15:48:35.126Z] Definition extracted: ""
+[2025-09-06T15:48:35.127Z] ---
+[2025-09-06T15:48:35.230Z] 
+=== Batch fundamentals_introduction completed ===
+[2025-09-06T15:48:35.231Z] Batch token usage: 35498
+[2025-09-06T15:48:35.231Z] Session total tokens: 35498
+[2025-09-06T15:48:35.231Z] Session total requests: 4
+[2025-09-06T15:48:35.232Z] 
+=== Session Summary ===
+[2025-09-06T15:48:35.232Z] Total tokens used: 35498
+[2025-09-06T15:48:35.232Z] Total requests made: 4
+[2025-09-06T15:48:35.233Z] Average tokens per request: 8875

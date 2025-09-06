@@ -1,0 +1,48 @@
+[
+  {
+    "batch": "fundamentals_introduction",
+    "timestamp": "2025-09-06T15:48:35.229Z",
+    "results": [
+      {
+        "concept": "Artificial intelligence (AI)",
+        "definition": "",
+        "tokens": {
+          "prompt": 8867,
+          "completion": 0,
+          "total": 8867
+        }
+      },
+      {
+        "concept": "Machine learning (ML)",
+        "definition": "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks.",
+        "tokens": {
+          "prompt": 8866,
+          "completion": 34,
+          "total": 8900
+        }
+      },
+      {
+        "concept": "Deep learning (DL)",
+        "definition": "",
+        "tokens": {
+          "prompt": 8866,
+          "completion": 0,
+          "total": 8866
+        }
+      },
+      {
+        "concept": "Generative AI",
+        "definition": "",
+        "tokens": {
+          "prompt": 8865,
+          "completion": 0,
+          "total": 8865
+        }
+      }
+    ],
+    "tokens_summary": {
+      "batch_total": 35498,
+      "batch_requests": 4
+    }
+  }
+]

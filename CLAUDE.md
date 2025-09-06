@@ -48,6 +48,9 @@ API key is in .env file.
 }
 ```
 
+## Tiktoken
+You need to log all requests to openai and also count tokens using tiktoken. Maybe keeping the amount of tokens and price in some text file or database
+
 ## Development Commands
 
 ```bash
