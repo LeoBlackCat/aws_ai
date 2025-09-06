@@ -1,0 +1,17 @@
+{
+  "file": "fundamentals/fundamentals.md",
+  "section": "Introduction",
+  "concepts": [
+    "Artificial intelligence (AI)",
+    "Machine learning (ML)",
+    "Deep learning (DL)",
+    "Generative AI",
+    "Training data",
+    "Model",
+    "Text generation",
+    "Computer vision",
+    "Speech synthesis",
+    "Code generation"
+  ],
+  "concept_count": 10
+}

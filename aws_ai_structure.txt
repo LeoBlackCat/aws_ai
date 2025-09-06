@@ -1,0 +1,100 @@
+AWS AI PRACTITIONER LEARNING PLAN - HIERARCHICAL STRUCTURE
+
+aws_ai_practitioner.md
+    # AWS Artificial Intelligence Practitioner Learning Plan
+
+fundamentals/fundamentals.md
+    # Introduction
+    # Machine Learning Fundamentals
+    # Deep Learning Fundamentals
+    # Generative AI Fundamentals
+    # Knowledge check
+    # AWS Infrastructure and Technologies
+    # Knowledge Check
+
+ai_usecases/ai_usecases.md
+    # Introduction
+    # Examples of Real-World Use Cases
+    # Examples of AI Applications
+    # Machine Learning
+    # Machine Learning Techniques and Use Cases
+    # Generative AI
+    # Capabilities of Generative AI
+    # Challenges of Generative AI
+    # Factors to Consider When Selecting a Generative AI Model
+    # Business Metrics for Generative AI
+    # Knowledge Check
+    # Course Summary
+
+responsible_ai_practices/responsible_ai_practices.md
+    # Responsible AI
+    # Responsible AI Challenges in Traditional AI and Generative AI
+    # Core Dimensions of Responsible AI
+    # Knowledge Check
+    # Amazon Services and Tools for Responsible AI
+    # Reviewing Amazon service tools for responsible AI
+    # Responsible Considerations to Select a Model
+    # Responsible Preparation for Datasets
+    # Knowledge Check
+    # Transparent and Explainable Models
+    # Principles of Human-Centered Design for Explainable AI
+    # Knowledge Check
+
+developing_ml/developing_ml.md
+    # Introduction
+    # Machine Learning Development Lifecycle
+    # Developing ML Solutions with Amazon SageMaker
+    # Sources of ML Models
+    # Machine Learning Models Performance Evaluation
+    # Model Deployment
+    # Fundamental Concepts of MLOps
+    # Knowledge Check
+    # Conclusion
+
+developing_genai/developing_genai.md
+    # Course Overview
+    # Generative AI Application Lifecycle
+    # Defining a Use Case
+    # Selecting an FM
+    # Knowledge Check
+    # Improving the Performance of an FM
+    # Knowledge Check
+    # Evaluating an FM
+    # Knowledge Check
+    # Deploying the Application
+    # Course Summary
+
+optimizing_fm/optimizing_fm.md
+    # Course Overview
+    # Business case
+    # Retrieval-Augmented Generation
+    # Agents
+    # Evaluate results
+    # Knowledge Check
+    # Business case
+    # Fine-Tuning
+    # Model evaluation
+    # Knowledge Check
+
+security_compliance_governance/security.md
+    # Course Overview
+    # Strategic Guidance for Security, Governance, and Compliance
+    # Compliance Standards for AI Systems
+    # AWS Services for Governance and Compliance
+    # Data Governance Strategies
+    # Approaches for Implementing Governance Strategies
+    # Knowledge Check
+    # Security and Privacy Considerations for AI Systems
+    # AWS Services and Features for Securing AI Systems
+    # Understanding Data and Model Lineage
+    # Best Practices for Secure Data Engineering
+    # Knowledge Check
+    # Resources
+
+prompt_engineering/prompt_engineering.md
+    # Introduction
+    # Understanding Prompts
+    # Modifying Prompts
+    # Prompt Engineering Techniques
+    # Knowledge Check
+    # Additional resources

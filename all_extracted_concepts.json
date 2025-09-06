@@ -1,0 +1,1389 @@
+{
+  "extraction_summary": {
+    "total_files_processed": 8,
+    "total_sections_found": 84,
+    "total_sections_processed": 84,
+    "sections_with_concepts": 84,
+    "total_concepts_extracted": 790
+  },
+  "results": [
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "Introduction",
+      "concepts": [
+        "Artificial intelligence (AI)",
+        "Machine learning (ML)",
+        "Deep learning (DL)",
+        "Generative AI"
+      ],
+      "concept_count": 4
+    },
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "Machine Learning Fundamentals",
+      "concepts": [
+        "Training data",
+        "Labeled data",
+        "Unlabeled data",
+        "Structured data",
+        "Unstructured data",
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Semi-supervised learning",
+        "Inferencing"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "Deep Learning Fundamentals",
+      "concepts": [
+        "Deep learning",
+        "Artificial neural network",
+        "Node",
+        "Layer",
+        "Input layer",
+        "Hidden layer",
+        "Output layer",
+        "Computer vision",
+        "Natural language processing (NLP)"
+      ],
+      "concept_count": 9
+    },
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "Generative AI Fundamentals",
+      "concepts": [
+        "Foundation models",
+        "Self-supervised learning",
+        "Large language models (LLMs)",
+        "Tokens",
+        "Embeddings",
+        "Diffusion models",
+        "Generative adversarial networks (GANs)",
+        "Variational autoencoders (VAEs)",
+        "Fine-tuning",
+        "Retrieval-augmented generation (RAG)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "Knowledge check",
+      "concepts": [
+        "Neural networks",
+        "Reinforcement learning",
+        "Embeddings",
+        "Fine-tuning",
+        "Multimodal model",
+        "Large language model (LLM)",
+        "Pre-trained language model",
+        "Deep learning"
+      ],
+      "concept_count": 8
+    },
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "AWS Infrastructure and Technologies",
+      "concepts": [
+        "Neural machine translation",
+        "Automatic speech recognition (ASR)",
+        "Natural language understanding (NLU)",
+        "Text-to-speech",
+        "Reinforcement learning (RL)",
+        "Token",
+        "Token-based pricing",
+        "Provisioned throughput",
+        "Pay-as-you-go pricing model",
+        "Generative AI"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/fundamentals/fundamentals.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Sentiment Analysis",
+        "Topic Modeling",
+        "Machine Learning Model",
+        "Model Building",
+        "Model Training",
+        "Model Deployment",
+        "Personalized Product Recommendations",
+        "Amazon Comprehend",
+        "Amazon SageMaker",
+        "Amazon Transcribe"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Introduction",
+      "concepts": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Generative Artificial Intelligence (Generative AI)",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Generative AI Models",
+        "Model Selection",
+        "Business Metrics",
+        "Use Cases"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Artificial Intelligence",
+      "concepts": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Deep Learning (DL)",
+        "Generative AI"
+      ],
+      "concept_count": 4
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Examples of Real-World Use Cases",
+      "concepts": [
+        "Content generation",
+        "Virtual reality",
+        "Pricing optimization",
+        "Predictive maintenance",
+        "Process optimization",
+        "Product design",
+        "Synthetic datasets",
+        "Protein folding prediction",
+        "Synthetic biology",
+        "Fraud detection mechanisms"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Examples of AI Applications",
+      "concepts": [
+        "Computer vision",
+        "Natural language processing (NLP)",
+        "Deep learning",
+        "Image classification",
+        "Object detection",
+        "Image segmentation",
+        "Text classification",
+        "Sentiment analysis",
+        "Machine translation",
+        "Language generation"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Intelligent document processing",
+      "concepts": [
+        "Intelligent Document Processing (IDP)",
+        "Fraud Detection",
+        "Optical Character Recognition (OCR)",
+        "Natural Language Processing (NLP)",
+        "Unstructured Data",
+        "Information Extraction",
+        "Document Classification",
+        "Text Summarization",
+        "Identity Verification",
+        "Anti-Money Laundering (AML)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Machine Learning",
+      "concepts": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "ML Model",
+        "Algorithm",
+        "Statistical Model",
+        "Rule-Based Solution",
+        "Data-Driven Learning",
+        "Dataset",
+        "Prediction",
+        "Training"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Machine Learning Techniques and Use Cases",
+      "concepts": [
+        "Supervised learning",
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Semi-supervised learning",
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Dimensionality reduction",
+        "Labeled data",
+        "Unlabeled data"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Generative AI",
+      "concepts": [
+        "Generative AI",
+        "Deep Learning",
+        "Training Data",
+        "Model",
+        "Fine-Tuning",
+        "Retraining",
+        "Data Generation",
+        "Content Generation",
+        "Model Selection",
+        "Business Metrics"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Capabilities of Generative AI",
+      "concepts": [
+        "Generative AI",
+        "Generative AI models",
+        "Adaptability",
+        "Responsiveness",
+        "Simplicity",
+        "Creativity and exploration",
+        "Data efficiency",
+        "Personalization",
+        "Scalability",
+        "Automation"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Challenges of Generative AI",
+      "concepts": [
+        "Generative AI",
+        "Regulatory violations",
+        "Social risks",
+        "Data security and privacy concerns",
+        "Toxicity",
+        "Hallucinations",
+        "Interpretability",
+        "Nondeterminism",
+        "Guardrail models",
+        "Personally identifiable information (PII)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Factors to Consider When Selecting a Generative AI Model",
+      "concepts": [
+        "Model types",
+        "Performance requirements",
+        "Capabilities",
+        "Constraints",
+        "Compliance",
+        "Cost",
+        "Computational resources",
+        "Data availability",
+        "Deployment requirements",
+        "Accuracy"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Business Metrics for Generative AI",
+      "concepts": [
+        "User satisfaction",
+        "Average revenue per user (ARPU)",
+        "Conversion rate",
+        "Efficiency"
+      ],
+      "concept_count": 4
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Generative artificial intelligence (generative AI)",
+        "Personalization",
+        "Scalability",
+        "Simplicity",
+        "Responsiveness",
+        "Nondeterminism",
+        "Customer satisfaction",
+        "Conversion rate",
+        "Accuracy",
+        "Cross-domain performance"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/ai_usecases/ai_usecases.md",
+      "section": "Course Summary",
+      "concepts": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Generative AI",
+        "Generative AI Models",
+        "Model Selection",
+        "Use Case",
+        "Business Metrics"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Introduction",
+      "concepts": [
+        "Responsible AI",
+        "Core dimensions of responsible AI",
+        "Transparency",
+        "Explainability",
+        "Model safety",
+        "Human-centered design",
+        "Model selection",
+        "Data preparation",
+        "Safety–transparency tradeoff",
+        "Explainable AI"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Responsible AI",
+      "concepts": [
+        "Responsible AI",
+        "AI application lifecycle",
+        "Traditional AI",
+        "Machine learning model",
+        "Model training",
+        "Prediction",
+        "Generative AI",
+        "Foundation models (FMs)",
+        "Pre-training",
+        "Prompt"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Responsible AI Challenges in Traditional AI and Generative AI",
+      "concepts": [
+        "Bias",
+        "Variance",
+        "Underfitting",
+        "Overfitting",
+        "Bias-variance tradeoff",
+        "Cross-validation",
+        "Regularization",
+        "Dimensionality reduction",
+        "Toxicity",
+        "Hallucinations"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Core Dimensions of Responsible AI",
+      "concepts": [
+        "Fairness",
+        "Explainability",
+        "Privacy",
+        "Security",
+        "Transparency",
+        "Robustness",
+        "Veracity",
+        "Governance",
+        "Safety",
+        "Controllability"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Responsible AI",
+        "AI governance",
+        "Explainability",
+        "Toxicity",
+        "Underfitting",
+        "Overfitting",
+        "Bias",
+        "Variance",
+        "Generative AI",
+        "Large language models (LLMs)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Amazon Services and Tools for Responsible AI",
+      "concepts": [
+        "Responsible AI",
+        "Foundation Model",
+        "Generative AI",
+        "Foundation Model Evaluation",
+        "Bias Detection",
+        "Model Prediction Explanations",
+        "Monitoring",
+        "Human Reviews",
+        "Distributed Training",
+        "Fully Managed ML Service"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Reviewing Amazon service tools for responsible AI",
+      "concepts": [
+        "Foundation model evaluation",
+        "Human evaluation",
+        "Amazon Bedrock Guardrails",
+        "Personally identifiable information (PII)",
+        "Bias detection",
+        "Synthetic Minority Oversampling Technique (SMOTE)",
+        "Feature importance",
+        "Amazon SageMaker Model Monitor",
+        "Human review",
+        "Amazon SageMaker Model Cards"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Responsible Considerations to Select a Model",
+      "concepts": [
+        "Level of customization",
+        "Model size",
+        "Context windows",
+        "Latency",
+        "Test dataset",
+        "Responsible agency",
+        "Value alignment",
+        "Appropriate level of autonomy",
+        "Transparency and accountability",
+        "Sustainability"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Responsible Preparation for Datasets",
+      "concepts": [
+        "Balanced datasets",
+        "Inclusive and diverse data collection",
+        "Data curation",
+        "Data preprocessing",
+        "Data augmentation",
+        "Regular auditing",
+        "Data cleaning",
+        "Normalization",
+        "Feature selection",
+        "Intended use case"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Amazon SageMaker Clarify",
+        "AWS AI Service Cards",
+        "Amazon SageMaker Model Monitor",
+        "Amazon Augmented AI (Amazon A2I)",
+        "Data augmentation",
+        "Model Evaluation on Amazon Bedrock",
+        "Guardrails for Amazon Bedrock",
+        "Model monitoring",
+        "Human review",
+        "Amazon SageMaker Model Dashboard"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Transparent and Explainable Models",
+      "concepts": [
+        "Transparency",
+        "Explainability",
+        "Black box models",
+        "Interpretability",
+        "Interpretability trade-offs",
+        "Model safety",
+        "Model controllability",
+        "Counterfactual explanations",
+        "Monitoring and auditing",
+        "Human oversight"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Principles of Human-Centered Design for Explainable AI",
+      "concepts": [
+        "Human-centered design (HCD)",
+        "Design for amplified decision-making",
+        "Design for unbiased decision-making",
+        "Design for human and AI learning",
+        "Transparency",
+        "Fairness",
+        "Reinforcement learning (RL)",
+        "Reinforcement learning from human feedback (RLHF)",
+        "Reward function",
+        "Human-in-the-loop"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/responsible_ai_practices/responsible_ai_practices.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Interpretability",
+        "Explainability",
+        "Safety",
+        "Controllability",
+        "Design for amplified decision-making",
+        "Design for unbiased decision-making",
+        "Design for human and AI learning",
+        "AWS AI Service Cards",
+        "Amazon SageMaker Model Cards",
+        "Amazon SageMaker Clarify"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Introduction",
+      "concepts": [
+        "Machine Learning Lifecycle",
+        "Machine Learning Operations (MLOps)",
+        "Machine Learning Models",
+        "Model Evaluation",
+        "Model Performance",
+        "Model Sources",
+        "Development",
+        "Deployment",
+        "AWS Services",
+        "Machine Learning Projects"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Machine Learning Development Lifecycle",
+      "concepts": [
+        "Machine learning lifecycle",
+        "ML problem framing",
+        "Data processing",
+        "Feature engineering",
+        "Supervised learning",
+        "Labels",
+        "Generalization",
+        "Train/validation/test split",
+        "Model deployment",
+        "Model monitoring"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Developing ML Solutions with Amazon SageMaker",
+      "concepts": [
+        "Amazon SageMaker",
+        "Amazon SageMaker Studio",
+        "Amazon SageMaker Data Wrangler",
+        "SageMaker Processing API",
+        "Amazon SageMaker Feature Store",
+        "Amazon SageMaker Experiments",
+        "Hyperparameter tuning",
+        "Amazon SageMaker Automatic Model Tuning",
+        "Inference",
+        "Amazon SageMaker Model Monitor"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Sources of ML Models",
+      "concepts": [
+        "Pre-trained models",
+        "Fine-tuning",
+        "Supervised learning",
+        "Unsupervised learning",
+        "Classification",
+        "Regression",
+        "Clustering",
+        "Dimension reduction",
+        "Topic modeling",
+        "Anomaly detection"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Machine Learning Models Performance Evaluation",
+      "concepts": [
+        "Training set",
+        "Validation set",
+        "Test set",
+        "Overfitting",
+        "Underfitting",
+        "Bias",
+        "Variance",
+        "Precision",
+        "Recall",
+        "Mean squared error"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Model Deployment",
+      "concepts": [
+        "Model deployment",
+        "Self-hosted API",
+        "Managed API",
+        "SageMaker",
+        "Real-time inference",
+        "Batch transform",
+        "Asynchronous inference",
+        "Serverless inference"
+      ],
+      "concept_count": 8
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Fundamental Concepts of MLOps",
+      "concepts": [
+        "MLOps",
+        "Machine learning lifecycle",
+        "Version control",
+        "Automation",
+        "Continuous integration",
+        "Continuous delivery",
+        "Continuous training",
+        "Continuous monitoring",
+        "Model governance",
+        "Model registry"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Feature engineering",
+        "Amazon SageMaker Canvas",
+        "Real-time inference",
+        "Overfitting",
+        "MLOps",
+        "Machine learning lifecycle",
+        "Model deployment",
+        "Model evaluation",
+        "Generalization"
+      ],
+      "concept_count": 9
+    },
+    {
+      "file": "data/developing_ml/developing_ml.md",
+      "section": "Conclusion",
+      "concepts": [
+        "Machine learning lifecycle",
+        "Supervised learning",
+        "Unsupervised learning",
+        "Training set",
+        "Validation set",
+        "Test set",
+        "Underfitting",
+        "Overfitting",
+        "Bias",
+        "Variance"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Course Overview",
+      "concepts": [
+        "Generative Artificial Intelligence",
+        "Generative AI Application Lifecycle",
+        "Foundation Model",
+        "Pre-trained Model",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Fine-Tuning",
+        "Model Evaluation",
+        "Evaluation Metrics",
+        "Agents"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Generative AI Application Lifecycle",
+      "concepts": [
+        "Generative AI application lifecycle",
+        "Generative AI model",
+        "Foundation model",
+        "Fine-tuning",
+        "Evaluation",
+        "Deployment",
+        "Monitoring",
+        "Hallucinations",
+        "Interpretability",
+        "Nondeterminism"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Defining a Use Case",
+      "concepts": [
+        "Business use case",
+        "Business rules",
+        "Nonfunctional requirements",
+        "Process automation",
+        "Augmented decision-making",
+        "Personalization and customization",
+        "Creative content generation",
+        "Exploratory analysis and innovation",
+        "Cost savings",
+        "Quality improvement"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Selecting an FM",
+      "concepts": [
+        "Foundation model",
+        "Pre-trained model",
+        "Fine-tuning",
+        "Transfer learning",
+        "Large language model (LLM)",
+        "Transformer architecture",
+        "Embeddings",
+        "Inference",
+        "Modality",
+        "Multimodal generation"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Latency",
+        "Pre-trained model",
+        "Model size",
+        "Model complexity",
+        "Customization",
+        "Real-time translation"
+      ],
+      "concept_count": 6
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Improving the Performance of an FM",
+      "concepts": [
+        "Prompt engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Retrieval system",
+        "Generative language model",
+        "Fine-tuning",
+        "Instruction fine-tuning",
+        "Reinforcement learning from human feedback (RLHF)",
+        "Creating a foundation model from scratch",
+        "Cost-accuracy trade-off",
+        "Agents"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Retrieval Augmented Generation (RAG)",
+        "Fine-tuning",
+        "Pre-training",
+        "Large language model",
+        "Knowledge base",
+        "Natural language generation",
+        "Question-answering systems",
+        "Task coordination",
+        "Data processing pipeline",
+        "Domain-specific data"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Evaluating an FM",
+      "concepts": [
+        "Human evaluation",
+        "Benchmark datasets",
+        "Automated metrics",
+        "Perplexity",
+        "BLEU",
+        "F1 score",
+        "ROUGE",
+        "BERTScore",
+        "GLUE",
+        "SuperGLUE"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Natural Language Processing (NLP)",
+        "Text Summarization",
+        "Human Evaluation",
+        "Benchmark Datasets",
+        "ROUGE",
+        "BLEU",
+        "BERTScore",
+        "Perplexity",
+        "Coherence",
+        "Fluency"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Deploying the Application",
+      "concepts": [
+        "Deployment phase",
+        "Generative AI lifecycle",
+        "Target environment",
+        "Model deployment",
+        "System architecture",
+        "Scalability",
+        "Security",
+        "User experience",
+        "AWS Regions",
+        "Service quotas"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/developing_genai/developing_genai.md",
+      "section": "Course Summary",
+      "concepts": [
+        "Generative AI",
+        "Generative AI application lifecycle",
+        "Pre-trained model",
+        "Foundation model",
+        "Foundation model customization",
+        "Retrieval-Augmented Generation (RAG)",
+        "AI agent",
+        "Model evaluation",
+        "Evaluation metrics",
+        "Deployment"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Course Overview",
+      "concepts": [
+        "Foundation model (FM)",
+        "Retrieval Augmented Generation (RAG)",
+        "Fine-tuning",
+        "Embeddings",
+        "Vector database",
+        "Agents",
+        "Model evaluation",
+        "Business metric",
+        "Business objectives",
+        "Data preparation for fine-tuning"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Business case",
+      "concepts": [
+        "Generative artificial intelligence",
+        "Foundation model",
+        "Large language model",
+        "Natural language processing",
+        "Natural language understanding",
+        "Knowledge base",
+        "Anonymization",
+        "Data cleansing",
+        "Automation",
+        "Chatbot"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Retrieval-Augmented Generation",
+      "concepts": [
+        "Retrieval-Augmented Generation (RAG)",
+        "Enterprise datasets",
+        "Embedding",
+        "Vector space",
+        "High-dimensional vectors",
+        "Vector databases",
+        "Similarity search",
+        "k-nearest neighbors (k-NN)",
+        "Cosine similarity",
+        "Knowledge base"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Agents",
+      "concepts": [
+        "Agents",
+        "Generative AI model",
+        "Intermediary operations",
+        "Actions launch",
+        "Feedback integration",
+        "Backend systems",
+        "Language understanding",
+        "Response generation"
+      ],
+      "concept_count": 8
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Evaluate results",
+      "concepts": [
+        "Human evaluation",
+        "Benchmark datasets",
+        "Judge model",
+        "Grading score",
+        "Accuracy",
+        "Relevance",
+        "Comprehensiveness",
+        "Speed and efficiency",
+        "Scalability",
+        "User experience"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Embeddings",
+        "Vector database",
+        "Vector data types",
+        "Agent",
+        "Multi-step task",
+        "Foundation model",
+        "Language model",
+        "Human evaluation",
+        "Benchmark dataset",
+        "Natural Language Processing (NLP)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Business case",
+      "concepts": [
+        "Generative AI",
+        "Large Language Model (LLM)",
+        "Fine-tuning",
+        "Recommendation engine",
+        "Continuous learning",
+        "Data ingestion",
+        "Model outputs",
+        "Feedback loop",
+        "Conversion rate",
+        "Customer retention rate"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Fine-Tuning",
+      "concepts": [
+        "Fine-tuning",
+        "Foundation model",
+        "Pretraining",
+        "Instruction tuning",
+        "Reinforcement learning from human feedback (RLHF)",
+        "Reward model",
+        "Supervised learning",
+        "Reinforcement learning",
+        "Transfer learning",
+        "Generalization"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Model evaluation",
+      "concepts": [
+        "ROUGE",
+        "ROUGE-N",
+        "ROUGE-L",
+        "BLEU",
+        "BERTScore",
+        "N-gram",
+        "Precision",
+        "Recall",
+        "Cosine Similarity",
+        "Contextual Embeddings"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/optimizing_fm/optimizing_fm.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Instruction tuning",
+        "Transfer learning",
+        "Reinforcement learning from human feedback (RLHF)",
+        "ROUGE",
+        "BLEU",
+        "BERTScore",
+        "Perplexity",
+        "Model pruning",
+        "Data labeling",
+        "Data bias"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Course Overview",
+      "concepts": [
+        "AI governance",
+        "Compliance",
+        "Governance controls",
+        "Compliance objectives",
+        "Data governance",
+        "Security for AI systems",
+        "Privacy considerations",
+        "Source citation",
+        "Documenting data origins",
+        "Secure data engineering"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Strategic Guidance for Security, Governance, and Compliance",
+      "concepts": [
+        "Security",
+        "Governance",
+        "Compliance",
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Defense in depth",
+        "Identity and Access Management",
+        "Least privilege",
+        "AI governance framework"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Compliance Standards for AI Systems",
+      "concepts": [
+        "AI governance",
+        "AI standards compliance",
+        "Algorithmic bias",
+        "Algorithm accountability",
+        "Emergent capabilities",
+        "Regulated workload",
+        "General Data Protection Regulation (GDPR)",
+        "Health Insurance Portability and Accountability Act (HIPAA)",
+        "Payment Card Industry Data Security Standard (PCI DSS)",
+        "NIST 800-53 security controls"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "AWS Services for Governance and Compliance",
+      "concepts": [
+        "AWS Config",
+        "Amazon Inspector",
+        "AWS Audit Manager",
+        "AWS Artifact",
+        "AWS CloudTrail",
+        "AWS Trusted Advisor",
+        "Finding",
+        "Risk score",
+        "Controls",
+        "Event"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Data Governance Strategies",
+      "concepts": [
+        "Data lifecycles",
+        "Data lineage",
+        "Data provenance",
+        "Data logging",
+        "Data residency",
+        "Data monitoring",
+        "Anomaly",
+        "Data drift",
+        "Exploratory data analysis (EDA)",
+        "Data retention"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Approaches for Implementing Governance Strategies",
+      "concepts": [
+        "Model accuracy",
+        "Precision",
+        "Recall",
+        "F1-score",
+        "Latency",
+        "Pre-trained models",
+        "Fine-tuned models",
+        "Self-trained models",
+        "Risk Management",
+        "Governance and Compliance"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "NIST 800-53 security controls",
+        "Data governance",
+        "Data lifecycle",
+        "Data residency",
+        "Data retention",
+        "Generative AI governance policies",
+        "Transparency"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Security and Privacy Considerations for AI Systems",
+      "concepts": [
+        "Prompt injection",
+        "Insecure output handling",
+        "Training data poisoning",
+        "Model denial of service",
+        "Supply chain vulnerabilities",
+        "Sensitive information disclosure",
+        "Insecure plugin design",
+        "Excessive agency",
+        "Overreliance",
+        "Model theft"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "AWS Services and Features for Securing AI Systems",
+      "concepts": [
+        "AWS Shared Responsibility Model",
+        "Security of the cloud",
+        "Security in the cloud",
+        "Defense in depth",
+        "Adversarial attacks",
+        "Identity and Access Management (IAM)",
+        "IAM user",
+        "IAM role",
+        "IAM policy",
+        "Virtual Private Cloud (VPC)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Understanding Data and Model Lineage",
+      "concepts": [
+        "Data and model lineage",
+        "Source citation",
+        "Data origins documentation",
+        "Data provenance",
+        "Data lineage",
+        "Cataloging",
+        "Model cards",
+        "Model lineage"
+      ],
+      "concept_count": 8
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Best Practices for Secure Data Engineering",
+      "concepts": [
+        "User data",
+        "Fine-tuning data",
+        "Training data",
+        "Data engineering lifecycle",
+        "Extract, Transform, Load (ETL)",
+        "Data integrity",
+        "Data lineage",
+        "Completeness",
+        "Accuracy",
+        "Consistency"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Prompt injection",
+        "Fake content",
+        "AI model weaknesses",
+        "AWS Shared Responsibility Model",
+        "Amazon SageMaker Role Manager",
+        "Amazon Macie",
+        "Generative AI Security Scoping Matrix",
+        "Access control",
+        "Data integrity",
+        "Distributed denial-of-service (DDoS) attacks"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/security_compliance_governance/security.md",
+      "section": "Resources",
+      "concepts": [
+        "Security",
+        "Identity",
+        "Compliance",
+        "Management",
+        "Governance",
+        "Generative AI",
+        "Security capabilities"
+      ],
+      "concept_count": 7
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Introduction",
+      "concepts": [
+        "Prompt engineering",
+        "Prompt",
+        "Generative AI model",
+        "Foundation model",
+        "Zero-shot prompting",
+        "Few-shot prompting",
+        "Chain-of-thought prompting",
+        "Context",
+        "Prompt refinement",
+        "Prompt optimization"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Understanding Prompts",
+      "concepts": [
+        "Prompt",
+        "Elements of a prompt",
+        "Instructions",
+        "Context",
+        "Input data",
+        "Output indicator",
+        "Negative prompting"
+      ],
+      "concept_count": 7
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Modifying Prompts",
+      "concepts": [
+        "Inference parameters",
+        "Randomness and diversity",
+        "Temperature",
+        "Top P",
+        "Top K",
+        "Length",
+        "Maximum length",
+        "Stop sequences",
+        "Prompt templates"
+      ],
+      "concept_count": 9
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Prompt Engineering Techniques",
+      "concepts": [
+        "Generative model",
+        "Language model",
+        "Foundation model (FM)",
+        "Zero-shot prompting",
+        "Few-shot prompting",
+        "One-shot prompting",
+        "Chain-of-thought prompting",
+        "Chain-of-thought reasoning",
+        "Instruction tuning",
+        "Reinforcement learning from human feedback (RLHF)"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Negative prompts",
+        "Temperature parameter",
+        "Zero-shot prompting",
+        "Few-shot prompting",
+        "Chain-of-thought prompting",
+        "Poisoning",
+        "Prompt injection",
+        "Exposure",
+        "Prompt leaking",
+        "Jailbreaking"
+      ],
+      "concept_count": 10
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Knowledge Check",
+      "concepts": [
+        "Jailbreaking",
+        "Prompt leaking",
+        "Exposure",
+        "Hijacking"
+      ],
+      "concept_count": 4
+    },
+    {
+      "file": "data/prompt_engineering/prompt_engineering.md",
+      "section": "Additional resources",
+      "concepts": [
+        "Prompt Engineering",
+        "Prompt",
+        "Prompt Engineering Guidelines",
+        "Amazon Bedrock",
+        "Amazon Bedrock Documentation"
+      ],
+      "concept_count": 5
+    }
+  ]
+}

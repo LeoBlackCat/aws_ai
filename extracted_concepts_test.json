@@ -1,0 +1,27 @@
+{
+  "file": "fundamentals/fundamentals.md",
+  "section": "Introduction",
+  "concepts": [
+    "Artificial intelligence (AI)",
+    "Intelligent systems",
+    "Machine learning (ML)",
+    "Deep learning (DL)",
+    "Generative artificial intelligence (Generative AI)",
+    "Generative AI systems",
+    "Training data",
+    "Model",
+    "Text generation",
+    "Computer vision",
+    "Speech synthesis",
+    "Perception",
+    "Reasoning",
+    "Learning",
+    "Problem-solving",
+    "Decision-making",
+    "Fine-tuning",
+    "Retraining",
+    "Bias",
+    "Privacy",
+    "Responsible use"
+  ]
+}
