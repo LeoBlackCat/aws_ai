@@ -1,0 +1,39 @@
+{
+  "concept": "Machine learning (ML)",
+  "timestamp": "2025-09-06T16:07:11.584Z",
+  "response_data": {
+    "id": "chatcmpl-CCpjOrVoZV5cpbVOHk6kNdIHS5B5C",
+    "object": "chat.completion",
+    "created": 1757174826,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 927,
+      "completion_tokens": 235,
+      "total_tokens": 1162,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 192,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

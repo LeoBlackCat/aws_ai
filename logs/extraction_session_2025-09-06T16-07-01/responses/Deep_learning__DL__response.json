@@ -1,0 +1,39 @@
+{
+  "concept": "Deep learning (DL)",
+  "timestamp": "2025-09-06T16:07:17.101Z",
+  "response_data": {
+    "id": "chatcmpl-CCpjU2mnDnbOs68FLtBb91tiv5prV",
+    "object": "chat.completion",
+    "created": 1757174832,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 927,
+      "completion_tokens": 373,
+      "total_tokens": 1300,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 320,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

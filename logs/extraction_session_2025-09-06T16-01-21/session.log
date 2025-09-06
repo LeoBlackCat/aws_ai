@@ -1,0 +1,61 @@
+[2025-09-06T16:01:21.858Z] === Definition Extraction Session Started ===
+[2025-09-06T16:01:21.860Z] Session Directory: logs/extraction_session_2025-09-06T16-01-21
+[2025-09-06T16:01:21.863Z] Found Introduction section with 4 concepts
+[2025-09-06T16:01:21.863Z] Concepts: Artificial intelligence (AI), Machine learning (ML), Deep learning (DL), Generative AI
+[2025-09-06T16:01:21.864Z] \n=== Processing batch: fundamentals_introduction_v2 ===
+[2025-09-06T16:01:21.864Z] Concepts to process: 4
+[2025-09-06T16:01:21.864Z] Concepts: Artificial intelligence (AI), Machine learning (ML), Deep learning (DL), Generative AI
+[2025-09-06T16:01:21.865Z] Found header for "Artificial intelligence (AI)" at line 21: "## Artificial intelligence (AI)"
+[2025-09-06T16:01:21.865Z] Extracted section (44121 chars): "## Artificial intelligence (AI)\n\nAI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception..."
+[2025-09-06T16:01:21.875Z] \n=== Processing concept: "Artificial intelligence (AI)" ===
+[2025-09-06T16:01:21.875Z] Prompt tokens: 8747
+[2025-09-06T16:01:21.876Z] Request logged: logs/extraction_session_2025-09-06T16-01-21/requests/Artificial_intelligence__AI__request.json
+[2025-09-06T16:01:29.271Z] API Response status: 200 OK
+[2025-09-06T16:01:29.280Z] Response logged: logs/extraction_session_2025-09-06T16-01-21/responses/Artificial_intelligence__AI__response.json
+[2025-09-06T16:01:29.280Z] Completion tokens: 64
+[2025-09-06T16:01:29.281Z] Total tokens for this request: 8811
+[2025-09-06T16:01:29.281Z] Definition extracted: "AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI, among others."
+[2025-09-06T16:01:29.281Z] === Concept "Artificial intelligence (AI)" completed ===\n
+[2025-09-06T16:01:29.482Z] Found header for "Machine learning (ML)" at line 25: "## Machine learning (ML)"
+[2025-09-06T16:01:29.482Z] Extracted section (43712 chars): "## Machine learning (ML)\n\nML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of ta..."
+[2025-09-06T16:01:29.499Z] \n=== Processing concept: "Machine learning (ML)" ===
+[2025-09-06T16:01:29.499Z] Prompt tokens: 8671
+[2025-09-06T16:01:29.500Z] Request logged: logs/extraction_session_2025-09-06T16-01-21/requests/Machine_learning__ML__request.json
+[2025-09-06T16:01:35.129Z] API Response status: 200 OK
+[2025-09-06T16:01:35.131Z] Response logged: logs/extraction_session_2025-09-06T16-01-21/responses/Machine_learning__ML__response.json
+[2025-09-06T16:01:35.132Z] Completion tokens: 34
+[2025-09-06T16:01:35.132Z] Total tokens for this request: 8705
+[2025-09-06T16:01:35.132Z] Definition extracted: "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks."
+[2025-09-06T16:01:35.132Z] === Concept "Machine learning (ML)" completed ===\n
+[2025-09-06T16:01:35.334Z] Found header for "Deep learning (DL)" at line 29: "## Deep learning (DL)"
+[2025-09-06T16:01:35.335Z] Extracted section (43504 chars): "## Deep learning (DL)\n\nDeep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze mi..."
+[2025-09-06T16:01:35.356Z] \n=== Processing concept: "Deep learning (DL)" ===
+[2025-09-06T16:01:35.356Z] Prompt tokens: 8627
+[2025-09-06T16:01:35.358Z] Request logged: logs/extraction_session_2025-09-06T16-01-21/requests/Deep_learning__DL__request.json
+[2025-09-06T16:01:41.818Z] API Response status: 200 OK
+[2025-09-06T16:01:41.820Z] Response logged: logs/extraction_session_2025-09-06T16-01-21/responses/Deep_learning__DL__response.json
+[2025-09-06T16:01:41.822Z] Completion tokens: 45
+[2025-09-06T16:01:41.822Z] Total tokens for this request: 8672
+[2025-09-06T16:01:41.822Z] Definition extracted: "Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds."
+[2025-09-06T16:01:41.822Z] === Concept "Deep learning (DL)" completed ===\n
+[2025-09-06T16:01:42.024Z] Found header for "Generative AI" at line 33: "## Generative AI"
+[2025-09-06T16:01:42.025Z] Extracted section (43236 chars): "## Generative AI\n\nGenerative AI is a subset of deep learning because it can adapt models built using deep learning, but without retraining or fine tuning.\n\nGenerative AI systems are capable of gen..."
+[2025-09-06T16:01:42.043Z] \n=== Processing concept: "Generative AI" ===
+[2025-09-06T16:01:42.043Z] Prompt tokens: 8570
+[2025-09-06T16:01:42.044Z] Request logged: logs/extraction_session_2025-09-06T16-01-21/requests/Generative_AI_request.json
+[2025-09-06T16:01:48.261Z] API Response status: 200 OK
+[2025-09-06T16:01:48.265Z] Response logged: logs/extraction_session_2025-09-06T16-01-21/responses/Generative_AI_response.json
+[2025-09-06T16:01:48.266Z] Completion tokens: 0
+[2025-09-06T16:01:48.266Z] Total tokens for this request: 8570
+[2025-09-06T16:01:48.267Z] Definition extracted: ""
+[2025-09-06T16:01:48.267Z] === Concept "Generative AI" completed ===\n
+[2025-09-06T16:01:48.468Z] \n=== Batch fundamentals_introduction_v2 completed ===
+[2025-09-06T16:01:48.468Z] Batch token usage: 34758
+[2025-09-06T16:01:48.468Z] Session total tokens: 34758
+[2025-09-06T16:01:48.468Z] Session total requests: 4
+[2025-09-06T16:01:48.469Z] Results saved to: logs/extraction_session_2025-09-06T16-01-21/extracted_definitions.json
+[2025-09-06T16:01:48.469Z] \n=== Final Session Summary ===
+[2025-09-06T16:01:48.469Z] Total tokens used: 34758
+[2025-09-06T16:01:48.469Z] Total requests made: 4
+[2025-09-06T16:01:48.469Z] Average tokens per request: 8690
+[2025-09-06T16:01:48.469Z] Session directory: logs/extraction_session_2025-09-06T16-01-21

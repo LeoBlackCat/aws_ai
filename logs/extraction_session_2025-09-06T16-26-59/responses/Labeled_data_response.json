@@ -1,0 +1,39 @@
+{
+  "concept": "Labeled data",
+  "timestamp": "2025-09-06T16:27:30.677Z",
+  "response_data": {
+    "id": "chatcmpl-CCq358RYjpYvJCxjX2Ulp96FPuH1B",
+    "object": "chat.completion",
+    "created": 1757176047,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Labeled data is a dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification. These labels are typically provided by human experts or obtained through a reliable process.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1101,
+      "completion_tokens": 243,
+      "total_tokens": 1344,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 192,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

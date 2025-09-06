@@ -1,0 +1,347 @@
+[2025-09-06T16:26:59.229Z] === MongoDB Definition Extraction Session Started ===
+[2025-09-06T16:26:59.230Z] Session Name: fundamentals_extraction_2025-09-06T16-26-59
+[2025-09-06T16:26:59.230Z] Session Directory: logs/extraction_session_2025-09-06T16-26-59
+[2025-09-06T16:26:59.244Z] Found 7 sections in fundamentals.md
+[2025-09-06T16:26:59.371Z] Created session record in MongoDB: 68bc60d3125dd2c35bcf5288
+[2025-09-06T16:26:59.375Z] 
+🚀 Starting section: Introduction (4 concepts)
+[2025-09-06T16:26:59.375Z] 
+=== Processing batch: fundamentals_introduction ===
+[2025-09-06T16:26:59.375Z] Section: Introduction
+[2025-09-06T16:26:59.375Z] Source file: data/fundamentals/fundamentals.md
+[2025-09-06T16:26:59.375Z] Concepts to process: 4
+[2025-09-06T16:26:59.375Z] Concepts: Artificial intelligence (AI), Machine learning (ML), Deep learning (DL), Generative AI
+[2025-09-06T16:26:59.375Z] Looking for header1 section: "Introduction"
+[2025-09-06T16:26:59.375Z] Found header1 section "Introduction" at line 1: "# Introduction"
+[2025-09-06T16:26:59.375Z] Section ends at line 39 (next header1): "# Machine Learning Fundamentals"
+[2025-09-06T16:26:59.375Z] Extracted header1 section (4162 chars)
+[2025-09-06T16:26:59.380Z] 
+=== Processing concept: "Artificial intelligence (AI)" ===
+[2025-09-06T16:26:59.380Z] Section name: "Introduction"
+[2025-09-06T16:26:59.380Z] Prompt tokens: 928
+[2025-09-06T16:27:02.725Z] API Response status: 200 OK
+[2025-09-06T16:27:02.734Z] Completion tokens: 64
+[2025-09-06T16:27:02.734Z] Total tokens for this request: 992
+[2025-09-06T16:27:02.735Z] Definition extracted: "AI is a broad field that encompasses the development of intelligent systems capable of performing tasks that typically require human intelligence, such as perception, reasoning, learning, problem-solving, and decision-making. AI serves as an umbrella term for various techniques and approaches, including machine learning, deep learning, and generative AI, among others."
+[2025-09-06T16:27:02.749Z] Saved new definition to MongoDB: 68bc60d6125dd2c35bcf5292
+[2025-09-06T16:27:02.749Z] ✅ Successfully saved to MongoDB: 68bc60d6125dd2c35bcf5292
+[2025-09-06T16:27:02.749Z] === Concept "Artificial intelligence (AI)" completed ===
+
+[2025-09-06T16:27:03.051Z] Looking for header1 section: "Introduction"
+[2025-09-06T16:27:03.052Z] Found header1 section "Introduction" at line 1: "# Introduction"
+[2025-09-06T16:27:03.053Z] Section ends at line 39 (next header1): "# Machine Learning Fundamentals"
+[2025-09-06T16:27:03.053Z] Extracted header1 section (4162 chars)
+[2025-09-06T16:27:03.058Z] 
+=== Processing concept: "Machine learning (ML)" ===
+[2025-09-06T16:27:03.058Z] Section name: "Introduction"
+[2025-09-06T16:27:03.059Z] Prompt tokens: 926
+[2025-09-06T16:27:07.011Z] API Response status: 200 OK
+[2025-09-06T16:27:07.016Z] Completion tokens: 34
+[2025-09-06T16:27:07.017Z] Total tokens for this request: 960
+[2025-09-06T16:27:07.017Z] Definition extracted: "ML is a type of AI for understanding and building methods that make it possible for machines to learn. These methods use data to improve computer performance on a set of tasks."
+[2025-09-06T16:27:07.027Z] Saved new definition to MongoDB: 68bc60db125dd2c35bcf5295
+[2025-09-06T16:27:07.027Z] ✅ Successfully saved to MongoDB: 68bc60db125dd2c35bcf5295
+[2025-09-06T16:27:07.027Z] === Concept "Machine learning (ML)" completed ===
+
+[2025-09-06T16:27:07.329Z] Looking for header1 section: "Introduction"
+[2025-09-06T16:27:07.330Z] Found header1 section "Introduction" at line 1: "# Introduction"
+[2025-09-06T16:27:07.330Z] Section ends at line 39 (next header1): "# Machine Learning Fundamentals"
+[2025-09-06T16:27:07.330Z] Extracted header1 section (4162 chars)
+[2025-09-06T16:27:07.332Z] 
+=== Processing concept: "Deep learning (DL)" ===
+[2025-09-06T16:27:07.332Z] Section name: "Introduction"
+[2025-09-06T16:27:07.332Z] Prompt tokens: 926
+[2025-09-06T16:27:12.394Z] API Response status: 200 OK
+[2025-09-06T16:27:12.396Z] Completion tokens: 45
+[2025-09-06T16:27:12.396Z] Total tokens for this request: 971
+[2025-09-06T16:27:12.396Z] Definition extracted: "Deep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds."
+[2025-09-06T16:27:12.401Z] Saved new definition to MongoDB: 68bc60e0125dd2c35bcf5298
+[2025-09-06T16:27:12.401Z] ✅ Successfully saved to MongoDB: 68bc60e0125dd2c35bcf5298
+[2025-09-06T16:27:12.401Z] === Concept "Deep learning (DL)" completed ===
+
+[2025-09-06T16:27:12.702Z] Looking for header1 section: "Introduction"
+[2025-09-06T16:27:12.703Z] Found header1 section "Introduction" at line 1: "# Introduction"
+[2025-09-06T16:27:12.704Z] Section ends at line 39 (next header1): "# Machine Learning Fundamentals"
+[2025-09-06T16:27:12.704Z] Extracted header1 section (4162 chars)
+[2025-09-06T16:27:12.709Z] 
+=== Processing concept: "Generative AI" ===
+[2025-09-06T16:27:12.710Z] Section name: "Introduction"
+[2025-09-06T16:27:12.710Z] Prompt tokens: 924
+[2025-09-06T16:27:17.966Z] API Response status: 200 OK
+[2025-09-06T16:27:17.970Z] Completion tokens: 0
+[2025-09-06T16:27:17.971Z] Total tokens for this request: 924
+[2025-09-06T16:27:17.971Z] Definition extracted: ""
+[2025-09-06T16:27:17.972Z] ❌ Failed to extract valid definition for "Generative AI"
+[2025-09-06T16:27:17.972Z] === Concept "Generative AI" completed ===
+
+[2025-09-06T16:27:18.273Z] 
+=== Batch fundamentals_introduction completed ===
+[2025-09-06T16:27:18.274Z] Successful extractions: 3/4
+[2025-09-06T16:27:18.275Z] Batch token usage: 3847
+[2025-09-06T16:27:18.275Z] Session total tokens: 3847
+[2025-09-06T16:27:18.275Z] Session total requests: 4
+[2025-09-06T16:27:18.276Z] 
+🚀 Starting section: Machine Learning Fundamentals (10 concepts)
+[2025-09-06T16:27:18.276Z] 
+=== Processing batch: fundamentals_machine_learning_fundamentals ===
+[2025-09-06T16:27:18.276Z] Section: Machine Learning Fundamentals
+[2025-09-06T16:27:18.277Z] Source file: data/fundamentals/fundamentals.md
+[2025-09-06T16:27:18.277Z] Concepts to process: 10
+[2025-09-06T16:27:18.277Z] Concepts: Training data, Labeled data, Unlabeled data, Structured data, Unstructured data, Supervised learning, Unsupervised learning, Reinforcement learning, Semi-supervised learning, Inferencing
+[2025-09-06T16:27:18.277Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:27:18.278Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:27:18.279Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:27:18.279Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:27:18.285Z] 
+=== Processing concept: "Training data" ===
+[2025-09-06T16:27:18.286Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:27:18.286Z] Prompt tokens: 1101
+[2025-09-06T16:27:27.076Z] API Response status: 200 OK
+[2025-09-06T16:27:27.082Z] Completion tokens: 5
+[2025-09-06T16:27:27.082Z] Total tokens for this request: 1106
+[2025-09-06T16:27:27.083Z] Definition extracted: "DEFINITION_NOT_FOUND"
+[2025-09-06T16:27:27.083Z] ❌ Failed to extract valid definition for "Training data"
+[2025-09-06T16:27:27.083Z] === Concept "Training data" completed ===
+
+[2025-09-06T16:27:27.385Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:27:27.386Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:27:27.386Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:27:27.387Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:27:27.393Z] 
+=== Processing concept: "Labeled data" ===
+[2025-09-06T16:27:27.393Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:27:27.394Z] Prompt tokens: 1103
+[2025-09-06T16:27:30.674Z] API Response status: 200 OK
+[2025-09-06T16:27:30.679Z] Completion tokens: 42
+[2025-09-06T16:27:30.679Z] Total tokens for this request: 1145
+[2025-09-06T16:27:30.680Z] Definition extracted: "Labeled data is a dataset where each instance or example is accompanied by a label or target variable that represents the desired output or classification. These labels are typically provided by human experts or obtained through a reliable process."
+[2025-09-06T16:27:30.687Z] Saved new definition to MongoDB: 68bc60f2125dd2c35bcf529b
+[2025-09-06T16:27:30.688Z] ✅ Successfully saved to MongoDB: 68bc60f2125dd2c35bcf529b
+[2025-09-06T16:27:30.688Z] === Concept "Labeled data" completed ===
+
+[2025-09-06T16:27:30.989Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:27:30.990Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:27:30.991Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:27:30.991Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:27:30.995Z] 
+=== Processing concept: "Unlabeled data" ===
+[2025-09-06T16:27:30.996Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:27:30.996Z] Prompt tokens: 1105
+[2025-09-06T16:27:36.427Z] API Response status: 200 OK
+[2025-09-06T16:27:36.433Z] Completion tokens: 37
+[2025-09-06T16:27:36.433Z] Total tokens for this request: 1142
+[2025-09-06T16:27:36.434Z] Definition extracted: "Unlabeled data is a dataset where the instances or examples do not have any associated labels or target variables. The data consists only of input features, without any corresponding output or classification."
+[2025-09-06T16:27:36.444Z] Saved new definition to MongoDB: 68bc60f8125dd2c35bcf529e
+[2025-09-06T16:27:36.444Z] ✅ Successfully saved to MongoDB: 68bc60f8125dd2c35bcf529e
+[2025-09-06T16:27:36.445Z] === Concept "Unlabeled data" completed ===
+
+[2025-09-06T16:27:36.746Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:27:36.747Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:27:36.747Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:27:36.748Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:27:36.753Z] 
+=== Processing concept: "Structured data" ===
+[2025-09-06T16:27:36.754Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:27:36.754Z] Prompt tokens: 1101
+[2025-09-06T16:27:43.874Z] API Response status: 200 OK
+[2025-09-06T16:27:43.878Z] Completion tokens: 47
+[2025-09-06T16:27:43.879Z] Total tokens for this request: 1148
+[2025-09-06T16:27:43.879Z] Definition extracted: "Structured data refers to data that is organized and formatted in a predefined manner, typically in the form of tables or databases with rows and columns. This type of data is suitable for traditional machine learning algorithms that require well-defined features and labels."
+[2025-09-06T16:27:43.890Z] Saved new definition to MongoDB: 68bc60ff125dd2c35bcf52a1
+[2025-09-06T16:27:43.890Z] ✅ Successfully saved to MongoDB: 68bc60ff125dd2c35bcf52a1
+[2025-09-06T16:27:43.891Z] === Concept "Structured data" completed ===
+
+[2025-09-06T16:27:44.192Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:27:44.193Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:27:44.194Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:27:44.194Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:27:44.197Z] 
+=== Processing concept: "Unstructured data" ===
+[2025-09-06T16:27:44.198Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:27:44.198Z] Prompt tokens: 1103
+[2025-09-06T16:27:51.331Z] API Response status: 200 OK
+[2025-09-06T16:27:51.336Z] Completion tokens: 41
+[2025-09-06T16:27:51.337Z] Total tokens for this request: 1144
+[2025-09-06T16:27:51.337Z] Definition extracted: "Unstructured data is data that lacks a predefined structure or format, such as text, images, audio, and video. This type of data requires more advanced machine learning techniques to extract meaningful patterns and insights."
+[2025-09-06T16:27:51.344Z] Saved new definition to MongoDB: 68bc6107125dd2c35bcf52a4
+[2025-09-06T16:27:51.345Z] ✅ Successfully saved to MongoDB: 68bc6107125dd2c35bcf52a4
+[2025-09-06T16:27:51.345Z] === Concept "Unstructured data" completed ===
+
+[2025-09-06T16:27:51.647Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:27:51.648Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:27:51.649Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:27:51.649Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:27:51.655Z] 
+=== Processing concept: "Supervised learning" ===
+[2025-09-06T16:27:51.655Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:27:51.655Z] Prompt tokens: 1103
+[2025-09-06T16:28:02.101Z] API Response status: 200 OK
+[2025-09-06T16:28:02.106Z] Completion tokens: 32
+[2025-09-06T16:28:02.106Z] Total tokens for this request: 1135
+[2025-09-06T16:28:02.106Z] Definition extracted: "In supervised learning, the algorithms are trained on labeled data. The goal is to learn a mapping function that can predict the output for new, unseen input data."
+[2025-09-06T16:28:02.113Z] Saved new definition to MongoDB: 68bc6112125dd2c35bcf52a7
+[2025-09-06T16:28:02.114Z] ✅ Successfully saved to MongoDB: 68bc6112125dd2c35bcf52a7
+[2025-09-06T16:28:02.114Z] === Concept "Supervised learning" completed ===
+
+[2025-09-06T16:28:02.416Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:28:02.418Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:28:02.418Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:28:02.418Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:28:02.421Z] 
+=== Processing concept: "Unsupervised learning" ===
+[2025-09-06T16:28:02.422Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:28:02.422Z] Prompt tokens: 1105
+[2025-09-06T16:28:06.628Z] API Response status: 200 OK
+[2025-09-06T16:28:06.631Z] Completion tokens: 31
+[2025-09-06T16:28:06.631Z] Total tokens for this request: 1136
+[2025-09-06T16:28:06.632Z] Definition extracted: "Unsupervised learning refers to algorithms that learn from unlabeled data. The goal is to discover inherent patterns, structures, or relationships within the input data."
+[2025-09-06T16:28:06.637Z] Saved new definition to MongoDB: 68bc6116125dd2c35bcf52aa
+[2025-09-06T16:28:06.638Z] ✅ Successfully saved to MongoDB: 68bc6116125dd2c35bcf52aa
+[2025-09-06T16:28:06.638Z] === Concept "Unsupervised learning" completed ===
+
+[2025-09-06T16:28:06.939Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:28:06.939Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:28:06.939Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:28:06.939Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:28:06.941Z] 
+=== Processing concept: "Reinforcement learning" ===
+[2025-09-06T16:28:06.941Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:28:06.941Z] Prompt tokens: 1105
+[2025-09-06T16:28:16.322Z] API Response status: 200 OK
+[2025-09-06T16:28:16.326Z] Completion tokens: 0
+[2025-09-06T16:28:16.327Z] Total tokens for this request: 1105
+[2025-09-06T16:28:16.327Z] Definition extracted: ""
+[2025-09-06T16:28:16.328Z] ❌ Failed to extract valid definition for "Reinforcement learning"
+[2025-09-06T16:28:16.328Z] === Concept "Reinforcement learning" completed ===
+
+[2025-09-06T16:28:16.629Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:28:16.630Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:28:16.631Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:28:16.631Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:28:16.636Z] 
+=== Processing concept: "Semi-supervised learning" ===
+[2025-09-06T16:28:16.637Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:28:16.637Z] Prompt tokens: 1107
+[2025-09-06T16:28:21.150Z] API Response status: 200 OK
+[2025-09-06T16:28:21.152Z] Completion tokens: 0
+[2025-09-06T16:28:21.153Z] Total tokens for this request: 1107
+[2025-09-06T16:28:21.153Z] Definition extracted: ""
+[2025-09-06T16:28:21.153Z] ❌ Failed to extract valid definition for "Semi-supervised learning"
+[2025-09-06T16:28:21.153Z] === Concept "Semi-supervised learning" completed ===
+
+[2025-09-06T16:28:21.455Z] Looking for header1 section: "Machine Learning Fundamentals"
+[2025-09-06T16:28:21.455Z] Found header1 section "Machine Learning Fundamentals" at line 39: "# Machine Learning Fundamentals"
+[2025-09-06T16:28:21.456Z] Section ends at line 105 (next header1): "# Deep Learning Fundamentals"
+[2025-09-06T16:28:21.456Z] Extracted header1 section (4923 chars)
+[2025-09-06T16:28:21.461Z] 
+=== Processing concept: "Inferencing" ===
+[2025-09-06T16:28:21.461Z] Section name: "Machine Learning Fundamentals"
+[2025-09-06T16:28:21.461Z] Prompt tokens: 1103
+[2025-09-06T16:28:27.139Z] API Response status: 200 OK
+[2025-09-06T16:28:27.141Z] Completion tokens: 35
+[2025-09-06T16:28:27.141Z] Total tokens for this request: 1138
+[2025-09-06T16:28:27.141Z] Definition extracted: "After the model has been trained, it is time to begin the process of using the information that a model has learned to make predictions or decisions. This is called inferencing."
+[2025-09-06T16:28:27.146Z] Saved new definition to MongoDB: 68bc612b125dd2c35bcf52ad
+[2025-09-06T16:28:27.146Z] ✅ Successfully saved to MongoDB: 68bc612b125dd2c35bcf52ad
+[2025-09-06T16:28:27.146Z] === Concept "Inferencing" completed ===
+
+[2025-09-06T16:28:27.447Z] 
+=== Batch fundamentals_machine_learning_fundamentals completed ===
+[2025-09-06T16:28:27.448Z] Successful extractions: 7/10
+[2025-09-06T16:28:27.448Z] Batch token usage: 11306
+[2025-09-06T16:28:27.448Z] Session total tokens: 15153
+[2025-09-06T16:28:27.448Z] Session total requests: 14
+[2025-09-06T16:28:27.448Z] 
+🚀 Starting section: Deep Learning Fundamentals (9 concepts)
+[2025-09-06T16:28:27.448Z] 
+=== Processing batch: fundamentals_deep_learning_fundamentals ===
+[2025-09-06T16:28:27.448Z] Section: Deep Learning Fundamentals
+[2025-09-06T16:28:27.448Z] Source file: data/fundamentals/fundamentals.md
+[2025-09-06T16:28:27.448Z] Concepts to process: 9
+[2025-09-06T16:28:27.448Z] Concepts: Deep learning, Artificial neural network, Node, Layer, Input layer, Hidden layer, Output layer, Computer vision, Natural language processing (NLP)
+[2025-09-06T16:28:27.448Z] Looking for header1 section: "Deep Learning Fundamentals"
+[2025-09-06T16:28:27.448Z] Found header1 section "Deep Learning Fundamentals" at line 105: "# Deep Learning Fundamentals"
+[2025-09-06T16:28:27.448Z] Section ends at line 127 (next header1): "# Generative AI Fundamentals"
+[2025-09-06T16:28:27.448Z] Extracted header1 section (1967 chars)
+[2025-09-06T16:28:27.449Z] 
+=== Processing concept: "Deep learning" ===
+[2025-09-06T16:28:27.449Z] Section name: "Deep Learning Fundamentals"
+[2025-09-06T16:28:27.449Z] Prompt tokens: 522
+[2025-09-06T16:28:32.413Z] API Response status: 200 OK
+[2025-09-06T16:28:32.417Z] Completion tokens: 42
+[2025-09-06T16:28:32.418Z] Total tokens for this request: 564
+[2025-09-06T16:28:32.418Z] Definition extracted: "The field of deep learning is inspired by the structure and function of the brain. It involves the use of artificial neural networks, which are computational models that are designed to mimic the way the human brain processes information."
+[2025-09-06T16:28:32.426Z] Saved new definition to MongoDB: 68bc6130125dd2c35bcf52b0
+[2025-09-06T16:28:32.427Z] ✅ Successfully saved to MongoDB: 68bc6130125dd2c35bcf52b0
+[2025-09-06T16:28:32.427Z] === Concept "Deep learning" completed ===
+
+[2025-09-06T16:28:32.728Z] Looking for header1 section: "Deep Learning Fundamentals"
+[2025-09-06T16:28:32.729Z] Found header1 section "Deep Learning Fundamentals" at line 105: "# Deep Learning Fundamentals"
+[2025-09-06T16:28:32.729Z] Section ends at line 127 (next header1): "# Generative AI Fundamentals"
+[2025-09-06T16:28:32.729Z] Extracted header1 section (1967 chars)
+[2025-09-06T16:28:32.732Z] 
+=== Processing concept: "Artificial neural network" ===
+[2025-09-06T16:28:32.732Z] Section name: "Deep Learning Fundamentals"
+[2025-09-06T16:28:32.733Z] Prompt tokens: 526
+[2025-09-06T16:28:39.979Z] API Response status: 200 OK
+[2025-09-06T16:28:39.981Z] Completion tokens: 0
+[2025-09-06T16:28:39.982Z] Total tokens for this request: 526
+[2025-09-06T16:28:39.982Z] Definition extracted: ""
+[2025-09-06T16:28:39.982Z] ❌ Failed to extract valid definition for "Artificial neural network"
+[2025-09-06T16:28:39.982Z] === Concept "Artificial neural network" completed ===
+
+[2025-09-06T16:28:40.284Z] Looking for header1 section: "Deep Learning Fundamentals"
+[2025-09-06T16:28:40.285Z] Found header1 section "Deep Learning Fundamentals" at line 105: "# Deep Learning Fundamentals"
+[2025-09-06T16:28:40.285Z] Section ends at line 127 (next header1): "# Generative AI Fundamentals"
+[2025-09-06T16:28:40.286Z] Extracted header1 section (1967 chars)
+[2025-09-06T16:28:40.289Z] 
+=== Processing concept: "Node" ===
+[2025-09-06T16:28:40.290Z] Section name: "Deep Learning Fundamentals"
+[2025-09-06T16:28:40.290Z] Prompt tokens: 520
+[2025-09-06T16:28:48.388Z] API Response status: 200 OK
+[2025-09-06T16:28:48.392Z] Completion tokens: 34
+[2025-09-06T16:28:48.392Z] Total tokens for this request: 554
+[2025-09-06T16:28:48.393Z] Definition extracted: "Just like our brains have neurons that are connected to each other, neural networks have lots of tiny units called nodes that are connected together. These nodes are organized into layers."
+[2025-09-06T16:28:48.401Z] Saved new definition to MongoDB: 68bc6140125dd2c35bcf52b3
+[2025-09-06T16:28:48.401Z] ✅ Successfully saved to MongoDB: 68bc6140125dd2c35bcf52b3
+[2025-09-06T16:28:48.402Z] === Concept "Node" completed ===
+
+[2025-09-06T16:28:48.703Z] Looking for header1 section: "Deep Learning Fundamentals"
+[2025-09-06T16:28:48.704Z] Found header1 section "Deep Learning Fundamentals" at line 105: "# Deep Learning Fundamentals"
+[2025-09-06T16:28:48.704Z] Section ends at line 127 (next header1): "# Generative AI Fundamentals"
+[2025-09-06T16:28:48.705Z] Extracted header1 section (1967 chars)
+[2025-09-06T16:28:48.708Z] 
+=== Processing concept: "Layer" ===
+[2025-09-06T16:28:48.709Z] Section name: "Deep Learning Fundamentals"
+[2025-09-06T16:28:48.709Z] Prompt tokens: 520
+[2025-09-06T16:28:55.211Z] API Response status: 200 OK
+[2025-09-06T16:28:55.215Z] Completion tokens: 25
+[2025-09-06T16:28:55.215Z] Total tokens for this request: 545
+[2025-09-06T16:28:55.215Z] Definition extracted: "These nodes are organized into layers. The layers include an input layer, one or more hidden layers, and an output layer."
+[2025-09-06T16:28:55.221Z] Saved new definition to MongoDB: 68bc6147125dd2c35bcf52b6
+[2025-09-06T16:28:55.221Z] ✅ Successfully saved to MongoDB: 68bc6147125dd2c35bcf52b6
+[2025-09-06T16:28:55.222Z] === Concept "Layer" completed ===
+
+[2025-09-06T16:28:55.523Z] Looking for header1 section: "Deep Learning Fundamentals"
+[2025-09-06T16:28:55.524Z] Found header1 section "Deep Learning Fundamentals" at line 105: "# Deep Learning Fundamentals"
+[2025-09-06T16:28:55.524Z] Section ends at line 127 (next header1): "# Generative AI Fundamentals"
+[2025-09-06T16:28:55.524Z] Extracted header1 section (1967 chars)
+[2025-09-06T16:28:55.527Z] 
+=== Processing concept: "Input layer" ===
+[2025-09-06T16:28:55.527Z] Section name: "Deep Learning Fundamentals"
+[2025-09-06T16:28:55.527Z] Prompt tokens: 522
+[2025-09-06T16:28:58.482Z] API Response status: 200 OK
+[2025-09-06T16:28:58.485Z] Completion tokens: 5
+[2025-09-06T16:28:58.486Z] Total tokens for this request: 527
+[2025-09-06T16:28:58.486Z] Definition extracted: "DEFINITION_NOT_FOUND"
+[2025-09-06T16:28:58.487Z] ❌ Failed to extract valid definition for "Input layer"
+[2025-09-06T16:28:58.487Z] === Concept "Input layer" completed ===
+
+[2025-09-06T16:28:58.788Z] Looking for header1 section: "Deep Learning Fundamentals"
+[2025-09-06T16:28:58.789Z] Found header1 section "Deep Learning Fundamentals" at line 105: "# Deep Learning Fundamentals"
+[2025-09-06T16:28:58.790Z] Section ends at line 127 (next header1): "# Generative AI Fundamentals"
+[2025-09-06T16:28:58.790Z] Extracted header1 section (1967 chars)
+[2025-09-06T16:28:58.795Z] 
+=== Processing concept: "Hidden layer" ===
+[2025-09-06T16:28:58.796Z] Section name: "Deep Learning Fundamentals"
+[2025-09-06T16:28:58.796Z] Prompt tokens: 522

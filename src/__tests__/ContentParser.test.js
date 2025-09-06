@@ -1,10 +1,16 @@
 import ContentParser from '../services/ContentParser';
+import fs from 'fs/promises';
+import path from 'path';
+
+// Mock fs module for testing
+jest.mock('fs/promises');
 
 describe('ContentParser', () => {
   let parser;
   
   beforeEach(() => {
     parser = new ContentParser();
+    jest.clearAllMocks();
   });
 
   describe('parseMarkdownFile', () => {
@@ -175,11 +181,15 @@ Deep learning models use neural networks for complex pattern recognition.`;
       const files = [
         {
           name: 'intro.md',
-          content: '# Introduction\n**AI**: Artificial intelligence systems.'
+          content: '# Introduction\n**AI**: Artificial intelligence systems.',
+          module: 'fundamentals',
+          lesson: 'intro'
         },
         {
           name: 'ml.md',
-          content: '# Machine Learning\n**ML**: Machine learning algorithms.'
+          content: '# Machine Learning\n**ML**: Machine learning algorithms.',
+          module: 'fundamentals',
+          lesson: 'ml'
         }
       ];
 
@@ -200,7 +210,7 @@ Deep learning models use neural networks for complex pattern recognition.`;
   describe('utility methods', () => {
     it('should generate section IDs correctly', () => {
       expect(parser.generateSectionId('Machine Learning Basics')).toBe('machine-learning-basics');
-      expect(parser.generateSectionId('AI & ML: Overview')).toBe('ai--ml-overview');
+      expect(parser.generateSectionId('AI & ML: Overview')).toBe('ai--ml--overview');
       expect(parser.generateSectionId('  Spaced Title  ')).toBe('spaced-title');
     });
 
@@ -218,6 +228,220 @@ Deep learning models use neural networks for complex pattern recognition.`;
       expect(parser.assessDifficulty('Simple text.')).toBe('easy');
       expect(parser.assessDifficulty('This is a medium length explanation with some details.')).toBe('medium');
       expect(parser.assessDifficulty('This is a complex algorithm implementation that requires sophisticated optimization techniques.')).toBe('hard');
+    });
+  });
+
+  // New tests for enhanced functionality
+  describe('AWS Course Structure Detection', () => {
+    it('should extract module links from main course file', () => {
+      const content = `# AWS AI Practitioner
+
+## [Fundamentals of Machine Learning](./fundamentals/fundamentals.md)
+## [AI Use Cases](./ai_usecases/ai_usecases.md)`;
+
+      const links = parser.extractModuleLinks(content);
+      
+      expect(links).toHaveLength(2);
+      expect(links[0].title).toBe('Fundamentals of Machine Learning');
+      expect(links[0].path).toBe('./fundamentals/fundamentals.md');
+      expect(links[1].title).toBe('AI Use Cases');
+      expect(links[1].path).toBe('./ai_usecases/ai_usecases.md');
+    });
+
+    it('should extract frontmatter from markdown content', () => {
+      const content = `---
+title: "Test Lesson"
+duration: 30
+difficulty: "beginner"
+published: true
+---
+
+# Test Content`;
+
+      const frontmatter = parser.extractFrontmatter(content);
+      
+      expect(frontmatter.title).toBe('Test Lesson');
+      expect(frontmatter.duration).toBe(30);
+      expect(frontmatter.difficulty).toBe('beginner');
+      expect(frontmatter.published).toBe(true);
+    });
+
+    it('should extract title from markdown content', () => {
+      const content = `---
+title: "Frontmatter Title"
+---
+
+# Main Title
+
+Some content here.`;
+
+      const title = parser.extractTitleFromContent(content);
+      expect(title).toBe('Main Title');
+    });
+
+    it('should generate URL-friendly slugs', () => {
+      expect(parser.generateSlug('Machine Learning Basics')).toBe('machine-learning-basics');
+      expect(parser.generateSlug('AI & ML: Overview')).toBe('ai--ml--overview');
+      expect(parser.generateSlug('  Spaced Title  ')).toBe('spaced-title');
+    });
+  });
+
+  describe('Asset Resolution', () => {
+    it('should determine asset type from file extension', () => {
+      expect(parser.getAssetType('image.jpg')).toBe('image');
+      expect(parser.getAssetType('video.mp4')).toBe('video');
+      expect(parser.getAssetType('audio.mp3')).toBe('audio');
+      expect(parser.getAssetType('document.pdf')).toBe('document');
+      expect(parser.getAssetType('unknown.xyz')).toBe('unknown');
+    });
+
+    it('should identify asset links', () => {
+      expect(parser.isAssetLink('image.jpg')).toBe(true);
+      expect(parser.isAssetLink('video.mp4')).toBe(true);
+      expect(parser.isAssetLink('lesson.md')).toBe(false);
+      expect(parser.isAssetLink('http://example.com')).toBe(false);
+    });
+  });
+
+  describe('Cross-Reference Extraction', () => {
+    it('should extract cross-references from content', () => {
+      const parsedContent = {
+        sections: new Map([
+          ['test.md', [
+            {
+              id: 'introduction',
+              content: 'See [Machine Learning](./ml.md) for more details. Also check [Deep Learning](./dl.md#neural-networks).',
+              level: 1,
+              title: 'Introduction'
+            }
+          ]]
+        ])
+      };
+
+      parser.extractCrossReferences(parsedContent);
+      const crossRefs = parser.getCrossReferences();
+      
+      expect(crossRefs.size).toBeGreaterThan(0);
+      
+      const refs = Array.from(crossRefs.values());
+      const mlRef = refs.find(ref => ref.linkPath === './ml.md');
+      const dlRef = refs.find(ref => ref.linkPath === './dl.md#neural-networks');
+      
+      expect(mlRef).toBeDefined();
+      expect(mlRef.linkText).toBe('Machine Learning');
+      expect(dlRef).toBeDefined();
+      expect(dlRef.anchor).toBe('neural-networks');
+    });
+
+    it('should find cross-references to a specific target', () => {
+      // Set up some cross-references
+      parser.crossReferences.set('ref1', {
+        fromFile: 'intro.md',
+        linkPath: './target.md',
+        linkText: 'Target'
+      });
+      parser.crossReferences.set('ref2', {
+        fromFile: 'chapter1.md',
+        linkPath: './target.md#section',
+        linkText: 'Target Section'
+      });
+
+      const refs = parser.findCrossReferencesTo('./target.md');
+      expect(refs).toHaveLength(2);
+    });
+  });
+
+  describe('Enhanced Key Phrase Extraction', () => {
+    it('should extract AWS-specific phrases', () => {
+      const content = `Amazon SageMaker is a fully managed service for machine learning.
+      Amazon Bedrock provides foundation models for generative AI applications.
+      EC2 instances can be used for model training.`;
+
+      const result = parser.parseMarkdownFile(content, 'test.md');
+      
+      expect(result.keyPhrases.has('amazon sagemaker')).toBe(true);
+      expect(result.keyPhrases.has('amazon bedrock')).toBe(true);
+      expect(result.keyPhrases.has('machine learning')).toBe(true);
+      expect(result.keyPhrases.has('ec2')).toBe(true);
+      
+      const sagemakerPhrase = result.keyPhrases.get('amazon sagemaker');
+      expect(sagemakerPhrase.category).toBe('aws-service');
+      expect(sagemakerPhrase.importance).toBe('high');
+    });
+
+    it('should categorize phrases correctly', () => {
+      expect(parser.categorizePhrase('Amazon S3')).toBe('aws-service');
+      expect(parser.categorizePhrase('machine learning')).toBe('ai-ml-concept');
+      expect(parser.categorizePhrase('training data')).toBe('ml-process');
+      expect(parser.categorizePhrase('general term')).toBe('general-tech');
+    });
+  });
+
+  describe('Slug Mapping and URL Generation', () => {
+    it('should generate slug mappings for course structure', () => {
+      const courseStructure = {
+        title: 'AWS AI Practitioner',
+        modules: [
+          {
+            slug: 'fundamentals',
+            lessons: [
+              { slug: 'introduction', path: 'fundamentals/intro.md' },
+              { slug: 'basics', path: 'fundamentals/basics.md' }
+            ]
+          }
+        ]
+      };
+
+      parser.generateSlugMappings(courseStructure);
+      const slugMap = parser.getSlugMappings();
+      
+      expect(slugMap.get('course')).toBe('aws-ai-practitioner');
+      expect(slugMap.get('module:fundamentals')).toBe('aws-ai-practitioner/fundamentals');
+      expect(slugMap.get('lesson:fundamentals:introduction')).toBe('aws-ai-practitioner/fundamentals/introduction');
+    });
+
+    it('should get canonical URLs for lessons', () => {
+      parser.slugMap.set('lesson:fundamentals:introduction', 'aws-ai-practitioner/fundamentals/introduction');
+      
+      const url = parser.getCanonicalUrl('fundamentals', 'introduction');
+      expect(url).toBe('aws-ai-practitioner/fundamentals/introduction');
+    });
+  });
+
+  describe('Database Export', () => {
+    it('should export structured data for database ingestion', () => {
+      // Set up some test data
+      parser.courseStructure = {
+        title: 'AWS AI Practitioner',
+        modules: [{ title: 'Test Module', slug: 'test' }]
+      };
+      
+      parser.parsedContent.definitions.set('ai', {
+        term: 'AI',
+        definition: 'Artificial Intelligence',
+        sourceFile: 'test.md',
+        module: 'test',
+        lesson: 'intro'
+      });
+
+      parser.slugMap.set('course', 'aws-ai-practitioner');
+
+      const exported = parser.exportForDatabase();
+      
+      expect(exported.course.title).toBe('AWS AI Practitioner');
+      expect(exported.course.slug).toBe('aws-ai-practitioner');
+      expect(exported.definitions).toHaveLength(1);
+      expect(exported.definitions[0].term).toBe('AI');
+      expect(exported.definitions[0].category).toBe('ai-concept');
+    });
+  });
+
+  describe('AWS Term Categorization', () => {
+    it('should categorize AWS terms correctly', () => {
+      expect(parser.categorizeAWSTerm('Amazon S3', 'AWS storage service')).toBe('aws-service');
+      expect(parser.categorizeAWSTerm('Machine Learning', 'AI technique')).toBe('ai-concept');
+      expect(parser.categorizeAWSTerm('Certification', 'AWS exam')).toBe('certification-term');
+      expect(parser.categorizeAWSTerm('Algorithm', 'Technical concept')).toBe('technical-term');
     });
   });
 });

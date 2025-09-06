@@ -1,0 +1,39 @@
+{
+  "concept": "Unstructured data",
+  "timestamp": "2025-09-06T16:27:51.334Z",
+  "response_data": {
+    "id": "chatcmpl-CCq3M5pgrUhIT7hOmwmTOBSUEx7WD",
+    "object": "chat.completion",
+    "created": 1757176064,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Unstructured data is data that lacks a predefined structure or format, such as text, images, audio, and video. This type of data requires more advanced machine learning techniques to extract meaningful patterns and insights.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1101,
+      "completion_tokens": 306,
+      "total_tokens": 1407,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 256,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

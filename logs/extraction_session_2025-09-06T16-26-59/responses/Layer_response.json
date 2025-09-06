@@ -1,0 +1,39 @@
+{
+  "concept": "Layer",
+  "timestamp": "2025-09-06T16:28:55.214Z",
+  "response_data": {
+    "id": "chatcmpl-CCq4PKsuRlCs9XsOgYosp1MnTeBcX",
+    "object": "chat.completion",
+    "created": 1757176129,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "These nodes are organized into layers. The layers include an input layer, one or more hidden layers, and an output layer.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 521,
+      "completion_tokens": 354,
+      "total_tokens": 875,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 320,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "concept": "Unlabeled data",
+  "timestamp": "2025-09-06T16:27:36.431Z",
+  "response_data": {
+    "id": "chatcmpl-CCq39JnHFC9Pbx0YvI1Ri2CmL2sZ0",
+    "object": "chat.completion",
+    "created": 1757176051,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "Unlabeled data is a dataset where the instances or examples do not have any associated labels or target variables. The data consists only of input features, without any corresponding output or classification.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1103,
+      "completion_tokens": 238,
+      "total_tokens": 1341,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 192,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}

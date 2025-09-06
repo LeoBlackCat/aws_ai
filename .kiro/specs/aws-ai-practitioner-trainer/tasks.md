@@ -14,14 +14,14 @@
   - Set up database migrations and seed data for AWS AI course structure
   - _Requirements: 8.1, 8.2, 17.1, 17.2_
 
-- [-] 3. Build content parsing and ingestion system
+- [x] 3. Build content parsing and ingestion system
   - Create ContentParser service to process existing AWS AI markdown files
   - Implement asset resolution for images and cross-references between lessons
   - Build metadata extraction from frontmatter and course structure detection
   - Create slug generation and canonical URL mapping for lessons
   - _Requirements: 11.1, 11.2, 11.3, 8.1_
 
-- [ ] 4. Develop AWS-specific knowledge mining capabilities
+- [x] 4. Develop AWS-specific knowledge mining capabilities
   - Implement KnowledgeMiner service to extract AWS service names and definitions
   - Create pattern recognition for AWS terminology, acronyms, and service descriptions
   - Build concept mapping functionality to identify relationships between AWS services

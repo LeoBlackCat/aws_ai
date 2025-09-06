@@ -1,0 +1,39 @@
+{
+  "concept": "Supervised learning",
+  "timestamp": "2025-09-06T16:28:02.104Z",
+  "response_data": {
+    "id": "chatcmpl-CCq3UA6Nn6Xryd3Uuskm8jJW2kOVs",
+    "object": "chat.completion",
+    "created": 1757176072,
+    "model": "gpt-5-mini-2025-08-07",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "In supervised learning, the algorithms are trained on labeled data. The goal is to learn a mapping function that can predict the output for new, unseen input data.",
+          "refusal": null,
+          "annotations": []
+        },
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1101,
+      "completion_tokens": 361,
+      "total_tokens": 1462,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 320,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": null
+  }
+}
