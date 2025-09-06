@@ -35,57 +35,85 @@ class DefinitionExtractor {
     return encoder.encode(text).length;
   }
 
-  createPrompt(concept, markdownContent) {
+  createPrompt(concept, relevantSection) {
     return `You are tasked with extracting the exact definition for a specific concept from AWS AI course material.
 
 IMPORTANT INSTRUCTIONS:
 1. You MUST return the EXACT wording from the original markdown file
 2. DO NOT summarize, rephrase, or modify the original text
 3. DO NOT add your own explanations or interpretations
-4. Find the definition that appears in the provided markdown content
+4. Find the definition that appears in the provided content
 5. If multiple definitions exist, use the most comprehensive one
 6. If no definition is found, respond with "DEFINITION_NOT_FOUND"
 
 CONCEPT TO DEFINE: "${concept}"
 
-MARKDOWN CONTENT:
-${markdownContent}
+RELEVANT CONTENT SECTION:
+${relevantSection}
 
 Return ONLY the exact definition text from the markdown file, preserving all original formatting and wording.`;
   }
 
+  findRelevantSection(concept, markdownContent) {
+    // Find the section that contains the concept
+    const sections = markdownContent.split(/(?=^#{1,3}\s)/m);
+    
+    for (const section of sections) {
+      if (section.toLowerCase().includes(concept.toLowerCase()) || 
+          section.toLowerCase().includes(concept.replace(/[()]/g, '').toLowerCase())) {
+        return section.trim();
+      }
+    }
+    
+    // If not found in specific section, return first 2000 characters
+    return markdownContent.substring(0, 2000);
+  }
+
   async extractDefinition(concept, markdownContent) {
-    const prompt = this.createPrompt(concept, markdownContent);
+    const relevantSection = this.findRelevantSection(concept, markdownContent);
+    const prompt = this.createPrompt(concept, relevantSection);
     const promptTokens = this.countTokens(prompt);
     
     this.log(`Processing concept: "${concept}"`);
     this.log(`Prompt tokens: ${promptTokens}`);
 
     try {
+      const requestBody = {
+        model: 'gpt-5-mini',
+        messages: [
+          {
+            role: 'user',
+            content: prompt
+          }
+        ],
+        max_completion_tokens: 300
+      };
+
+      this.log(`Request body: ${JSON.stringify(requestBody, null, 2)}`);
+
       const response = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${this.apiKey}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          model: 'gpt-5-mini',
-          messages: [
-            {
-              role: 'user',
-              content: prompt
-            }
-          ],
-          max_completion_tokens: 300
-        }),
+        body: JSON.stringify(requestBody),
       });
 
+      this.log(`Response status: ${response.status} ${response.statusText}`);
+
       if (!response.ok) {
-        throw new Error(`API request failed: ${response.status} ${response.statusText}`);
+        const errorText = await response.text();
+        this.log(`Error response body: ${errorText}`);
+        throw new Error(`API request failed: ${response.status} ${response.statusText} - ${errorText}`);
       }
 
       const data = await response.json();
-      const definition = data.choices[0].message.content.trim();
+      this.log(`Response data: ${JSON.stringify(data, null, 2)}`);
+      
+      const definition = data.choices && data.choices[0] && data.choices[0].message 
+        ? data.choices[0].message.content.trim() 
+        : 'No content in response';
       const completionTokens = this.countTokens(definition);
       const totalTokens = promptTokens + completionTokens;
       

@@ -39,3 +39,228 @@
 [2025-09-06T15:48:35.232Z] Total tokens used: 35498
 [2025-09-06T15:48:35.232Z] Total requests made: 4
 [2025-09-06T15:48:35.233Z] Average tokens per request: 8875
+[2025-09-06T15:53:08.205Z] === Definition Extraction Session Started ===
+
+[2025-09-06T15:53:08.208Z] Found Introduction section with 4 concepts
+[2025-09-06T15:53:08.208Z] Concepts: Artificial intelligence (AI), Machine learning (ML), Deep learning (DL), Generative AI
+[2025-09-06T15:53:08.208Z] 
+=== Processing batch: fundamentals_introduction ===
+[2025-09-06T15:53:08.208Z] Concepts to process: 4
+[2025-09-06T15:53:08.210Z] Processing concept: "Artificial intelligence (AI)"
+[2025-09-06T15:53:08.211Z] Prompt tokens: 273
+[2025-09-06T15:53:08.211Z] Request body: {
+  "model": "gpt-5-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "You are tasked with extracting the exact definition for a specific concept from AWS AI course material.\n\nIMPORTANT INSTRUCTIONS:\n1. You MUST return the EXACT wording from the original markdown file\n2. DO NOT summarize, rephrase, or modify the original text\n3. DO NOT add your own explanations or interpretations\n4. Find the definition that appears in the provided content\n5. If multiple definitions exist, use the most comprehensive one\n6. If no definition is found, respond with \"DEFINITION_NOT_FOUND\"\n\nCONCEPT TO DEFINE: \"Artificial intelligence (AI)\"\n\nRELEVANT CONTENT SECTION:\n# Introduction\n\nIn this course, you will learn about the foundations of machine learning (ML) and artificial intelligence (AI). You will explore the connections between AI, ML, deep learning, and the emerging field of generative artificial intelligence (generative AI), which has captured the attention of businesses and individuals alike. You will gain a solid understanding of foundational AI terms, laying the groundwork for a deeper dive into these concepts. Additionally, you will learn about a selection of Amazon Web Services (AWS) services that use AI and ML capabilities. You will gain practical insights into how these tools can be used to solve real-world problems and drive innovation across various industries.\n\nReturn ONLY the exact definition text from the markdown file, preserving all original formatting and wording."
+    }
+  ],
+  "max_completion_tokens": 300
+}
+[2025-09-06T15:53:13.148Z] Response status: 200 OK
+[2025-09-06T15:53:13.152Z] Response data: {
+  "id": "chatcmpl-CCpVtBWribmbWfNzdZ4ARynPNxyNp",
+  "object": "chat.completion",
+  "created": 1757173989,
+  "model": "gpt-5-mini-2025-08-07",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "DEFINITION_NOT_FOUND",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 276,
+    "completion_tokens": 205,
+    "total_tokens": 481,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 192,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+[2025-09-06T15:53:13.153Z] Response tokens: 5
+[2025-09-06T15:53:13.153Z] Total tokens for this request: 278
+[2025-09-06T15:53:13.153Z] Definition extracted: "DEFINITION_NOT_FOUND"
+[2025-09-06T15:53:13.153Z] ---
+[2025-09-06T15:53:13.255Z] Processing concept: "Machine learning (ML)"
+[2025-09-06T15:53:13.255Z] Prompt tokens: 272
+[2025-09-06T15:53:13.255Z] Request body: {
+  "model": "gpt-5-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "You are tasked with extracting the exact definition for a specific concept from AWS AI course material.\n\nIMPORTANT INSTRUCTIONS:\n1. You MUST return the EXACT wording from the original markdown file\n2. DO NOT summarize, rephrase, or modify the original text\n3. DO NOT add your own explanations or interpretations\n4. Find the definition that appears in the provided content\n5. If multiple definitions exist, use the most comprehensive one\n6. If no definition is found, respond with \"DEFINITION_NOT_FOUND\"\n\nCONCEPT TO DEFINE: \"Machine learning (ML)\"\n\nRELEVANT CONTENT SECTION:\n# Introduction\n\nIn this course, you will learn about the foundations of machine learning (ML) and artificial intelligence (AI). You will explore the connections between AI, ML, deep learning, and the emerging field of generative artificial intelligence (generative AI), which has captured the attention of businesses and individuals alike. You will gain a solid understanding of foundational AI terms, laying the groundwork for a deeper dive into these concepts. Additionally, you will learn about a selection of Amazon Web Services (AWS) services that use AI and ML capabilities. You will gain practical insights into how these tools can be used to solve real-world problems and drive innovation across various industries.\n\nReturn ONLY the exact definition text from the markdown file, preserving all original formatting and wording."
+    }
+  ],
+  "max_completion_tokens": 300
+}
+[2025-09-06T15:53:16.081Z] Response status: 200 OK
+[2025-09-06T15:53:16.083Z] Response data: {
+  "id": "chatcmpl-CCpVxPZs5bVOTzgzDS1uHpMwj1q2P",
+  "object": "chat.completion",
+  "created": 1757173993,
+  "model": "gpt-5-mini-2025-08-07",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "DEFINITION_NOT_FOUND",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 276,
+    "completion_tokens": 141,
+    "total_tokens": 417,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 128,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+[2025-09-06T15:53:16.084Z] Response tokens: 5
+[2025-09-06T15:53:16.085Z] Total tokens for this request: 277
+[2025-09-06T15:53:16.085Z] Definition extracted: "DEFINITION_NOT_FOUND"
+[2025-09-06T15:53:16.085Z] ---
+[2025-09-06T15:53:16.189Z] Processing concept: "Deep learning (DL)"
+[2025-09-06T15:53:16.190Z] Prompt tokens: 191
+[2025-09-06T15:53:16.190Z] Request body: {
+  "model": "gpt-5-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "You are tasked with extracting the exact definition for a specific concept from AWS AI course material.\n\nIMPORTANT INSTRUCTIONS:\n1. You MUST return the EXACT wording from the original markdown file\n2. DO NOT summarize, rephrase, or modify the original text\n3. DO NOT add your own explanations or interpretations\n4. Find the definition that appears in the provided content\n5. If multiple definitions exist, use the most comprehensive one\n6. If no definition is found, respond with \"DEFINITION_NOT_FOUND\"\n\nCONCEPT TO DEFINE: \"Deep learning (DL)\"\n\nRELEVANT CONTENT SECTION:\n## Deep learning (DL)\n\nDeep learning uses the concept of neurons and synapses similar to how our brain is wired. An example of a deep learning application is Amazon Rekognition, which can analyze millions of images and streaming and stored videos within seconds.\n\nReturn ONLY the exact definition text from the markdown file, preserving all original formatting and wording."
+    }
+  ],
+  "max_completion_tokens": 300
+}
+[2025-09-06T15:53:20.836Z] Response status: 200 OK
+[2025-09-06T15:53:20.840Z] Response data: {
+  "id": "chatcmpl-CCpW00MSGg2xXHRhrtnbDZiK1ehHn",
+  "object": "chat.completion",
+  "created": 1757173996,
+  "model": "gpt-5-mini-2025-08-07",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 300,
+    "total_tokens": 494,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 300,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+[2025-09-06T15:53:20.841Z] Response tokens: 0
+[2025-09-06T15:53:20.842Z] Total tokens for this request: 191
+[2025-09-06T15:53:20.842Z] Definition extracted: ""
+[2025-09-06T15:53:20.843Z] ---
+[2025-09-06T15:53:20.948Z] Processing concept: "Generative AI"
+[2025-09-06T15:53:20.949Z] Prompt tokens: 271
+[2025-09-06T15:53:20.949Z] Request body: {
+  "model": "gpt-5-mini",
+  "messages": [
+    {
+      "role": "user",
+      "content": "You are tasked with extracting the exact definition for a specific concept from AWS AI course material.\n\nIMPORTANT INSTRUCTIONS:\n1. You MUST return the EXACT wording from the original markdown file\n2. DO NOT summarize, rephrase, or modify the original text\n3. DO NOT add your own explanations or interpretations\n4. Find the definition that appears in the provided content\n5. If multiple definitions exist, use the most comprehensive one\n6. If no definition is found, respond with \"DEFINITION_NOT_FOUND\"\n\nCONCEPT TO DEFINE: \"Generative AI\"\n\nRELEVANT CONTENT SECTION:\n# Introduction\n\nIn this course, you will learn about the foundations of machine learning (ML) and artificial intelligence (AI). You will explore the connections between AI, ML, deep learning, and the emerging field of generative artificial intelligence (generative AI), which has captured the attention of businesses and individuals alike. You will gain a solid understanding of foundational AI terms, laying the groundwork for a deeper dive into these concepts. Additionally, you will learn about a selection of Amazon Web Services (AWS) services that use AI and ML capabilities. You will gain practical insights into how these tools can be used to solve real-world problems and drive innovation across various industries.\n\nReturn ONLY the exact definition text from the markdown file, preserving all original formatting and wording."
+    }
+  ],
+  "max_completion_tokens": 300
+}
+[2025-09-06T15:53:23.756Z] Response status: 200 OK
+[2025-09-06T15:53:23.759Z] Response data: {
+  "id": "chatcmpl-CCpW5vKu66NqHURuD4igEOVjINjdu",
+  "object": "chat.completion",
+  "created": 1757174001,
+  "model": "gpt-5-mini-2025-08-07",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "DEFINITION_NOT_FOUND",
+        "refusal": null,
+        "annotations": []
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 275,
+    "completion_tokens": 77,
+    "total_tokens": 352,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 64,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}
+[2025-09-06T15:53:23.760Z] Response tokens: 5
+[2025-09-06T15:53:23.760Z] Total tokens for this request: 276
+[2025-09-06T15:53:23.761Z] Definition extracted: "DEFINITION_NOT_FOUND"
+[2025-09-06T15:53:23.761Z] ---
+[2025-09-06T15:53:23.864Z] 
+=== Batch fundamentals_introduction completed ===
+[2025-09-06T15:53:23.865Z] Batch token usage: 1022
+[2025-09-06T15:53:23.865Z] Session total tokens: 1022
+[2025-09-06T15:53:23.865Z] Session total requests: 4
+[2025-09-06T15:53:23.866Z] 
+=== Session Summary ===
+[2025-09-06T15:53:23.866Z] Total tokens used: 1022
+[2025-09-06T15:53:23.866Z] Total requests made: 4
+[2025-09-06T15:53:23.867Z] Average tokens per request: 256

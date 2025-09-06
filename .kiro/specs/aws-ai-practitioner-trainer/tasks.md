@@ -7,7 +7,7 @@
   - Set up PWA configuration with Workbox for offline functionality
   - _Requirements: 1.1, 1.4, 16.1, 16.4_
 
-- [-] 2. Implement core data models and database schema
+- [x] 2. Implement core data models and database schema
   - Design and implement Prisma schema for courses, lessons, users, and progress tracking
   - Create database models for AWS-specific entities (services, scenarios, terminology)
   - Implement user authentication models with JWT and session management

@@ -44,5 +44,51 @@
       "batch_total": 35498,
       "batch_requests": 4
     }
+  },
+  {
+    "batch": "fundamentals_introduction",
+    "timestamp": "2025-09-06T15:53:23.863Z",
+    "results": [
+      {
+        "concept": "Artificial intelligence (AI)",
+        "definition": "DEFINITION_NOT_FOUND",
+        "tokens": {
+          "prompt": 273,
+          "completion": 5,
+          "total": 278
+        }
+      },
+      {
+        "concept": "Machine learning (ML)",
+        "definition": "DEFINITION_NOT_FOUND",
+        "tokens": {
+          "prompt": 272,
+          "completion": 5,
+          "total": 277
+        }
+      },
+      {
+        "concept": "Deep learning (DL)",
+        "definition": "",
+        "tokens": {
+          "prompt": 191,
+          "completion": 0,
+          "total": 191
+        }
+      },
+      {
+        "concept": "Generative AI",
+        "definition": "DEFINITION_NOT_FOUND",
+        "tokens": {
+          "prompt": 271,
+          "completion": 5,
+          "total": 276
+        }
+      }
+    ],
+    "tokens_summary": {
+      "batch_total": 1022,
+      "batch_requests": 4
+    }
   }
 ]
