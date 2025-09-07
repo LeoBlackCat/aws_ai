@@ -54,6 +54,15 @@ export interface UserWithProfile extends User {
   sessions: LearningSession[]
 }
 
+export interface Answer {
+  id: string
+  questionId: string
+  selectedChoice: number
+  isCorrect: boolean
+  timeSpent: number
+  confidence?: number
+}
+
 export interface QuizAttemptWithDetails extends QuizAttempt {
   quiz: Quiz
   user: User

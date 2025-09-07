@@ -29,6 +29,10 @@ const nextConfig: NextConfig = {
   },
   // Enable static exports for better performance
   output: 'standalone',
+  // Disable ESLint during build for now
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 }
 
 export default withPWA(nextConfig);

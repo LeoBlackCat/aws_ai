@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs'
-import jwt from 'jsonwebtoken'
+import jwt, { SignOptions } from 'jsonwebtoken'
 import { prisma } from './prisma'
 
 const JWT_SECRET = process.env.JWT_SECRET || 'fallback-secret-key'
@@ -31,7 +31,7 @@ export async function verifyPassword(password: string, hash: string): Promise<bo
  * Generate a JWT token for a user
  */
 export function generateToken(payload: Omit<JWTPayload, 'iat' | 'exp'>): string {
-  return jwt.sign(payload, JWT_SECRET, { expiresIn: JWT_EXPIRES_IN })
+  return jwt.sign(payload, JWT_SECRET as string, { expiresIn: '7d' })
 }
 
 /**
@@ -39,8 +39,8 @@ export function generateToken(payload: Omit<JWTPayload, 'iat' | 'exp'>): string 
  */
 export function verifyToken(token: string): JWTPayload | null {
   try {
-    return jwt.verify(token, JWT_SECRET) as JWTPayload
-  } catch (error) {
+    return jwt.verify(token, JWT_SECRET as string) as JWTPayload
+  } catch (_error) {
     return null
   }
 }

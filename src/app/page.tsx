@@ -2,24 +2,28 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
+import { MobileLayout } from '@/components/layout/MobileLayout'
+import { ResponsiveContainer } from '@/components/layout/ResponsiveContainer'
+import { ResponsiveGrid } from '@/components/layout/ResponsiveGrid'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
+    <MobileLayout currentTab="home">
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center">
+      <header className="sticky top-0 z-40 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <ResponsiveContainer padding="md" className="flex h-14 items-center">
           <div className="mr-4 flex">
             <h1 className="text-lg font-semibold">AWS AI Trainer</h1>
           </div>
           <div className="flex flex-1 items-center justify-end space-x-2">
             <Badge variant="secondary">Beta</Badge>
           </div>
-        </div>
+        </ResponsiveContainer>
       </header>
 
       {/* Main Content */}
-      <main className="container py-6">
+      <main className="flex-1 overflow-y-auto">
+        <ResponsiveContainer padding="md" className="py-6">
         <div className="flex flex-col space-y-6">
           {/* Welcome Section */}
           <div className="text-center space-y-4">
@@ -62,7 +66,10 @@ export default function Home() {
           </Card>
 
           {/* Quick Actions */}
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <ResponsiveGrid 
+            cols={{ default: 1, md: 2, lg: 3 }}
+            gap="md"
+          >
             <Card className="cursor-pointer hover:shadow-md transition-shadow">
               <CardHeader>
                 <CardTitle className="text-lg">Start Learning</CardTitle>
@@ -104,7 +111,21 @@ export default function Home() {
                 </Button>
               </CardContent>
             </Card>
-          </div>
+
+            <Card className="cursor-pointer hover:shadow-md transition-shadow">
+              <CardHeader>
+                <CardTitle className="text-lg">Audio Content</CardTitle>
+                <CardDescription>
+                  Listen to lesson summaries and daily recaps
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <Button variant="outline" className="w-full" asChild>
+                  <a href="/audio-demo">Try Audio Demo</a>
+                </Button>
+              </CardContent>
+            </Card>
+          </ResponsiveGrid>
 
           {/* Course Modules */}
           <Card>
@@ -138,7 +159,8 @@ export default function Home() {
             </CardContent>
           </Card>
         </div>
+        </ResponsiveContainer>
       </main>
-    </div>
+    </MobileLayout>
   )
 }

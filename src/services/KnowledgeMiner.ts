@@ -78,9 +78,9 @@ class KnowledgeMiner {
   private conceptMap: Map<string, ConceptNode> = new Map();
   private learningObjectives: Map<string, LearningObjective> = new Map();
   
-  private awsServicePatterns: Record<string, string[]>;
-  private awsTerminologyPatterns: RegExp[];
-  private learningObjectiveIndicators: RegExp[];
+  private awsServicePatterns: Record<string, string[]> = {};
+  private awsTerminologyPatterns: RegExp[] = [];
+  private learningObjectiveIndicators: RegExp[] = [];
 
   constructor() {
     this.initializeAWSPatterns();

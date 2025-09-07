@@ -3,10 +3,11 @@ import { CourseService } from '@/lib/database'
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { courseSlug: string } }
+  { params }: { params: Promise<{ courseSlug: string }> }
 ) {
+  const { courseSlug } = await params
   try {
-    const course = await CourseService.getCourseBySlug(params.courseSlug)
+    const course = await CourseService.getCourseBySlug(courseSlug)
     
     if (!course) {
       return NextResponse.json(

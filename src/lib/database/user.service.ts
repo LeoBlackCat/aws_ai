@@ -75,7 +75,7 @@ export class UserService {
         },
         sessions: {
           orderBy: {
-            startTime: 'desc',
+            createdAt: 'desc',
           },
           take: 10,
         },

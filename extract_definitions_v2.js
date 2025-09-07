@@ -6,7 +6,7 @@ const { encoding_for_model } = require('tiktoken');
 require('dotenv').config();
 
 // Initialize tiktoken encoder for GPT-5 models
-const encoder = encoding_for_model('gpt-4'); // Use gpt-4 encoder as placeholder for GPT-5
+const encoder = encoding_for_model('gpt-5-mini');
 
 class DefinitionExtractor {
   constructor() {
